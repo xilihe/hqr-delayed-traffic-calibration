@@ -1,0 +1,11 @@
+{
+  "status": "PASS_INDEPENDENT_ARITHMETIC",
+  "daily_rows": 34272,
+  "fixed_cells": 144,
+  "risk_summary_values": 192,
+  "paired_contrasts": 160,
+  "facebook_partition_share_and_contribution_identities": true,
+  "aci_development_selection_byte_identical": true,
+  "original_freeze_unchanged": true,
+  "scope": "Independent CSV arithmetic, not an independent dataset or a second classifier fit."
+}

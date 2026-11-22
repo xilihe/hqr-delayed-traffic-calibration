@@ -1,0 +1,20 @@
+\begingroup\small\setlength{\tabcolsep}{3pt}
+\begin{longtable}{lrrrr}
+\caption{Daily exceedance diagnostics: partition 20261121, nominal $\alpha=0.05$. Mean counts across fixed cells out of 238 observed dates; each cell retains integer counts in source CSV. Strict exceedance; conditional 28-day intervals.}\label{tab:final-risk-0-0-exceed}\\
+\toprule
+Method & Days$>5.5\%$ & \% days$>5.5\%$ & Days$>6\%$ & \% days$>6\%$\\
+\midrule
+\endfirsthead
+\toprule
+Method & Days$>5.5\%$ & \% days$>5.5\%$ & Days$>6\%$ & \% days$>6\%$\\
+\midrule
+\endhead
+Fixed global & 73.67 [33.00, 103.33] & 30.95 [13.72, 44.12] & 55.33 [13.00, 91.00] & 23.25 [5.44, 38.77]\\
+Fixed classwise & 193.67 [155.66, 223.67] & 81.37 [66.66, 92.81] & 172.67 [123.66, 212.67] & 72.55 [52.54, 88.51]\\
+Static HQR & 182.00 [139.32, 216.68] & 76.47 [59.41, 90.36] & 162.33 [104.98, 209.01] & 68.21 [44.30, 87.11]\\
+Rolling global & 95.00 [69.00, 110.34] & 39.92 [29.35, 46.12] & 70.11 [46.54, 83.34] & 29.46 [19.77, 34.95]\\
+Dynamic HQR & 92.67 [66.56, 114.00] & 38.94 [28.37, 47.36] & 68.67 [43.88, 90.11] & 28.85 [18.74, 37.47]\\
+Multi-anchor & 94.78 [67.65, 114.00] & 39.82 [28.83, 47.63] & 71.22 [46.66, 90.89] & 29.93 [19.93, 37.90]\\
+\bottomrule
+\end{longtable}
+\endgroup

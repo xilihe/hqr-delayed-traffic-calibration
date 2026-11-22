@@ -1,0 +1,78 @@
+{
+  "status": "DEVELOPMENT_ONLY_SELECTION_WRITTEN_BEFORE_FUTURE_READ",
+  "confirmation_caches_loaded_for_selection": false,
+  "choices": [
+    {
+      "partition": 20261122,
+      "method": "Fixed global",
+      "alpha": 0.04,
+      "development_frr": 0.049203219026853255
+    },
+    {
+      "partition": 20261122,
+      "method": "Fixed classwise",
+      "alpha": 0.04,
+      "development_frr": 0.04961072473857588
+    },
+    {
+      "partition": 20261122,
+      "method": "Rolling global",
+      "alpha": 0.05,
+      "development_frr": 0.05055145767420931
+    },
+    {
+      "partition": 20261122,
+      "method": "Static HQR",
+      "alpha": 0.04,
+      "development_frr": 0.049775028905464126
+    },
+    {
+      "partition": 20261122,
+      "method": "Dynamic HQR",
+      "alpha": 0.05,
+      "development_frr": 0.050909873752770875
+    },
+    {
+      "partition": 20261122,
+      "method": "Multi-anchor",
+      "alpha": 0.05,
+      "development_frr": 0.05044760604407679
+    },
+    {
+      "partition": 20261121,
+      "method": "Fixed global",
+      "alpha": 0.05,
+      "development_frr": 0.05500573682493041
+    },
+    {
+      "partition": 20261121,
+      "method": "Fixed classwise",
+      "alpha": 0.04,
+      "development_frr": 0.046293026451552616
+    },
+    {
+      "partition": 20261121,
+      "method": "Rolling global",
+      "alpha": 0.05,
+      "development_frr": 0.05156588825147011
+    },
+    {
+      "partition": 20261121,
+      "method": "Static HQR",
+      "alpha": 0.04,
+      "development_frr": 0.046035872880232837
+    },
+    {
+      "partition": 20261121,
+      "method": "Dynamic HQR",
+      "alpha": 0.05,
+      "development_frr": 0.052006646118138114
+    },
+    {
+      "partition": 20261121,
+      "method": "Multi-anchor",
+      "alpha": 0.05,
+      "development_frr": 0.05247325749071744
+    }
+  ]
+}

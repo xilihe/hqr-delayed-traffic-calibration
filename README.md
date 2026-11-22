@@ -1,5 +1,7 @@
 # Historical quantile recentering under delayed audits
 
+The final targeted diagnostics are in [`revisions/final-v1`](revisions/final-v1/README.md): both service partitions and both risk-selection regimes, daily risk tracking, Fixed-classwise matched-risk contrasts, complete second-partition service roles and class attribution. These are post-confirmation exploratory analyses. They retain the absence of a clear daily-variability advantage over Rolling global and the adverse second-partition outcomes. The original study and major revision remain in the commit history; earlier release manifests describe their own snapshots.
+
 The post-confirmation supplementary revision is in [`revisions/major-v1`](revisions/major-v1/README.md). It adds zero-query Static HQR, risk curves, class/temporal analyses, a fixed sensitivity grid and a second service partition. All outcomes are retained, including the smaller second-partition gain with an interval crossing zero. These additions do not extend the original internal freeze retroactively.
 
 The original study release remains at commit `e14d4847f56bc00524ee729952fb2d0e509d6e95`. The original reproduction route below is unchanged. The supplement guide provides both a lightweight table/figure route and staged full recomputation from the official data.

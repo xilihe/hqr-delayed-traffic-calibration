@@ -1,0 +1,41 @@
+{
+  "status": "PASS_IMPLEMENTATION_AND_DEVELOPMENT_SELECTION_AUDIT",
+  "update": "eta = alpha + gamma*(alpha*N_known_revealed - N_rejected_at_prediction_revealed); arrivals processed before predictions; unknown labels consume audit budget but not known-error updates.",
+  "source": "src/online_aci.py",
+  "selection_byte_identical": true,
+  "development_primary_grid": [
+    {
+      "variant": "raw",
+      "score": "negative_energy",
+      "budget": 32,
+      "delay": 7,
+      "gamma": 0.0001,
+      "mean_daily_frr": 0.05174926420879679,
+      "mean_daily_positive_excess": 0.006445983100164858,
+      "mean_absolute_target_deviation": 0.01114270199153293
+    },
+    {
+      "variant": "raw",
+      "score": "negative_energy",
+      "budget": 32,
+      "delay": 7,
+      "gamma": 0.001,
+      "mean_daily_frr": 0.05183668568757448,
+      "mean_daily_positive_excess": 0.006943576372008261,
+      "mean_absolute_target_deviation": 0.012050467056442048
+    },
+    {
+      "variant": "raw",
+      "score": "negative_energy",
+      "budget": 32,
+      "delay": 7,
+      "gamma": 0.01,
+      "mean_daily_frr": 0.05267004861899393,
+      "mean_daily_positive_excess": 0.014985700734597006,
+      "mean_absolute_target_deviation": 0.027301352850200085
+    }
+  ],
+  "gamma_selected": 0.0001,
+  "additional_confirmation_tuning": false,
+  "supporting_engineering_checks": "research/verification/online-calibration-tests.json (14 TEST_ONLY fixtures), original confirmation-engine audit; fixtures are not effectiveness data."
+}

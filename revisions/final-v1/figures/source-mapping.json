@@ -1,0 +1,46 @@
+{
+  "status": "EXECUTED_REAL_RESULTS_PENDING_VISUAL_QA",
+  "figures": [
+    {
+      "name": "final-risk-tracking",
+      "inputs": [
+        "revisions/final-v1/results/risk-tracking/summary.csv"
+      ],
+      "outputs": [
+        {
+          "path": "revisions/final-v1/figures/final-risk-tracking.pdf",
+          "sha256": "ef180e264a271f0c36ccbce1e37113f9e30a0524c67d589183731be5878c097d"
+        },
+        {
+          "path": "revisions/final-v1/figures/final-risk-tracking.svg",
+          "sha256": "a448aa995f352bce735023977c3806340b3c6129e5951d13391cec80bda10d4d"
+        },
+        {
+          "path": "revisions/final-v1/figures/final-risk-tracking.png",
+          "sha256": "edbef701cc4754353f87af4756c91138a23bf331b9b34b87cbaef91ca6deed00"
+        }
+      ]
+    },
+    {
+      "name": "final-class-robustness",
+      "inputs": [
+        "revisions/major-v1/results/class-specific-uncertainty.csv",
+        "revisions/major-v1/results/leave-one-class-out.csv"
+      ],
+      "outputs": [
+        {
+          "path": "revisions/final-v1/figures/final-class-robustness.pdf",
+          "sha256": "0f7e03a8f6c61a0f21524d238a10f83372a3e9782983e0252d0ccea904e385d8"
+        },
+        {
+          "path": "revisions/final-v1/figures/final-class-robustness.svg",
+          "sha256": "4a9f14d28e72a00c0ea03644e6116257dcb2e40bc01322794c7caf0f96b6b7ed"
+        },
+        {
+          "path": "revisions/final-v1/figures/final-class-robustness.png",
+          "sha256": "11ad600f15167a887e8078f57a09ba7ca93f411b55759169e3987527fa0395c7"
+        }
+      ]
+    }
+  ]
+}

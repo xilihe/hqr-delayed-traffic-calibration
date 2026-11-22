@@ -1,0 +1,16 @@
+{
+  "status": "POST_CONFIRMATION_TWO_PARTITION_TWO_REGIME_RISK_DIAGNOSTICS_COMPLETE",
+  "model_training": false,
+  "full_score_resource_grid_rerun": false,
+  "new_development_only_grid_rows": 324,
+  "summary_rows": 192,
+  "cell_rows": 144,
+  "daily_rows": 34272,
+  "paired_contrast_rows": 160,
+  "new_nominal_saved_count_reuse_checks": 63,
+  "denominator": "Actual daily known-flow count in each fixed model/audit cell; days equally weighted within each cell, then cells averaged. Static3cells, dynamic9cells; all share date weights. Day-count table shows mean counts; per-cell CSV retains integer counts.",
+  "bootstrap": "2000 common28-calendar-day moving-block resamples, seed20261122; conditional temporal intervals, no family-wise significance claim.",
+  "p90": "Linear empirical90th percentile per cell; bootstrap uses exact expanded-sample rank interpolation with calendar multiplicities.",
+  "regimes_separate": true,
+  "selection_loaded_confirmation": false
+}

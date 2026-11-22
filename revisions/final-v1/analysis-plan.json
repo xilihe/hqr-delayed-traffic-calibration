@@ -1,0 +1,49 @@
+{
+  "status": "POST_CONFIRMATION_LOW_COST_PLAN_RECORDED_BEFORE_NEW_DIAGNOSTIC_OUTCOMES",
+  "primary_setting": {
+    "score": "negative_energy",
+    "daily_budget": 32,
+    "delay": 7,
+    "window": 28,
+    "nominal_alpha": 0.05
+  },
+  "risk_regimes": [
+    "original_nominal_0.05",
+    "development_selected_target_0.05"
+  ],
+  "partitions": [
+    20261121,
+    20261122
+  ],
+  "selection": "Reuse original development selection. For new split select closest mean development daily FRR over existing nominal-alpha grid, tie lower alpha. Load development only, write rules before future replay.",
+  "new_split_development_alpha_grid": [
+    0.01,
+    0.02,
+    0.03,
+    0.04,
+    0.05,
+    0.06,
+    0.07,
+    0.08,
+    0.1
+  ],
+  "risk_metrics": [
+    "mean_absolute_daily_target_deviation",
+    "daily_target_rmse",
+    "days_above_0.055",
+    "fraction_above_0.055",
+    "days_above_0.06",
+    "fraction_above_0.06",
+    "daily_frr_p90"
+  ],
+  "aggregation": "Actual daily known denominators per fixed model/audit cell; summarize per cell first then average cells; report integer per-cell day counts, mean count and conditional paired calendar-block intervals.",
+  "bootstrap": {
+    "calendar_block": 28,
+    "replicates": 2000,
+    "seed": 20261122
+  },
+  "attribution": "Use nominal5% rolling raw versus Dynamic HQR with common audits. Retain all53 class effects and all true unknown \u00d7 predicted known groups; top groups selected by prediction mass, not effect. Check actual service roles. No causal inference across partitions.",
+  "model_training": false,
+  "full_score_budget_delay_grid_rerun": false,
+  "prior_work_preserved": true
+}

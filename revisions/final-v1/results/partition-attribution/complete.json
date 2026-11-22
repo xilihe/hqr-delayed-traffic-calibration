@@ -1,0 +1,38 @@
+{
+  "status": "POST_CONFIRMATION_SECOND_PARTITION_ROLE_AND_ATTRIBUTION_COMPLETE",
+  "old_original_attribution_reused": true,
+  "new_model_training": false,
+  "second_partition_independent_nominal_class_count_checks": 12756726,
+  "all_second_partition_classes": 53,
+  "unknown_classes": 23,
+  "changed_meta_roles": [
+    {
+      "code": 25,
+      "service": "facebook-graph",
+      "original_role": "K",
+      "second_role": "H",
+      "changed": true,
+      "meta_family": true
+    },
+    {
+      "code": 28,
+      "service": "facebook-connect",
+      "original_role": "H",
+      "second_role": "K",
+      "changed": true,
+      "meta_family": true
+    },
+    {
+      "code": 30,
+      "service": "facebook-messenger",
+      "original_role": "H",
+      "second_role": "K",
+      "changed": true,
+      "meta_family": true
+    }
+  ],
+  "causal_partition_claim": false,
+  "denominator": "Prediction shares average9fixed model/audit cells on identical true FB flows. Within-prediction rates pool fixed-cell counts and are descriptive; ninefold repeated flows are not unique observations. Contributions sum exactly to each true-class effect.",
+  "compact_selection": "All known Meta groups plus the top3 prediction-mass groups per partition, regardless of effect; other groups retained and aggregated.",
+  "full_group_rows": 7290
+}
