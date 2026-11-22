@@ -1,0 +1,915 @@
+{
+  "status": "DEVELOPMENT_SCORES_COMPLETE",
+  "config_sha256": "3630a1474b6c5a82098cb13fe46a38c903c48475bec87cfc120781bdfa7753d6",
+  "runner_sha256": "ce82c2398c9a5a9bdf58793b169e4502ad6012f07f1bf060bbc9f2d93e1a5ea8",
+  "dataset_sha256": "6b323c4c53b7c9d0ec9011f895b3c5ba6b35247576e41ef19fe84ab8632810ab",
+  "model_sha256": "5583b030fda8f5d7310a13806e04b255a45f48d7254ebd9c12f4a93ff6ffe5bc",
+  "geometry_sha256": "5496ef79328d2b7ed6ad0ffe791a62a5eb01db5fa2934cb4e34cd7bd166ae227",
+  "geometry_fit_role": "SOURCE_FITTING_ONLY",
+  "model_type": "transformer",
+  "device": "cuda",
+  "torch": "2.5.1+cu124",
+  "python": "3.11.10",
+  "numpy": "1.26.4",
+  "tables": "3.10.2",
+  "cuda": "12.4",
+  "gpu_name": "NVIDIA GeForce RTX 2080 Ti",
+  "source_rows_sha256": "5537bd320005e150a8e5d3feb4d0c772750667bb9931695f506197a9c3539794",
+  "known_codes": [
+    2,
+    3,
+    4,
+    5,
+    9,
+    10,
+    11,
+    13,
+    14,
+    15,
+    18,
+    19,
+    22,
+    23,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    35,
+    36,
+    37,
+    38,
+    40,
+    44,
+    45,
+    48,
+    49
+  ],
+  "source_counts": {
+    "0": 71567,
+    "25": 16729,
+    "26": 7719,
+    "27": 5798,
+    "28": 1212,
+    "29": 296,
+    "30": 228,
+    "31": 16369,
+    "32": 718,
+    "33": 6847,
+    "34": 286,
+    "35": 16616,
+    "36": 23212,
+    "39": 382,
+    "40": 3598,
+    "41": 5724,
+    "44": 518,
+    "50": 2967,
+    "52": 4427,
+    "38": 675,
+    "37": 785,
+    "14": 49740,
+    "1": 28776,
+    "2": 52383,
+    "3": 24377,
+    "4": 28759,
+    "5": 10598,
+    "6": 7893,
+    "7": 48,
+    "8": 12544,
+    "9": 646,
+    "10": 777,
+    "11": 887,
+    "13": 1288,
+    "15": 667,
+    "16": 66388,
+    "17": 3853,
+    "19": 416,
+    "20": 968,
+    "21": 6220,
+    "22": 1723,
+    "23": 414,
+    "43": 1710,
+    "45": 103,
+    "46": 61,
+    "47": 59,
+    "48": 9358,
+    "51": 92307,
+    "12": 47,
+    "18": 289,
+    "24": 45,
+    "42": 45,
+    "49": 203
+  },
+  "training_rows": 70443,
+  "calibration_rows": 30000,
+  "calibration_source_overlap_rows": 124,
+  "calibration_repeated_input_rows": 82,
+  "calibration_policy": "Distinct later flow rows retained, including equal packet prefixes; exact-input overlap reported separately.",
+  "training_history": [
+    {
+      "epoch": 1,
+      "loss": 2.225296920416697,
+      "elapsed_seconds": 5.750101906247437
+    },
+    {
+      "epoch": 2,
+      "loss": 1.3939015410187185,
+      "elapsed_seconds": 10.616345532238483
+    },
+    {
+      "epoch": 3,
+      "loss": 1.1380425903325782,
+      "elapsed_seconds": 15.337950277142227
+    },
+    {
+      "epoch": 4,
+      "loss": 1.0077046030091614,
+      "elapsed_seconds": 20.043178932275623
+    },
+    {
+      "epoch": 5,
+      "loss": 0.9204754235619484,
+      "elapsed_seconds": 25.025823005940765
+    },
+    {
+      "epoch": 6,
+      "loss": 0.8608916306503113,
+      "elapsed_seconds": 29.84557659784332
+    },
+    {
+      "epoch": 7,
+      "loss": 0.8143242828796191,
+      "elapsed_seconds": 34.66557960398495
+    },
+    {
+      "epoch": 8,
+      "loss": 0.771006000736135,
+      "elapsed_seconds": 39.432570117060095
+    },
+    {
+      "epoch": 9,
+      "loss": 0.7395160223900482,
+      "elapsed_seconds": 44.229594943113625
+    },
+    {
+      "epoch": 10,
+      "loss": 0.7138059892612518,
+      "elapsed_seconds": 49.871788289863616
+    },
+    {
+      "epoch": 11,
+      "loss": 0.6788119282414545,
+      "elapsed_seconds": 59.5849797911942
+    },
+    {
+      "epoch": 12,
+      "loss": 0.6588484207240805,
+      "elapsed_seconds": 68.8752269288525
+    },
+    {
+      "epoch": 13,
+      "loss": 0.638439269444623,
+      "elapsed_seconds": 77.99335658922791
+    },
+    {
+      "epoch": 14,
+      "loss": 0.6191787165369436,
+      "elapsed_seconds": 87.39765082206577
+    },
+    {
+      "epoch": 15,
+      "loss": 0.6025995391115762,
+      "elapsed_seconds": 96.8493734258227
+    },
+    {
+      "epoch": 16,
+      "loss": 0.5888705881876997,
+      "elapsed_seconds": 106.14697704883292
+    },
+    {
+      "epoch": 17,
+      "loss": 0.5730546409931838,
+      "elapsed_seconds": 115.53967424388975
+    },
+    {
+      "epoch": 18,
+      "loss": 0.5579328260714111,
+      "elapsed_seconds": 124.87058791704476
+    },
+    {
+      "epoch": 19,
+      "loss": 0.5486159495422446,
+      "elapsed_seconds": 134.14216167200357
+    },
+    {
+      "epoch": 20,
+      "loss": 0.5369574298441394,
+      "elapsed_seconds": 143.0627640481107
+    },
+    {
+      "epoch": 21,
+      "loss": 0.5216683993172104,
+      "elapsed_seconds": 152.17403399199247
+    },
+    {
+      "epoch": 22,
+      "loss": 0.5120663952172879,
+      "elapsed_seconds": 161.13481121184304
+    },
+    {
+      "epoch": 23,
+      "loss": 0.5065350921248485,
+      "elapsed_seconds": 170.02686413517222
+    },
+    {
+      "epoch": 24,
+      "loss": 0.497226704198491,
+      "elapsed_seconds": 179.04013222223148
+    },
+    {
+      "epoch": 25,
+      "loss": 0.4876182399469203,
+      "elapsed_seconds": 188.0888308910653
+    },
+    {
+      "epoch": 26,
+      "loss": 0.4813231945878905,
+      "elapsed_seconds": 197.31101593887433
+    },
+    {
+      "epoch": 27,
+      "loss": 0.4770501393647602,
+      "elapsed_seconds": 206.48647064203396
+    },
+    {
+      "epoch": 28,
+      "loss": 0.46509933980209867,
+      "elapsed_seconds": 215.56306360522285
+    },
+    {
+      "epoch": 29,
+      "loss": 0.46070068343650333,
+      "elapsed_seconds": 224.9047243949026
+    },
+    {
+      "epoch": 30,
+      "loss": 0.4537770428716322,
+      "elapsed_seconds": 234.0983095918782
+    },
+    {
+      "epoch": 31,
+      "loss": 0.4471741095550178,
+      "elapsed_seconds": 243.30440280912444
+    },
+    {
+      "epoch": 32,
+      "loss": 0.43990868983095044,
+      "elapsed_seconds": 252.1623440561816
+    },
+    {
+      "epoch": 33,
+      "loss": 0.435675985078979,
+      "elapsed_seconds": 260.82758017024025
+    },
+    {
+      "epoch": 34,
+      "loss": 0.42921520966683274,
+      "elapsed_seconds": 269.58467828901485
+    },
+    {
+      "epoch": 35,
+      "loss": 0.427054099357306,
+      "elapsed_seconds": 278.4824177050032
+    },
+    {
+      "epoch": 36,
+      "loss": 0.42163612769944075,
+      "elapsed_seconds": 288.0032737031579
+    },
+    {
+      "epoch": 37,
+      "loss": 0.4157646993724109,
+      "elapsed_seconds": 297.0535039291717
+    },
+    {
+      "epoch": 38,
+      "loss": 0.4103166337158307,
+      "elapsed_seconds": 305.98936733882874
+    },
+    {
+      "epoch": 39,
+      "loss": 0.409104285781043,
+      "elapsed_seconds": 315.2481911862269
+    },
+    {
+      "epoch": 40,
+      "loss": 0.40521368319420015,
+      "elapsed_seconds": 324.92202006513253
+    },
+    {
+      "epoch": 41,
+      "loss": 0.401526552068042,
+      "elapsed_seconds": 334.2082600072026
+    },
+    {
+      "epoch": 42,
+      "loss": 0.39874790241467734,
+      "elapsed_seconds": 343.4285767818801
+    },
+    {
+      "epoch": 43,
+      "loss": 0.38916375865453035,
+      "elapsed_seconds": 352.78401657007635
+    },
+    {
+      "epoch": 44,
+      "loss": 0.3938945182880006,
+      "elapsed_seconds": 361.6425728020258
+    },
+    {
+      "epoch": 45,
+      "loss": 0.38885628774500064,
+      "elapsed_seconds": 370.55552806984633
+    },
+    {
+      "epoch": 46,
+      "loss": 0.37950887916956005,
+      "elapsed_seconds": 380.18629559408873
+    },
+    {
+      "epoch": 47,
+      "loss": 0.3811918203749963,
+      "elapsed_seconds": 389.57240736018866
+    },
+    {
+      "epoch": 48,
+      "loss": 0.3819835227702421,
+      "elapsed_seconds": 398.51136109698564
+    },
+    {
+      "epoch": 49,
+      "loss": 0.3742671555541889,
+      "elapsed_seconds": 407.7865917189047
+    },
+    {
+      "epoch": 50,
+      "loss": 0.3708405025010282,
+      "elapsed_seconds": 416.7602561721578
+    }
+  ],
+  "development": [
+    {
+      "date": "20240708",
+      "rows": 6000,
+      "source_overlap": 39
+    },
+    {
+      "date": "20240709",
+      "rows": 6000,
+      "source_overlap": 23
+    },
+    {
+      "date": "20240710",
+      "rows": 6000,
+      "source_overlap": 13
+    },
+    {
+      "date": "20240711",
+      "rows": 6000,
+      "source_overlap": 2
+    },
+    {
+      "date": "20240712",
+      "rows": 6000,
+      "source_overlap": 27
+    },
+    {
+      "date": "20240713",
+      "rows": 6000,
+      "source_overlap": 19
+    },
+    {
+      "date": "20240714",
+      "rows": 6000,
+      "source_overlap": 27
+    },
+    {
+      "date": "20240715",
+      "rows": 6000,
+      "source_overlap": 26
+    },
+    {
+      "date": "20240716",
+      "rows": 6000,
+      "source_overlap": 33
+    },
+    {
+      "date": "20240717",
+      "rows": 6000,
+      "source_overlap": 35
+    },
+    {
+      "date": "20240718",
+      "rows": 6000,
+      "source_overlap": 30
+    },
+    {
+      "date": "20240719",
+      "rows": 6000,
+      "source_overlap": 32
+    },
+    {
+      "date": "20240720",
+      "rows": 6000,
+      "source_overlap": 26
+    },
+    {
+      "date": "20240721",
+      "rows": 6000,
+      "source_overlap": 24
+    },
+    {
+      "date": "20240722",
+      "rows": 6000,
+      "source_overlap": 33
+    },
+    {
+      "date": "20240723",
+      "rows": 6000,
+      "source_overlap": 33
+    },
+    {
+      "date": "20240724",
+      "rows": 6000,
+      "source_overlap": 35
+    },
+    {
+      "date": "20240725",
+      "rows": 6000,
+      "source_overlap": 32
+    },
+    {
+      "date": "20240726",
+      "rows": 6000,
+      "source_overlap": 30
+    },
+    {
+      "date": "20240727",
+      "rows": 6000,
+      "source_overlap": 29
+    },
+    {
+      "date": "20240728",
+      "rows": 6000,
+      "source_overlap": 25
+    },
+    {
+      "date": "20240729",
+      "rows": 6000,
+      "source_overlap": 18
+    },
+    {
+      "date": "20240730",
+      "rows": 6000,
+      "source_overlap": 29
+    },
+    {
+      "date": "20240731",
+      "rows": 6000,
+      "source_overlap": 33
+    },
+    {
+      "date": "20240801",
+      "rows": 6000,
+      "source_overlap": 20
+    },
+    {
+      "date": "20240802",
+      "rows": 6000,
+      "source_overlap": 34
+    },
+    {
+      "date": "20240803",
+      "rows": 6000,
+      "source_overlap": 15
+    },
+    {
+      "date": "20240804",
+      "rows": 6000,
+      "source_overlap": 17
+    },
+    {
+      "date": "20240805",
+      "rows": 6000,
+      "source_overlap": 32
+    },
+    {
+      "date": "20240806",
+      "rows": 6000,
+      "source_overlap": 25
+    },
+    {
+      "date": "20240807",
+      "rows": 6000,
+      "source_overlap": 29
+    },
+    {
+      "date": "20240808",
+      "rows": 6000,
+      "source_overlap": 23
+    },
+    {
+      "date": "20240809",
+      "rows": 6000,
+      "source_overlap": 27
+    },
+    {
+      "date": "20240810",
+      "rows": 6000,
+      "source_overlap": 24
+    },
+    {
+      "date": "20240811",
+      "rows": 6000,
+      "source_overlap": 16
+    },
+    {
+      "date": "20240812",
+      "rows": 6000,
+      "source_overlap": 26
+    },
+    {
+      "date": "20240813",
+      "rows": 6000,
+      "source_overlap": 23
+    },
+    {
+      "date": "20240814",
+      "rows": 6000,
+      "source_overlap": 38
+    },
+    {
+      "date": "20240815",
+      "rows": 6000,
+      "source_overlap": 36
+    },
+    {
+      "date": "20240816",
+      "rows": 6000,
+      "source_overlap": 31
+    },
+    {
+      "date": "20240817",
+      "rows": 6000,
+      "source_overlap": 18
+    },
+    {
+      "date": "20240818",
+      "rows": 6000,
+      "source_overlap": 33
+    },
+    {
+      "date": "20240819",
+      "rows": 6000,
+      "source_overlap": 28
+    },
+    {
+      "date": "20240820",
+      "rows": 6000,
+      "source_overlap": 39
+    },
+    {
+      "date": "20240821",
+      "rows": 6000,
+      "source_overlap": 30
+    },
+    {
+      "date": "20240822",
+      "rows": 6000,
+      "source_overlap": 37
+    },
+    {
+      "date": "20240823",
+      "rows": 6000,
+      "source_overlap": 30
+    },
+    {
+      "date": "20240824",
+      "rows": 6000,
+      "source_overlap": 14
+    },
+    {
+      "date": "20240825",
+      "rows": 6000,
+      "source_overlap": 6
+    },
+    {
+      "date": "20240826",
+      "rows": 6000,
+      "source_overlap": 34
+    },
+    {
+      "date": "20240827",
+      "rows": 6000,
+      "source_overlap": 37
+    },
+    {
+      "date": "20240828",
+      "rows": 6000,
+      "source_overlap": 36
+    },
+    {
+      "date": "20240829",
+      "rows": 6000,
+      "source_overlap": 33
+    },
+    {
+      "date": "20240830",
+      "rows": 6000,
+      "source_overlap": 34
+    },
+    {
+      "date": "20240831",
+      "rows": 6000,
+      "source_overlap": 26
+    },
+    {
+      "date": "20240901",
+      "rows": 6000,
+      "source_overlap": 25
+    },
+    {
+      "date": "20240902",
+      "rows": 6000,
+      "source_overlap": 27
+    },
+    {
+      "date": "20240903",
+      "rows": 6000,
+      "source_overlap": 31
+    },
+    {
+      "date": "20240904",
+      "rows": 6000,
+      "source_overlap": 29
+    },
+    {
+      "date": "20240905",
+      "rows": 6000,
+      "source_overlap": 38
+    },
+    {
+      "date": "20240906",
+      "rows": 6000,
+      "source_overlap": 31
+    },
+    {
+      "date": "20240907",
+      "rows": 6000,
+      "source_overlap": 21
+    },
+    {
+      "date": "20240908",
+      "rows": 6000,
+      "source_overlap": 24
+    },
+    {
+      "date": "20240909",
+      "rows": 6000,
+      "source_overlap": 16
+    },
+    {
+      "date": "20240910",
+      "rows": 6000,
+      "source_overlap": 24
+    },
+    {
+      "date": "20240911",
+      "rows": 6000,
+      "source_overlap": 32
+    },
+    {
+      "date": "20240912",
+      "rows": 6000,
+      "source_overlap": 23
+    },
+    {
+      "date": "20240913",
+      "rows": 6000,
+      "source_overlap": 24
+    },
+    {
+      "date": "20240914",
+      "rows": 6000,
+      "source_overlap": 17
+    },
+    {
+      "date": "20240915",
+      "rows": 6000,
+      "source_overlap": 20
+    },
+    {
+      "date": "20240916",
+      "rows": 6000,
+      "source_overlap": 30
+    },
+    {
+      "date": "20240917",
+      "rows": 6000,
+      "source_overlap": 32
+    },
+    {
+      "date": "20240918",
+      "rows": 6000,
+      "source_overlap": 16
+    },
+    {
+      "date": "20240919",
+      "rows": 6000,
+      "source_overlap": 21
+    },
+    {
+      "date": "20240920",
+      "rows": 6000,
+      "source_overlap": 26
+    },
+    {
+      "date": "20240921",
+      "rows": 6000,
+      "source_overlap": 28
+    },
+    {
+      "date": "20240922",
+      "rows": 6000,
+      "source_overlap": 27
+    },
+    {
+      "date": "20240923",
+      "rows": 6000,
+      "source_overlap": 33
+    },
+    {
+      "date": "20240924",
+      "rows": 6000,
+      "source_overlap": 18
+    },
+    {
+      "date": "20240925",
+      "rows": 6000,
+      "source_overlap": 26
+    },
+    {
+      "date": "20240926",
+      "rows": 6000,
+      "source_overlap": 23
+    },
+    {
+      "date": "20240927",
+      "rows": 6000,
+      "source_overlap": 18
+    },
+    {
+      "date": "20240928",
+      "rows": 6000,
+      "source_overlap": 5
+    },
+    {
+      "date": "20240929",
+      "rows": 6000,
+      "source_overlap": 23
+    },
+    {
+      "date": "20240930",
+      "rows": 6000,
+      "source_overlap": 22
+    }
+  ],
+  "flow_tables_read": [
+    "/flows/D20240601",
+    "/flows/D20240602",
+    "/flows/D20240603",
+    "/flows/D20240604",
+    "/flows/D20240605",
+    "/flows/D20240606",
+    "/flows/D20240607",
+    "/flows/D20240608",
+    "/flows/D20240609",
+    "/flows/D20240610",
+    "/flows/D20240611",
+    "/flows/D20240612",
+    "/flows/D20240613",
+    "/flows/D20240614",
+    "/flows/D20240615",
+    "/flows/D20240616",
+    "/flows/D20240617",
+    "/flows/D20240618",
+    "/flows/D20240619",
+    "/flows/D20240620",
+    "/flows/D20240621",
+    "/flows/D20240622",
+    "/flows/D20240623",
+    "/flows/D20240624",
+    "/flows/D20240625",
+    "/flows/D20240626",
+    "/flows/D20240627",
+    "/flows/D20240628",
+    "/flows/D20240629",
+    "/flows/D20240630",
+    "/flows/D20240701",
+    "/flows/D20240702",
+    "/flows/D20240703",
+    "/flows/D20240704",
+    "/flows/D20240705",
+    "/flows/D20240706",
+    "/flows/D20240707",
+    "/flows/D20240708",
+    "/flows/D20240709",
+    "/flows/D20240710",
+    "/flows/D20240711",
+    "/flows/D20240712",
+    "/flows/D20240713",
+    "/flows/D20240714",
+    "/flows/D20240715",
+    "/flows/D20240716",
+    "/flows/D20240717",
+    "/flows/D20240718",
+    "/flows/D20240719",
+    "/flows/D20240720",
+    "/flows/D20240721",
+    "/flows/D20240722",
+    "/flows/D20240723",
+    "/flows/D20240724",
+    "/flows/D20240725",
+    "/flows/D20240726",
+    "/flows/D20240727",
+    "/flows/D20240728",
+    "/flows/D20240729",
+    "/flows/D20240730",
+    "/flows/D20240731",
+    "/flows/D20240801",
+    "/flows/D20240802",
+    "/flows/D20240803",
+    "/flows/D20240804",
+    "/flows/D20240805",
+    "/flows/D20240806",
+    "/flows/D20240807",
+    "/flows/D20240808",
+    "/flows/D20240809",
+    "/flows/D20240810",
+    "/flows/D20240811",
+    "/flows/D20240812",
+    "/flows/D20240813",
+    "/flows/D20240814",
+    "/flows/D20240815",
+    "/flows/D20240816",
+    "/flows/D20240817",
+    "/flows/D20240818",
+    "/flows/D20240819",
+    "/flows/D20240820",
+    "/flows/D20240821",
+    "/flows/D20240822",
+    "/flows/D20240823",
+    "/flows/D20240824",
+    "/flows/D20240825",
+    "/flows/D20240826",
+    "/flows/D20240827",
+    "/flows/D20240828",
+    "/flows/D20240829",
+    "/flows/D20240830",
+    "/flows/D20240831",
+    "/flows/D20240901",
+    "/flows/D20240902",
+    "/flows/D20240903",
+    "/flows/D20240904",
+    "/flows/D20240905",
+    "/flows/D20240906",
+    "/flows/D20240907",
+    "/flows/D20240908",
+    "/flows/D20240909",
+    "/flows/D20240910",
+    "/flows/D20240911",
+    "/flows/D20240912",
+    "/flows/D20240913",
+    "/flows/D20240914",
+    "/flows/D20240915",
+    "/flows/D20240916",
+    "/flows/D20240917",
+    "/flows/D20240918",
+    "/flows/D20240919",
+    "/flows/D20240920",
+    "/flows/D20240921",
+    "/flows/D20240922",
+    "/flows/D20240923",
+    "/flows/D20240924",
+    "/flows/D20240925",
+    "/flows/D20240926",
+    "/flows/D20240927",
+    "/flows/D20240928",
+    "/flows/D20240929",
+    "/flows/D20240930"
+  ],
+  "protected_flow_tables_read": [],
+  "result_claim_allowed": "DEVELOPMENT_ONLY_SINGLE_TRAINING_SEED"
+}

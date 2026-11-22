@@ -1,0 +1,31 @@
+{
+  "status": "POST_CONFIRMATION_CLASS_AND_TEMPORAL_ANALYSES_COMPLETE",
+  "primary_original_reconstruction": {
+    "raw:rolling_global": {
+      "known_frr": 5.096593093383911,
+      "known_correct_accepted": 68.5185351501901,
+      "background_macro_detection": 16.90033811383961,
+      "heldout_macro_detection": 17.415222634155665
+    },
+    "shift:rolling_global": {
+      "known_frr": 5.1947222506013695,
+      "known_correct_accepted": 68.21262765701007,
+      "background_macro_detection": 20.345346423975833,
+      "heldout_macro_detection": 15.41167781708333
+    }
+  },
+  "class_rows": 53,
+  "unknown_classes": 23,
+  "leave_one_out_rows": 23,
+  "aggregate_rows": 24,
+  "temporal_rows": 112,
+  "association": {
+    "unknown_classes": 23,
+    "pearson_log10_n_delta": 0.16922447919092204,
+    "spearman_n_delta": 0.05434782608695652,
+    "interpretation": "Descriptive class-level association; neither causation nor a selected-significance claim."
+  },
+  "bootstrap": "Paired calendar blocks; 2000 draws; same date weights for nine fixed cells; no nine-independent-datasets interpretation.",
+  "rare_class_uncertainty": "Intervals condition on represented classes; valid draw counts are reported. Low-support class estimates can be unstable.",
+  "original_inputs_unchanged": true
+}

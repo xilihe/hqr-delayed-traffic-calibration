@@ -1,0 +1,115 @@
+{
+  "status": "DEVELOPMENT_ONLY_RISK_RULES_SELECTED",
+  "criterion": "Minimize absolute mean development known-FRR deviation; ties choose lower nominal alpha.",
+  "confirmation_scores_or_labels_loaded_for_selection": false,
+  "decisions": [
+    {
+      "method": "Fixed global",
+      "target_known_frr": 0.03,
+      "selected_nominal_alpha": 0.03,
+      "achieved_development_frr": 0.0335404653691375
+    },
+    {
+      "method": "Fixed global",
+      "target_known_frr": 0.05,
+      "selected_nominal_alpha": 0.05,
+      "achieved_development_frr": 0.05500573682493041
+    },
+    {
+      "method": "Fixed global",
+      "target_known_frr": 0.07,
+      "selected_nominal_alpha": 0.06,
+      "achieved_development_frr": 0.06507983450378754
+    },
+    {
+      "method": "Fixed classwise",
+      "target_known_frr": 0.03,
+      "selected_nominal_alpha": 0.03,
+      "achieved_development_frr": 0.03525961854427748
+    },
+    {
+      "method": "Fixed classwise",
+      "target_known_frr": 0.05,
+      "selected_nominal_alpha": 0.04,
+      "achieved_development_frr": 0.046293026451552616
+    },
+    {
+      "method": "Fixed classwise",
+      "target_known_frr": 0.07,
+      "selected_nominal_alpha": 0.06,
+      "achieved_development_frr": 0.06873047988595093
+    },
+    {
+      "method": "Rolling global",
+      "target_known_frr": 0.03,
+      "selected_nominal_alpha": 0.03,
+      "achieved_development_frr": 0.03134467904562585
+    },
+    {
+      "method": "Rolling global",
+      "target_known_frr": 0.05,
+      "selected_nominal_alpha": 0.05,
+      "achieved_development_frr": 0.05156588825147011
+    },
+    {
+      "method": "Rolling global",
+      "target_known_frr": 0.07,
+      "selected_nominal_alpha": 0.07,
+      "achieved_development_frr": 0.07202894946552549
+    },
+    {
+      "method": "Static HQR",
+      "target_known_frr": 0.03,
+      "selected_nominal_alpha": 0.02,
+      "achieved_development_frr": 0.024596362256236605
+    },
+    {
+      "method": "Static HQR",
+      "target_known_frr": 0.05,
+      "selected_nominal_alpha": 0.04,
+      "achieved_development_frr": 0.046035872880232837
+    },
+    {
+      "method": "Static HQR",
+      "target_known_frr": 0.07,
+      "selected_nominal_alpha": 0.06,
+      "achieved_development_frr": 0.06793688750033972
+    },
+    {
+      "method": "Dynamic HQR",
+      "target_known_frr": 0.03,
+      "selected_nominal_alpha": 0.03,
+      "achieved_development_frr": 0.030949439891889304
+    },
+    {
+      "method": "Dynamic HQR",
+      "target_known_frr": 0.05,
+      "selected_nominal_alpha": 0.05,
+      "achieved_development_frr": 0.052006646118138114
+    },
+    {
+      "method": "Dynamic HQR",
+      "target_known_frr": 0.07,
+      "selected_nominal_alpha": 0.07,
+      "achieved_development_frr": 0.07521403064472
+    },
+    {
+      "method": "Multi-anchor",
+      "target_known_frr": 0.03,
+      "selected_nominal_alpha": 0.03,
+      "achieved_development_frr": 0.031273458788253036
+    },
+    {
+      "method": "Multi-anchor",
+      "target_known_frr": 0.05,
+      "selected_nominal_alpha": 0.05,
+      "achieved_development_frr": 0.05247325749071744
+    },
+    {
+      "method": "Multi-anchor",
+      "target_known_frr": 0.07,
+      "selected_nominal_alpha": 0.06,
+      "achieved_development_frr": 0.06509263761677304
+    }
+  ]
+}

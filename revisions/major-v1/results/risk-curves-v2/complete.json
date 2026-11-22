@@ -1,0 +1,254 @@
+{
+  "status": "POST_CONFIRMATION_RISK_GRID_COMPLETE_ORIGINAL_COUNTS_RECONSTRUCTED",
+  "score": "negative_energy",
+  "nominal_alpha_grid": [
+    0.01,
+    0.02,
+    0.03,
+    0.04,
+    0.05,
+    0.06,
+    0.07,
+    0.08,
+    0.1
+  ],
+  "rows": 324,
+  "mean_rows": 54,
+  "original_primary_per_class_audits": [
+    {
+      "model_seed": 42,
+      "method": "Fixed global",
+      "audit_seed": 0,
+      "dates": 238,
+      "all_class_numerators_match": true
+    },
+    {
+      "model_seed": 42,
+      "method": "Fixed classwise",
+      "audit_seed": 0,
+      "dates": 238,
+      "all_class_numerators_match": true
+    },
+    {
+      "model_seed": 42,
+      "method": "Rolling global",
+      "audit_seed": 101,
+      "dates": 238,
+      "all_class_numerators_match": true
+    },
+    {
+      "model_seed": 42,
+      "method": "Rolling global",
+      "audit_seed": 102,
+      "dates": 238,
+      "all_class_numerators_match": true
+    },
+    {
+      "model_seed": 42,
+      "method": "Rolling global",
+      "audit_seed": 103,
+      "dates": 238,
+      "all_class_numerators_match": true
+    },
+    {
+      "model_seed": 42,
+      "method": "Dynamic HQR",
+      "audit_seed": 101,
+      "dates": 238,
+      "all_class_numerators_match": true
+    },
+    {
+      "model_seed": 42,
+      "method": "Dynamic HQR",
+      "audit_seed": 102,
+      "dates": 238,
+      "all_class_numerators_match": true
+    },
+    {
+      "model_seed": 42,
+      "method": "Dynamic HQR",
+      "audit_seed": 103,
+      "dates": 238,
+      "all_class_numerators_match": true
+    },
+    {
+      "model_seed": 42,
+      "method": "Multi-anchor",
+      "audit_seed": 101,
+      "dates": 238,
+      "all_class_numerators_match": true
+    },
+    {
+      "model_seed": 42,
+      "method": "Multi-anchor",
+      "audit_seed": 102,
+      "dates": 238,
+      "all_class_numerators_match": true
+    },
+    {
+      "model_seed": 42,
+      "method": "Multi-anchor",
+      "audit_seed": 103,
+      "dates": 238,
+      "all_class_numerators_match": true
+    },
+    {
+      "model_seed": 43,
+      "method": "Fixed global",
+      "audit_seed": 0,
+      "dates": 238,
+      "all_class_numerators_match": true
+    },
+    {
+      "model_seed": 43,
+      "method": "Fixed classwise",
+      "audit_seed": 0,
+      "dates": 238,
+      "all_class_numerators_match": true
+    },
+    {
+      "model_seed": 43,
+      "method": "Rolling global",
+      "audit_seed": 101,
+      "dates": 238,
+      "all_class_numerators_match": true
+    },
+    {
+      "model_seed": 43,
+      "method": "Rolling global",
+      "audit_seed": 102,
+      "dates": 238,
+      "all_class_numerators_match": true
+    },
+    {
+      "model_seed": 43,
+      "method": "Rolling global",
+      "audit_seed": 103,
+      "dates": 238,
+      "all_class_numerators_match": true
+    },
+    {
+      "model_seed": 43,
+      "method": "Dynamic HQR",
+      "audit_seed": 101,
+      "dates": 238,
+      "all_class_numerators_match": true
+    },
+    {
+      "model_seed": 43,
+      "method": "Dynamic HQR",
+      "audit_seed": 102,
+      "dates": 238,
+      "all_class_numerators_match": true
+    },
+    {
+      "model_seed": 43,
+      "method": "Dynamic HQR",
+      "audit_seed": 103,
+      "dates": 238,
+      "all_class_numerators_match": true
+    },
+    {
+      "model_seed": 43,
+      "method": "Multi-anchor",
+      "audit_seed": 101,
+      "dates": 238,
+      "all_class_numerators_match": true
+    },
+    {
+      "model_seed": 43,
+      "method": "Multi-anchor",
+      "audit_seed": 102,
+      "dates": 238,
+      "all_class_numerators_match": true
+    },
+    {
+      "model_seed": 43,
+      "method": "Multi-anchor",
+      "audit_seed": 103,
+      "dates": 238,
+      "all_class_numerators_match": true
+    },
+    {
+      "model_seed": 44,
+      "method": "Fixed global",
+      "audit_seed": 0,
+      "dates": 238,
+      "all_class_numerators_match": true
+    },
+    {
+      "model_seed": 44,
+      "method": "Fixed classwise",
+      "audit_seed": 0,
+      "dates": 238,
+      "all_class_numerators_match": true
+    },
+    {
+      "model_seed": 44,
+      "method": "Rolling global",
+      "audit_seed": 101,
+      "dates": 238,
+      "all_class_numerators_match": true
+    },
+    {
+      "model_seed": 44,
+      "method": "Rolling global",
+      "audit_seed": 102,
+      "dates": 238,
+      "all_class_numerators_match": true
+    },
+    {
+      "model_seed": 44,
+      "method": "Rolling global",
+      "audit_seed": 103,
+      "dates": 238,
+      "all_class_numerators_match": true
+    },
+    {
+      "model_seed": 44,
+      "method": "Dynamic HQR",
+      "audit_seed": 101,
+      "dates": 238,
+      "all_class_numerators_match": true
+    },
+    {
+      "model_seed": 44,
+      "method": "Dynamic HQR",
+      "audit_seed": 102,
+      "dates": 238,
+      "all_class_numerators_match": true
+    },
+    {
+      "model_seed": 44,
+      "method": "Dynamic HQR",
+      "audit_seed": 103,
+      "dates": 238,
+      "all_class_numerators_match": true
+    },
+    {
+      "model_seed": 44,
+      "method": "Multi-anchor",
+      "audit_seed": 101,
+      "dates": 238,
+      "all_class_numerators_match": true
+    },
+    {
+      "model_seed": 44,
+      "method": "Multi-anchor",
+      "audit_seed": 102,
+      "dates": 238,
+      "all_class_numerators_match": true
+    },
+    {
+      "model_seed": 44,
+      "method": "Multi-anchor",
+      "audit_seed": 103,
+      "dates": 238,
+      "all_class_numerators_match": true
+    }
+  ],
+  "grid_rules": "Each threshold uses historical or already revealed audit labels; no confirmation label selects a risk level or mapping. Added grid is post-confirmation, not original frozen evidence.",
+  "oracle_matching": "Interpolation uses confirmation actual FRR and is descriptive oracle analysis, not deployable method selection. No outcome-maximizing envelope or extrapolation.",
+  "static_replications": "Three model cells; no deployment audit stream. Dynamic uses nine fixed model/audit cells on the same traffic.",
+  "uncertainty": "Original nominal5% bootstrap retained. New matched-risk values are descriptive point interpolations; no significance or independent-network claims."
+}

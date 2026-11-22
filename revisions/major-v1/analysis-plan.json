@@ -1,0 +1,109 @@
+{
+  "revision_id": "paa-major-v1",
+  "status": "POST_CONFIRMATION_SUPPLEMENTARY_PLAN",
+  "recorded_at_utc": "2026-11-22T04:43:51.182251+00:00",
+  "original_protocol_sha256": "34f6f6a981cfd11bd202a58cd95705c86d05e566b5f51082dd45a63e1d335ac0",
+  "authority": "User provided the major-revision execution task and explicitly requested directly runnable supplementary experiments. Existing compute route and models are reused; new classifier fitting is limited to a new class partition.",
+  "original_artifacts": "Never overwritten; new scripts/configs/results remain under revisions/major-v1. Missing original caches may be restored only with exact recorded hashes.",
+  "phase_order": [
+    "asset inventory and independent original-result reconstruction",
+    "static HQR with independent C thresholds and no deployment labels",
+    "all-class robustness and all-unknown estimands",
+    "risk curves and temporal periods",
+    "empirical mechanism and development sensitivity",
+    "new fixed service partition",
+    "manuscript and supplement revision and current-source verification"
+  ],
+  "model_seeds": [
+    42,
+    43,
+    44
+  ],
+  "audit_seeds": [
+    101,
+    102,
+    103
+  ],
+  "static_hqr": {
+    "historical_quantile": 0.95,
+    "historical_prior": 20,
+    "risk_alpha": 0.05,
+    "deployment_label_budget": 0,
+    "threshold": "Finite-sample order statistic on original disjoint C after original H mapping; strict >; out-of-range rank gives +infinity.",
+    "base_scores": [
+      "negative_energy",
+      "one_minus_msp",
+      "mahalanobis"
+    ]
+  },
+  "risk_curve": {
+    "nominal_alpha_grid": [
+      0.01,
+      0.02,
+      0.03,
+      0.04,
+      0.05,
+      0.06,
+      0.07,
+      0.08,
+      0.1
+    ],
+    "primary_budget": 32,
+    "primary_delay": 7,
+    "mapping_quantile_fixed_at": 0.95,
+    "oracle_matching": "If interpolated against confirmation actual known FRR, label descriptive oracle; no confirmation-selected deployable rule."
+  },
+  "sensitivity": {
+    "design": "One factor at a time about the original setting; report every declared setting, development first.",
+    "historical_quantiles": [
+      0.9,
+      0.95,
+      0.975
+    ],
+    "historical_prior_counts": [
+      0,
+      5,
+      20,
+      100
+    ],
+    "window_days": [
+      7,
+      14,
+      28,
+      56
+    ],
+    "threshold_shrinkage_counts": [
+      20,
+      100,
+      500
+    ],
+    "historical_offsets": [
+      "mean",
+      "median",
+      "quantile"
+    ],
+    "confirmation_selection": "No confirmation optimization; fixed declared rules only."
+  },
+  "new_partition": {
+    "class_selection_seed": 20261122,
+    "selection_rationale": "Next fixed integer after original 20261121, chosen before new partition model fitting or outcome inspection; retain all outcomes.",
+    "model_seeds": [
+      42,
+      43,
+      44
+    ],
+    "same_time_roles": true,
+    "independent_network_validation": false
+  },
+  "bootstrap": {
+    "primary_block_days": 28,
+    "sensitivity_block_days": [
+      7,
+      56
+    ],
+    "replicates": 2000,
+    "seed": 20261122,
+    "unit": "Shared calendar-date weights across all fixed model/audit cells; no independent-network interpretation."
+  },
+  "manuscript_edits_before_new_evidence": false
+}

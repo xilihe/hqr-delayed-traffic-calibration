@@ -1,0 +1,13 @@
+\begin{table}[tbp]
+\caption{Original-partition energy operating points (rates in \%). Dynamic rules use 32 requests/day and seven-day delay; all fixed rules and Static HQR request zero deployment labels. Static HQR is a post-confirmation ablation.}\label{tab:revision-primary}
+\centering\small\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrr}
+\toprule
+Method & FRR & BG macro & Held-out & Correct\\\midrule
+Fixed global & 5.33 & 17.33 & 17.65 & 68.47\\
+Fixed classwise & 7.87 & 25.63 & 20.67 & 67.00\\
+Static HQR & 7.45 & 24.32 & 20.34 & 67.32\\
+Rolling global & 5.10 & 16.90 & 17.42 & 68.52\\
+Dynamic HQR & 5.19 & 20.35 & 15.41 & 68.21\\
+Multi-anchor & 5.23 & 20.16 & 15.21 & 68.23\\
+\bottomrule\end{tabular}\end{table}

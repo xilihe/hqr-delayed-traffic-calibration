@@ -1,0 +1,70 @@
+{
+  "status": "PASS_INDEPENDENT_SAVED_COUNT_RECONSTRUCTION",
+  "new_analysis_type": "POST_CONFIRMATION_SUPPLEMENTARY",
+  "input_sha256": "cee3b7c94d2e17a81994e70b72651af2d645472ebd282a69e530b8c90e4cbb62",
+  "all_original_methods": {
+    "raw:fixed_global": {
+      "known_frr": 0.053314284749003966,
+      "known_correct_accepted": 0.6846979059345076,
+      "background_macro_detection": 0.17326614830980602,
+      "heldout_macro_detection": 0.17645197455389694
+    },
+    "raw:fixed_classwise": {
+      "known_frr": 0.0787423460584769,
+      "known_correct_accepted": 0.6699807301475499,
+      "background_macro_detection": 0.25629163521228154,
+      "heldout_macro_detection": 0.20670512419283116
+    },
+    "raw:rolling_global": {
+      "known_frr": 0.05096593093383911,
+      "known_correct_accepted": 0.6851853515019011,
+      "background_macro_detection": 0.1690033811383961,
+      "heldout_macro_detection": 0.17415222634155667
+    },
+    "raw:rolling_classwise": {
+      "known_frr": 0.046434208520760245,
+      "known_correct_accepted": 0.6861884009952635,
+      "background_macro_detection": 0.17003426440081018,
+      "heldout_macro_detection": 0.13882240188160713
+    },
+    "raw:pooled_classwise": {
+      "known_frr": 0.04657099478799822,
+      "known_correct_accepted": 0.6874957932542431,
+      "background_macro_detection": 0.16524980982133033,
+      "heldout_macro_detection": 0.16204540502779458
+    },
+    "raw:delayed_aci_global": {
+      "known_frr": 0.05138030301129603,
+      "known_correct_accepted": 0.6850199502590308,
+      "background_macro_detection": 0.1694818115431547,
+      "heldout_macro_detection": 0.17509480938355393
+    },
+    "shift:rolling_global": {
+      "known_frr": 0.05194722250601369,
+      "known_correct_accepted": 0.6821262765701007,
+      "background_macro_detection": 0.20345346423975832,
+      "heldout_macro_detection": 0.1541167781708333
+    },
+    "reference:rolling_global": {
+      "known_frr": 0.05226611768667319,
+      "known_correct_accepted": 0.6823174315047702,
+      "background_macro_detection": 0.20164462368098357,
+      "heldout_macro_detection": 0.15212404032009333
+    }
+  },
+  "primary_rates_percent": {
+    "raw:rolling_global": {
+      "known_frr": 5.096593093383911,
+      "known_correct_accepted": 68.5185351501901,
+      "background_macro_detection": 16.90033811383961,
+      "heldout_macro_detection": 17.415222634155665
+    },
+    "shift:rolling_global": {
+      "known_frr": 5.1947222506013695,
+      "known_correct_accepted": 68.21262765701007,
+      "background_macro_detection": 20.345346423975833,
+      "heldout_macro_detection": 15.41167781708333
+    }
+  },
+  "independent_path": "Standard-library summation of class numerators and denominators; separate CSV and NumPy paths retained."
+}

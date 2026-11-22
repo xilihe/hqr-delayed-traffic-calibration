@@ -1,0 +1,70 @@
+{
+  "status": "PASS",
+  "scope": "Every six-method primary mean for all eight outcomes and every saved primary contrast point; independent Python sums and ratios, no replay.summarize or weighted_metrics call. Intervals use the separately regression-verified calendar bootstrap implementation.",
+  "checks": 84,
+  "maximum_absolute_error": 1.1102230246251565e-16,
+  "verified_points": {
+    "Fixed global": {
+      "known_frr": 0.06758388128746284,
+      "known_correct_accepted": 0.7678981237146295,
+      "background_macro_detection": 0.2178904777482014,
+      "background_micro_detection": 0.34205605635190384,
+      "heldout_macro_detection": 0.23718531401275791,
+      "heldout_micro_detection": 0.1966546456649707,
+      "all_unknown_macro_detection": 0.23466859623912012,
+      "all_unknown_micro_detection": 0.2849722701606823
+    },
+    "Fixed classwise": {
+      "known_frr": 0.08999241282048603,
+      "known_correct_accepted": 0.7469654965949715,
+      "background_macro_detection": 0.2506067850558721,
+      "background_micro_detection": 0.3301275799221713,
+      "heldout_macro_detection": 0.23226345814929109,
+      "heldout_micro_detection": 0.19707126533490632,
+      "all_unknown_macro_detection": 0.23465606600667122,
+      "all_unknown_micro_detection": 0.27789040988779606
+    },
+    "Rolling global": {
+      "known_frr": 0.049333178954933374,
+      "known_correct_accepted": 0.7759924981512909,
+      "background_macro_detection": 0.1862436170457941,
+      "background_micro_detection": 0.30037403740374036,
+      "heldout_macro_detection": 0.1934333875072976,
+      "heldout_micro_detection": 0.15749273540620248,
+      "all_unknown_macro_detection": 0.19249559136014496,
+      "all_unknown_micro_detection": 0.2442796318858179
+    },
+    "Static HQR": {
+      "known_frr": 0.08954973446364277,
+      "known_correct_accepted": 0.7490950208356021,
+      "background_macro_detection": 0.25912522299141655,
+      "background_micro_detection": 0.3474114575636668,
+      "heldout_macro_detection": 0.23736382380121993,
+      "heldout_micro_detection": 0.19744622303784837,
+      "all_unknown_macro_detection": 0.24020226717385426,
+      "all_unknown_micro_detection": 0.28853593948344547
+    },
+    "Dynamic HQR": {
+      "known_frr": 0.05128737004920939,
+      "known_correct_accepted": 0.770914609592196,
+      "background_macro_detection": 0.19524589201453516,
+      "background_micro_detection": 0.280948174419432,
+      "heldout_macro_detection": 0.15849439278270078,
+      "heldout_micro_detection": 0.13381146367974073,
+      "all_unknown_macro_detection": 0.16328806659554873,
+      "all_unknown_micro_detection": 0.2231831190663689
+    },
+    "Multi-anchor": {
+      "known_frr": 0.050762892095759966,
+      "known_correct_accepted": 0.7732347428244084,
+      "background_macro_detection": 0.19407861027077156,
+      "background_micro_detection": 0.28368126364875296,
+      "heldout_macro_detection": 0.16317859793364933,
+      "heldout_micro_detection": 0.14298183843082743,
+      "all_unknown_macro_detection": 0.1672090343254479,
+      "all_unknown_micro_detection": 0.22844345083508666
+    }
+  },
+  "count_file_sha256": "9e88056da7763c6eb4d115a4b8fd48dcc7db24e9b41902a05eba8148a3b65adb",
+  "unique_observed_dates": 238
+}

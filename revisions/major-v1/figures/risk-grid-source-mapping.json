@@ -1,0 +1,22 @@
+{
+  "status": "PASS_PRESENTATION_SMOKE_AND_IDENTICAL_RENDERED_PNG",
+  "input": "revisions/major-v1/results/risk-curves-v2/risk-grid-means.csv",
+  "input_sha256": "537260a6cfc94188509c224e4e9a7ca7a60b55b3b8f7042ce7ccd2dd6dd850ff",
+  "reference": "revisions/major-v1/figures/figure-plan.md",
+  "outputs": [
+    {
+      "path": "revisions/major-v1/figures/revision-risk-grid.pdf",
+      "sha256": "f9e6bba8d24aad00d49d6f85454952c11ca5c78aa370c6746e1abb7ca966d40e"
+    },
+    {
+      "path": "revisions/major-v1/figures/revision-risk-grid.svg",
+      "sha256": "1b14abd2afa4c511b191fd0b615ba3870445ad2e659584e95f6c1a0f6e87d159"
+    },
+    {
+      "path": "revisions/major-v1/figures/revision-risk-grid.png",
+      "sha256": "e8821365fc4e8e22811de6c706a80a9c5b21988117487c267ec957da9eea258c"
+    }
+  ],
+  "caption": "Post-confirmation energy operating-point grid at32 daily requests and7-day delay for dynamic methods; static methods request0 labels. Each point averages3 source-model cells for static rules or9 fixed model/audit cells for dynamic rules on the same traffic. All nine declared nominal risk levels are retained; larger markers denote nominal5%. Lines connect separately calibrated policies and are not a single frozen-score ROC. Vertical guides mark actual3%,5%,7% FRR. No interval or superiority claim is implied by line interpolation. Actual-FRR matching is separately labelled descriptive oracle analysis.",
+  "visual_qa": "revisions/major-v1/results/render-and-figure-qa.json"
+}

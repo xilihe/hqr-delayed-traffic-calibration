@@ -1,0 +1,56 @@
+{
+  "status": "PASS_PRESENTATION_SMOKE_AND_IDENTICAL_RENDERED_PNG",
+  "figures": [
+    {
+      "name": "revision-class-robustness",
+      "caption": "All23 unknown classes, with unique confirmation-flow counts in parentheses. (a) Dynamic HQR minus rolling-global class-specific rejection. (b) Corresponding difference in the macro after removing that class from its own population: two remaining background groups or19 remaining held-out services. Orange/blue distinguish background/held-out classes. Intervals are paired28-calendar-day bootstrap95% intervals, conditional on the same traffic and fixed model/audit cells. Negative and positive effects are all retained. Class rarity and valid bootstrap draws are reported in the full source table.",
+      "inputs": [
+        {
+          "path": "revisions/major-v1/results/class-specific-uncertainty.csv",
+          "sha256": "a94919ff31f417eedacf887d24ebff123a890cb64e34324cfe3e925155387b39"
+        },
+        {
+          "path": "revisions/major-v1/results/leave-one-class-out.csv",
+          "sha256": "6682bdb078c9f7ccad3ce4cbf6ba6438f2639d8d0682061eedac972fc421aa7c"
+        }
+      ]
+    },
+    {
+      "name": "revision-monthly-effects",
+      "caption": "Post-confirmation monthly composition and paired Dynamic HQR minus rolling-global effects. Unknown detection is a period macro within each month. Intervals use2000 paired7-calendar-day block resamples within the month, not independent model seeds. Missing dates remain absent observations. Differences between month estimates are descriptive and are not a tested time-interaction effect.",
+      "inputs": [
+        {
+          "path": "revisions/major-v1/results/temporal-periods.csv",
+          "sha256": "dd5c955f1695211bd073febadd40dcb63315065d7f2b16e90a4aaa11ad0b2cf3"
+        }
+      ]
+    }
+  ],
+  "outputs": [
+    {
+      "path": "revisions/major-v1/figures/revision-class-robustness.pdf",
+      "sha256": "7c2d38c88558d1cf2677e96602df22179bac63c5538f3ae75bc94af5dbceb19d"
+    },
+    {
+      "path": "revisions/major-v1/figures/revision-class-robustness.svg",
+      "sha256": "c42825146224159e6a5fe0d0cd2f496ae915afb82c69fa0634a530dbf774b411"
+    },
+    {
+      "path": "revisions/major-v1/figures/revision-class-robustness.png",
+      "sha256": "cea9e274e45acc602ff8c1166666164403757a606a242c9c9d24e1d8c2b7a692"
+    },
+    {
+      "path": "revisions/major-v1/figures/revision-monthly-effects.pdf",
+      "sha256": "3cf8c70f95934ceb4e5ed9d380d50faf24b941b9f90ac7dc8f6463a9b293d526"
+    },
+    {
+      "path": "revisions/major-v1/figures/revision-monthly-effects.svg",
+      "sha256": "3fe6865c71897fc5e50d434b32df4926b15ee91cc5a0f243a9bae0e2a0d42767"
+    },
+    {
+      "path": "revisions/major-v1/figures/revision-monthly-effects.png",
+      "sha256": "5e29fa3fdc691c4d6ae44fbb0576e3f8413b62ca0dd095acd39031de20a87c4a"
+    }
+  ],
+  "visual_qa": "revisions/major-v1/results/render-and-figure-qa.json"
+}

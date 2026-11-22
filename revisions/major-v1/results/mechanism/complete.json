@@ -1,0 +1,15 @@
+{
+  "status": "POST_CONFIRMATION_MECHANISM_DIAGNOSTICS_COMPLETE",
+  "historical_comparison": "Raw and HQR tail diagnostics use exactly the same disjoint C flow identities, not unequal historical sample sizes.",
+  "mixture_decomposition": "At a fixed historical C threshold: change = supported-group mixture term + supported-group conditional-rate term + unsupported-group contribution. Identity independently checked to1e-12.",
+  "primary_metric_distinction": "Mechanism decomposition is flow-weighted known rejection at fixed historical thresholds; it is not the primary mean-daily achieved FRR of the rolling policies.",
+  "causal_boundary": "All mechanism evidence is descriptive association and arithmetic decomposition; neither identifies the cause of traffic shift nor proves causal mediation.",
+  "background_attribution": "Actual primary decisions are disaggregated by true background group and predicted known service; both favorable and unfavorable changes retained.",
+  "row_counts": {
+    "quantiles": 630,
+    "tails": 180,
+    "mixture": 720,
+    "decomposition": 48,
+    "background_effects": 810
+  }
+}

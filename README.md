@@ -1,5 +1,10 @@
 # Historical quantile recentering under delayed audits
 
+The post-confirmation supplementary revision is in [`revisions/major-v1`](revisions/major-v1/README.md). It adds zero-query Static HQR, risk curves, class/temporal analyses, a fixed sensitivity grid and a second service partition. All outcomes are retained, including the smaller second-partition gain with an interval crossing zero. These additions do not extend the original internal freeze retroactively.
+
+The original study release remains at commit `e14d4847f56bc00524ee729952fb2d0e509d6e95`. The original reproduction route below is unchanged. The supplement guide provides both a lightweight table/figure route and staged full recomputation from the official data.
+
+
 This study compares rejection calibration for a fixed encrypted-traffic classifier. Historical quantile recentering (HQR) applies established additive conditional-quantile score rectification to predicted-service groups, followed by a shared rolling quantile of delayed known-flow audit labels. 
 
 The repository separates source fitting, historical calibration, development and frozen temporal confirmation. The original protocol is `research/frozen/confirmation-v1.json`, with a timestamped file-hash seal in `research/frozen/confirmation-v1-seal.json`. This was an internal analysis freeze, not an external preregistration. Scientific outputs have completion and independent arithmetic-audit receipts. A file ending in `preflight` or a test fixture is engineering evidence, not a reported effectiveness result.

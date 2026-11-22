@@ -1,0 +1,14 @@
+{
+  "status": "POST_CONFIRMATION_TARGET_CLASS_ATTRIBUTION_COMPLETE",
+  "targets": [
+    0,
+    51,
+    52,
+    7
+  ],
+  "model_audit_cells": 9,
+  "independent_switch_count_checks": 12756726,
+  "causal_claim": false,
+  "selection_rationale": "All three background groups and google-conncheck were specifically required by the user. All other unknown classes remain in full class/LOO tables.",
+  "denominator_note": "Each cell has the same true-class unique-flow count; predicted-group membership can differ by source model. Do not sum nine cells as unique observations."
+}

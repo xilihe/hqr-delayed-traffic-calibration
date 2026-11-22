@@ -1,0 +1,155 @@
+[
+  {
+    "name": "hqr-original",
+    "offset": "quantile",
+    "probability": 0.95,
+    "prior": 20,
+    "window": 28,
+    "method": "rolling_global",
+    "pool": 100
+  },
+  {
+    "name": "hqr-p0.9",
+    "offset": "quantile",
+    "probability": 0.9,
+    "prior": 20,
+    "window": 28,
+    "method": "rolling_global",
+    "pool": 100
+  },
+  {
+    "name": "hqr-p0.975",
+    "offset": "quantile",
+    "probability": 0.975,
+    "prior": 20,
+    "window": 28,
+    "method": "rolling_global",
+    "pool": 100
+  },
+  {
+    "name": "hqr-prior0",
+    "offset": "quantile",
+    "probability": 0.95,
+    "prior": 0,
+    "window": 28,
+    "method": "rolling_global",
+    "pool": 100
+  },
+  {
+    "name": "hqr-prior5",
+    "offset": "quantile",
+    "probability": 0.95,
+    "prior": 5,
+    "window": 28,
+    "method": "rolling_global",
+    "pool": 100
+  },
+  {
+    "name": "hqr-prior100",
+    "offset": "quantile",
+    "probability": 0.95,
+    "prior": 100,
+    "window": 28,
+    "method": "rolling_global",
+    "pool": 100
+  },
+  {
+    "name": "hqr-window7",
+    "offset": "quantile",
+    "probability": 0.95,
+    "prior": 20,
+    "window": 7,
+    "method": "rolling_global",
+    "pool": 100
+  },
+  {
+    "name": "hqr-window14",
+    "offset": "quantile",
+    "probability": 0.95,
+    "prior": 20,
+    "window": 14,
+    "method": "rolling_global",
+    "pool": 100
+  },
+  {
+    "name": "hqr-window56",
+    "offset": "quantile",
+    "probability": 0.95,
+    "prior": 20,
+    "window": 56,
+    "method": "rolling_global",
+    "pool": 100
+  },
+  {
+    "name": "mean",
+    "offset": "mean",
+    "probability": 0.95,
+    "prior": 20,
+    "window": 28,
+    "method": "rolling_global",
+    "pool": 100
+  },
+  {
+    "name": "median",
+    "offset": "median",
+    "probability": 0.95,
+    "prior": 20,
+    "window": 28,
+    "method": "rolling_global",
+    "pool": 100
+  },
+  {
+    "name": "raw-full",
+    "offset": "raw-full",
+    "probability": 0.95,
+    "prior": 20,
+    "window": 28,
+    "method": "rolling_global",
+    "pool": 100
+  },
+  {
+    "name": "raw-C",
+    "offset": "raw-C",
+    "probability": 0.95,
+    "prior": 20,
+    "window": 28,
+    "method": "rolling_global",
+    "pool": 100
+  },
+  {
+    "name": "multi-anchor",
+    "offset": "multi-anchor",
+    "probability": 0.95,
+    "prior": 20,
+    "window": 28,
+    "method": "rolling_global",
+    "pool": 100
+  },
+  {
+    "name": "threshold-shrinkage20",
+    "offset": "raw-full",
+    "probability": 0.95,
+    "prior": 20,
+    "window": 28,
+    "method": "pooled_classwise",
+    "pool": 20
+  },
+  {
+    "name": "threshold-shrinkage100",
+    "offset": "raw-full",
+    "probability": 0.95,
+    "prior": 20,
+    "window": 28,
+    "method": "pooled_classwise",
+    "pool": 100
+  },
+  {
+    "name": "threshold-shrinkage500",
+    "offset": "raw-full",
+    "probability": 0.95,
+    "prior": 20,
+    "window": 28,
+    "method": "pooled_classwise",
+    "pool": 500
+  }
+]

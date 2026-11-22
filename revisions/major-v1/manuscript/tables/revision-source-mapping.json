@@ -1,0 +1,185 @@
+{
+  "status": "TABLES_GENERATED_FROM_VERIFIED_RESULTS_PENDING_RENDER_QA",
+  "tables": [
+    {
+      "output": "revisions/major-v1/manuscript/tables/revision-primary.tex",
+      "sha256": "82b419895116ebc4a153c9659b9ab2050a2a9028ae5f18a1b9af7c4ac733f51b",
+      "inputs": [
+        {
+          "path": "revisions/major-v1/results/static-hqr/six-method-comparison.csv",
+          "sha256": "dade3d6d89412d4ce3b1cf82856c411b98af6290d28006f941a22db7b2539788"
+        }
+      ]
+    },
+    {
+      "output": "revisions/major-v1/manuscript/tables/revision-aggregates.tex",
+      "sha256": "a016dc1f47095418aedeb95924bf81e5ab0a28859539ebc9641eaef2ed6f6a50",
+      "inputs": [
+        {
+          "path": "revisions/major-v1/results/aggregate-detection-and-bootstrap.csv",
+          "sha256": "69d7a574401e5e6490c879cf2333884ace0d2fee1d95effb906e4520c534c67c"
+        }
+      ]
+    },
+    {
+      "output": "revisions/major-v1/manuscript/tables/revision-new-partition.tex",
+      "sha256": "bb3ce8384db9864c757458931d87f8c247050a6bcf340169207f9b7b4f7f7961",
+      "inputs": [
+        {
+          "path": "revisions/major-v1/results/new-partition-v2/grid-means.csv",
+          "sha256": "fd73f723ac79ad52f39fb3d21b74531f5ed959db24d7bcf5c9c7f09bb11cff71"
+        }
+      ]
+    },
+    {
+      "output": "revisions/major-v1/manuscript/tables/revision-class-uncertainty.tex",
+      "sha256": "82fe3dc0d66161d7276b1b4b5f0ec10210f49b81e61d7eca9524c63a2da5c05c",
+      "inputs": [
+        {
+          "path": "revisions/major-v1/results/class-specific-uncertainty.csv",
+          "sha256": "a94919ff31f417eedacf887d24ebff123a890cb64e34324cfe3e925155387b39"
+        }
+      ]
+    },
+    {
+      "output": "revisions/major-v1/manuscript/tables/revision-leave-one-out.tex",
+      "sha256": "e02652b0c0def70a7948c9ea60c2c4bce3460e4c442e68573cf6adb947122869",
+      "inputs": [
+        {
+          "path": "revisions/major-v1/results/leave-one-class-out.csv",
+          "sha256": "6682bdb078c9f7ccad3ce4cbf6ba6438f2639d8d0682061eedac972fc421aa7c"
+        }
+      ]
+    },
+    {
+      "output": "revisions/major-v1/manuscript/tables/revision-all-aggregate-blocks.tex",
+      "sha256": "5b45fc28c7474644f13c1c25f0b6469d1197b25a75481cb0f82e309bb6aa3d5f",
+      "inputs": [
+        {
+          "path": "revisions/major-v1/results/aggregate-detection-and-bootstrap.csv",
+          "sha256": "69d7a574401e5e6490c879cf2333884ace0d2fee1d95effb906e4520c534c67c"
+        }
+      ]
+    },
+    {
+      "output": "revisions/major-v1/manuscript/tables/revision-oracle-points.tex",
+      "sha256": "1e2b8d8b7f58a50f425274e1ac0f45296da1179cc46fa3d8efe00bb5b9302e2f",
+      "inputs": [
+        {
+          "path": "revisions/major-v1/results/risk-curves-v2/oracle-frr-matched.json",
+          "sha256": "edc4e903213edb10c8595c611ebabc99ef2a11558e1df86e2bd33aa94e0d143a"
+        }
+      ]
+    },
+    {
+      "output": "revisions/major-v1/manuscript/tables/revision-development-selection.tex",
+      "sha256": "c88c26973ea1b525beb25cb4d5eda9214bf3a549aabf12a69f068cca2eeb8db3",
+      "inputs": [
+        {
+          "path": "revisions/major-v1/results/development-risk-selection/development-selected-confirmation.csv",
+          "sha256": "aad80d13e4e5531e4dc6af9bc4a7bb768e233eb6534a7d88379ae0af85cf4783"
+        }
+      ]
+    },
+    {
+      "output": "revisions/major-v1/manuscript/tables/revision-temporal-metrics.tex",
+      "sha256": "f88d91076345e726ffedec3ed1c2d7fb16273ea3a2a2fc47fa48cbbd7045df44",
+      "inputs": [
+        {
+          "path": "revisions/major-v1/results/temporal-periods.csv",
+          "sha256": "dd5c955f1695211bd073febadd40dcb63315065d7f2b16e90a4aaa11ad0b2cf3"
+        }
+      ]
+    },
+    {
+      "output": "revisions/major-v1/manuscript/tables/revision-monthly-composition.tex",
+      "sha256": "93579331348c2860798830bf2bfb347a9f6a9d5f7f0f9f6fbd81393622a2dbff",
+      "inputs": [
+        {
+          "path": "revisions/major-v1/results/temporal-periods.csv",
+          "sha256": "dd5c955f1695211bd073febadd40dcb63315065d7f2b16e90a4aaa11ad0b2cf3"
+        }
+      ]
+    },
+    {
+      "output": "revisions/major-v1/manuscript/tables/revision-sensitivity-negative_energy.tex",
+      "sha256": "80bc59966f8550a3a7f2d50215b337223de196e07429cf1b61fdfcb5064c58c2",
+      "inputs": [
+        {
+          "path": "revisions/major-v1/results/sensitivity/grid-means.csv",
+          "sha256": "67445d54b6ec6e104b9ea72d0a9e2c28eaf1762d81e7f0cf23a5c70b2ba260e8"
+        }
+      ]
+    },
+    {
+      "output": "revisions/major-v1/manuscript/tables/revision-sensitivity-one_minus_msp.tex",
+      "sha256": "849c0734ddfa713f4e1c8387e5fb2c658be1147bd5f7bd2fc3e3cfc9fd0a7d7b",
+      "inputs": [
+        {
+          "path": "revisions/major-v1/results/sensitivity/grid-means.csv",
+          "sha256": "67445d54b6ec6e104b9ea72d0a9e2c28eaf1762d81e7f0cf23a5c70b2ba260e8"
+        }
+      ]
+    },
+    {
+      "output": "revisions/major-v1/manuscript/tables/revision-sensitivity-mahalanobis.tex",
+      "sha256": "594e3659e7bf59453b20f78819187126fdba7eb2c5015d9e2e2a44f00b30af8b",
+      "inputs": [
+        {
+          "path": "revisions/major-v1/results/sensitivity/grid-means.csv",
+          "sha256": "67445d54b6ec6e104b9ea72d0a9e2c28eaf1762d81e7f0cf23a5c70b2ba260e8"
+        }
+      ]
+    },
+    {
+      "output": "revisions/major-v1/manuscript/tables/revision-new-grid-negative_energy.tex",
+      "sha256": "2697bcaa57b1aec10c1aa2bf9460f18459186f93812a011928af2445d02512f4",
+      "inputs": [
+        {
+          "path": "revisions/major-v1/results/new-partition-v2/grid-means.csv",
+          "sha256": "fd73f723ac79ad52f39fb3d21b74531f5ed959db24d7bcf5c9c7f09bb11cff71"
+        }
+      ]
+    },
+    {
+      "output": "revisions/major-v1/manuscript/tables/revision-new-grid-one_minus_msp.tex",
+      "sha256": "c14ef7f74eafaaf8b0466090e632b2969698385a2642b0c16da557f2acdc1bbe",
+      "inputs": [
+        {
+          "path": "revisions/major-v1/results/new-partition-v2/grid-means.csv",
+          "sha256": "fd73f723ac79ad52f39fb3d21b74531f5ed959db24d7bcf5c9c7f09bb11cff71"
+        }
+      ]
+    },
+    {
+      "output": "revisions/major-v1/manuscript/tables/revision-new-grid-mahalanobis.tex",
+      "sha256": "a9f55d894e37bf2498165dd7ad68af6d5b03eba72a84d630e634b7c04c1b3724",
+      "inputs": [
+        {
+          "path": "revisions/major-v1/results/new-partition-v2/grid-means.csv",
+          "sha256": "fd73f723ac79ad52f39fb3d21b74531f5ed959db24d7bcf5c9c7f09bb11cff71"
+        }
+      ]
+    },
+    {
+      "output": "revisions/major-v1/manuscript/tables/revision-new-known-services.tex",
+      "sha256": "4571d9387a5b5dc1d5ba9af92e1cebd71b152e688006d468c011ac93ee4bc788",
+      "inputs": [
+        {
+          "path": "revisions/major-v1/new-partition-plan.json",
+          "sha256": "036f250e26a60b7d40312700069dab6359a5d6a5f20e42d595ca50022f0951ec"
+        }
+      ]
+    },
+    {
+      "output": "revisions/major-v1/manuscript/tables/revision-new-blocks.tex",
+      "sha256": "496d08c73023e20418c86da77083cee1ca82582a35466fbbbc882dcf355d5d81",
+      "inputs": [
+        {
+          "path": "revisions/major-v1/results/new-partition-v2/complete.json",
+          "sha256": "31f722681f02e82bebf96851b160d5c36a96700e434ae5d50240569338c69dea"
+        }
+      ]
+    }
+  ]
+}

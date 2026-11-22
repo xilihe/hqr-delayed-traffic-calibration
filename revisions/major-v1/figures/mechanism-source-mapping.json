@@ -1,0 +1,33 @@
+{
+  "status": "PASS_PRESENTATION_SMOKE_AND_IDENTICAL_RENDERED_PNG",
+  "classification": "RESULT",
+  "profile": "JOURNAL_RESULT",
+  "reference_mode": "PROJECT_REUSE",
+  "inputs": [
+    {
+      "path": "revisions/major-v1/results/mechanism/historical-C-tail-alignment.csv",
+      "sha256": "07ddd824de485de0362f527f3254a10d8473d0f6aa792b5ec4eb60b0390cd775"
+    },
+    {
+      "path": "revisions/major-v1/results/mechanism/mixture-conditional-decomposition.csv",
+      "sha256": "00be83b04c3c4503bef83c0de8401585af3b798ecf493ea5d691ce1359a24b57"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "revisions/major-v1/figures/revision-tail-mechanism.pdf",
+      "sha256": "62bff041476b6a5e83c74dcd0f483992b86c421f746317496729c9ed3f6d7403"
+    },
+    {
+      "path": "revisions/major-v1/figures/revision-tail-mechanism.svg",
+      "sha256": "097521023900eee2ca07cc85927a3f59bdcaae31dcefd4ebcfdef5e89029c1c7"
+    },
+    {
+      "path": "revisions/major-v1/figures/revision-tail-mechanism.png",
+      "sha256": "df76ca18d7f2bb36673550a6a4b2b2eb061137c6b3b0d4d8b5882ab77362f693"
+    }
+  ],
+  "transformations": "Panel a averages each predicted-group C rejection over three fitted models, using identical raw/HQR C identities. Panels b/c average monthly exact decomposition terms over those models, at separate fixed historical thresholds. No uncertainty or causal effect is implied. Unsupported-group term is identically zero for these data.",
+  "caption": "Historical tail alignment and fixed-threshold drift diagnostics. (a) Thirty predicted-known groups on the same disjoint C flows; each point averages three models. Marker size denotes historical support; the dotted line is 5%. (b,c) Monthly flow-weighted known-rejection change from the historical C rate, decomposed into mixture and conditional-rate terms for raw and HQR coordinates. Total change is their sum. These fixed-threshold diagnostics differ from mean-daily FRR of rolling policies and do not identify causal mechanisms.",
+  "visual_qa": "revisions/major-v1/results/render-and-figure-qa.json"
+}

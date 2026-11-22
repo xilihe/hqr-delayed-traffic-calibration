@@ -1,0 +1,71 @@
+{
+  "status": "POST_CONFIRMATION_PAIRED_ORACLE_RISK_INTERVALS_COMPLETE",
+  "rows": 135,
+  "original_interval_regression_checks": [
+    {
+      "block": 7,
+      "metric": "known_frr",
+      "max_interval_difference": 1.3877787807814457e-17
+    },
+    {
+      "block": 7,
+      "metric": "known_correct_accepted",
+      "max_interval_difference": 1.0538445116559103e-16
+    },
+    {
+      "block": 7,
+      "metric": "background_macro_detection",
+      "max_interval_difference": 1.1102230246251565e-16
+    },
+    {
+      "block": 7,
+      "metric": "heldout_macro_detection",
+      "max_interval_difference": 2.7755575615628914e-17
+    },
+    {
+      "block": 28,
+      "metric": "known_frr",
+      "max_interval_difference": 1.3877787807814457e-17
+    },
+    {
+      "block": 28,
+      "metric": "known_correct_accepted",
+      "max_interval_difference": 1.1102230246251565e-16
+    },
+    {
+      "block": 28,
+      "metric": "background_macro_detection",
+      "max_interval_difference": 7.979727989493313e-17
+    },
+    {
+      "block": 28,
+      "metric": "heldout_macro_detection",
+      "max_interval_difference": 5.551115123125783e-17
+    },
+    {
+      "block": 56,
+      "metric": "known_frr",
+      "max_interval_difference": 6.5052130349130266e-18
+    },
+    {
+      "block": 56,
+      "metric": "known_correct_accepted",
+      "max_interval_difference": 1.1362438767648086e-16
+    },
+    {
+      "block": 56,
+      "metric": "background_macro_detection",
+      "max_interval_difference": 5.551115123125783e-17
+    },
+    {
+      "block": 56,
+      "metric": "heldout_macro_detection",
+      "max_interval_difference": 6.505213034913027e-19
+    }
+  ],
+  "date_weights_shared": true,
+  "replications_are_fixed_not_independent_networks": true,
+  "interpretation": "Confirmation actual FRR defines the interpolation; all matched values and intervals remain exploratory descriptive oracle quantities, not deployment guarantees or evidence of equivalence.",
+  "no_extrapolation": true,
+  "insufficient_grid_support": "Invalid draws are excluded pairwise and valid draw counts are reported."
+}

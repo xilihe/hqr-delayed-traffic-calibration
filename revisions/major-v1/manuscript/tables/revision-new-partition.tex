@@ -1,0 +1,13 @@
+\begin{table}[tbp]
+\caption{Supplementary fixed partition 20261122, energy (rates in \%). Dynamic rules use 32 requests/day and seven-day delay; fixed rules use zero queries. The same network and sampled flow rows are reused.}\label{tab:revision-new-partition}
+\centering\small\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrr}
+\toprule
+Method & FRR & BG macro & Held-out & Correct\\\midrule
+Fixed global & 6.76 & 21.79 & 23.72 & 76.79\\
+Fixed classwise & 9.00 & 25.06 & 23.23 & 74.70\\
+Rolling global & 4.93 & 18.62 & 19.34 & 77.60\\
+Static HQR & 8.95 & 25.91 & 23.74 & 74.91\\
+Dynamic HQR & 5.13 & 19.52 & 15.85 & 77.09\\
+Multi-anchor & 5.08 & 19.41 & 16.32 & 77.32\\
+\bottomrule\end{tabular}\end{table}

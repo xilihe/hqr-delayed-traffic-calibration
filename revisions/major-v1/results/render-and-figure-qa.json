@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "reviewer_execution": "INLINE actual visual inspection; no independent reviewer or separate individual author approval claimed.",
+  "main_pdf": "revisions/major-v1/render/main-v4/main.pdf",
+  "main_pages": 19,
+  "supplement_pdf": "revisions/major-v1/render/supplement-v4/supplementary.pdf",
+  "supplement_pages": 25,
+  "all_pages_inspected": true,
+  "evidence": [
+    "render/main-v4/contact-1.png",
+    "render/main-v4/contact-2.png",
+    "render/main-v4/contact-3.png",
+    "render/supplement-v4/contact-1.png",
+    "render/supplement-v4/contact-2.png",
+    "render/supplement-v4/contact-3.png",
+    "render/supplement-v4/contact-4.png"
+  ],
+  "checks": {
+    "no_clipping_or_overlapping_text": true,
+    "all_unknown_classes_visible": true,
+    "risk_methods_distinguishable_in_grayscale": true,
+    "mechanism_outlying_group_retained": true,
+    "source_sizes_and_meaning_match_captions": true,
+    "orphan_heading_pages_repaired": true,
+    "reference_13_stable_URL_printed": true,
+    "Waiting_for_QUIC_article_number_pagination_printed_correctly": true,
+    "undefined_citations_or_references": false,
+    "overfull_box_or_float_too_large_warning": false
+  },
+  "repairs": [
+    "Replaced heading-only SI pages by anchored monthly/cohort figures.",
+    "Mechanism axis derives limits from all observed group means; no point outside range.",
+    "Kept Article41 as a note with pages1--26 because colon-prefixed pages were misparsed by the Springer bibliography style."
+  ]
+}

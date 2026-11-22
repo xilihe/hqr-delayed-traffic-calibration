@@ -1,0 +1,43 @@
+\begingroup\small\setlength{\tabcolsep}{3.5pt}
+\begin{longtable}{llrrrr}
+\caption{Complete 17-condition development-first sensitivity for mahalanobis. Rates in percent,32 daily requests and seven-day delay. Each condition is fixed one-factor-at-a-time; no confirmation winner is selected.}\label{tab:revision-sensitivity-mahalanobis}\\
+\toprule
+Condition & Phase & FRR & BG & Held & Correct\\\midrule\endfirsthead
+\multicolumn{6}{l}{\tablename\ \thetable\ (continued)}\\\toprule
+Condition & Phase & FRR & BG & Held & Correct\\\midrule\endhead
+\midrule\multicolumn{6}{r}{Continued on next page}\\\endfoot\bottomrule\endlastfoot
+hqr-original & development & 5.54 & 19.94 & 16.68 & 73.34\\
+hqr-p0.9 & development & 5.58 & 20.27 & 17.02 & 73.33\\
+hqr-p0.975 & development & 5.52 & 19.89 & 16.42 & 73.44\\
+hqr-prior0 & development & 5.50 & 20.06 & 16.65 & 73.36\\
+hqr-prior5 & development & 5.51 & 20.01 & 16.67 & 73.35\\
+hqr-prior100 & development & 5.50 & 19.67 & 16.59 & 73.37\\
+hqr-window7 & development & 2.75 & 10.30 & 8.36 & 74.92\\
+hqr-window14 & development & 5.11 & 19.06 & 15.75 & 73.60\\
+hqr-window56 & development & 5.82 & 20.49 & 17.16 & 73.17\\
+mean & development & 5.48 & 19.96 & 17.35 & 73.47\\
+median & development & 5.44 & 20.15 & 17.43 & 73.55\\
+raw-full & development & 5.23 & 18.10 & 16.03 & 73.44\\
+raw-C & development & 5.24 & 18.11 & 16.03 & 73.44\\
+multi-anchor & development & 5.57 & 19.94 & 16.67 & 73.34\\
+threshold-shrinkage20 & development & 4.60 & 17.58 & 15.36 & 73.92\\
+threshold-shrinkage100 & development & 4.82 & 17.78 & 15.63 & 73.75\\
+threshold-shrinkage500 & development & 5.09 & 18.00 & 15.88 & 73.54\\
+hqr-original & confirmation & 5.33 & 22.22 & 15.16 & 67.85\\
+hqr-p0.9 & confirmation & 5.37 & 22.38 & 15.58 & 67.78\\
+hqr-p0.975 & confirmation & 5.27 & 22.24 & 15.03 & 67.99\\
+hqr-prior0 & confirmation & 5.30 & 22.19 & 14.90 & 67.88\\
+hqr-prior5 & confirmation & 5.31 & 22.20 & 14.98 & 67.87\\
+hqr-prior100 & confirmation & 5.35 & 22.11 & 15.48 & 67.82\\
+hqr-window7 & confirmation & 2.01 & 7.32 & 5.43 & 69.29\\
+hqr-window14 & confirmation & 5.05 & 21.58 & 14.54 & 67.98\\
+hqr-window56 & confirmation & 5.61 & 22.74 & 15.60 & 67.72\\
+mean & confirmation & 5.33 & 22.13 & 16.47 & 67.80\\
+median & confirmation & 5.37 & 22.36 & 16.67 & 67.80\\
+raw-full & confirmation & 5.19 & 19.92 & 15.71 & 67.51\\
+raw-C & confirmation & 5.19 & 19.92 & 15.71 & 67.51\\
+multi-anchor & confirmation & 5.30 & 22.05 & 15.34 & 68.00\\
+threshold-shrinkage20 & confirmation & 4.22 & 19.29 & 14.09 & 68.20\\
+threshold-shrinkage100 & confirmation & 4.58 & 19.61 & 14.85 & 67.95\\
+threshold-shrinkage500 & confirmation & 5.01 & 19.89 & 15.45 & 67.65\\
+\end{longtable}\endgroup
