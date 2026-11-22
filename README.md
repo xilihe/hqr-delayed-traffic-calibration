@@ -36,7 +36,7 @@ Fresh reruns retain the published development rationale as provenance and genera
 
 ## Data
 
-Use the official CESNET-QUICEXT-25-XS HDF5 distribution. The official release is linked from [CESNET DataZoo metadata](https://cesnet.github.io/cesnet-datazoo/dataset_metadata/); the dataset record is [Zenodo 17249078](https://zenodo.org/records/17249078). Respect its licence and cite the dataset and its associated measurement paper. No payload reconstruction or new traffic collection is performed.
+Use the official CESNET-QUICEXT-25-XS HDF5 distribution. The official release is linked from [CESNET DataZoo metadata](https://cesnet.github.io/cesnet-datazoo/dataset_metadata/); the dataset record is [Zenodo 17249078](https://zenodo.org/records/17249078). The dataset record lists [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/legalcode); retain source attribution and follow the official distribution terms. This data licence is distinct from the DataZoo software licence. Cite the dataset and its associated measurement paper. No payload reconstruction or new traffic collection is performed.
 
 The exact XS file used here has 3,544,625,537 bytes and SHA256:
 

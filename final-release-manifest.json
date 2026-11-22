@@ -14,9 +14,9 @@
     },
     {
       "path": "README.md",
-      "bytes": 12498,
-      "sha256": "915455cb7879d9ab68577ecc6775bf0f13babc61ab09d954e057d029a6d0f600",
-      "git_blob_sha1": "744f5202b754b9778c622ee1f988f9a5f73cb84b"
+      "bytes": 12751,
+      "sha256": "45df6e5d3f9b25827550a0f42f635cc96f23ca18aacdfd787ebb03c3cbffe353",
+      "git_blob_sha1": "bf5900c06cca431221e963a9305b2b5c5a15f9c2"
     },
     {
       "path": "configs/aci-development.json",
@@ -803,6 +803,12 @@
       "bytes": 33851,
       "sha256": "0e29aa7350ef63d987c11dd29f607c8605e1c203ee0abc70d47b86aa7289782e",
       "git_blob_sha1": "a9b111fe22c484a88435ae6eca62512475a6817a"
+    },
+    {
+      "path": "revisions/final-v1/results/dataset-license-verification.json",
+      "bytes": 530,
+      "sha256": "489ead861063b83c02d90251867e4d723085a46e352e74fe6b0a0aed3e7ecd34",
+      "git_blob_sha1": "4d01806d1e7b61a3a92243b959af6f658870ca19"
     },
     {
       "path": "revisions/final-v1/results/independent-final-audit.json",
@@ -1764,5 +1770,6 @@
       "sha256": "41153d14912e18a68002c5ac11391779f3a227da6e253911847bc479a7766a04",
       "git_blob_sha1": "2a4b35f36dfe5fbff2e9c6bcb36b715857a532ad"
     }
-  ]
+  ],
+  "license_documentation_verified_on": "2026-11-22"
 }
