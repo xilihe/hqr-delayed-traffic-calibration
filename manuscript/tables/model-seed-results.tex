@@ -1,0 +1,37 @@
+\begin{table}[p]
+\centering\footnotesize
+\caption{Primary operating rates by source-model seed. Each row averages the three common audit streams on the same confirmation traffic. Rates are in \%. Known false rejection and correct-and-accepted rates average dates; unknown detection uses period-level true-class macros.}
+\label{tab:model-seeds}
+\begin{tabular}{rlrrrr}
+\toprule
+Model seed & Calibration & \shortstack{Known\\FRR} & \shortstack{Background\\detection} & \shortstack{Held-out\\detection} & \shortstack{Correct and\\accepted} \\
+\midrule
+42 & HQR & 5.33 & 21.71 & 16.78 & 66.84 \\
+ & Rolling global & 5.01 & 17.96 & 18.45 & 67.03 \\
+ & Delayed ACI & 5.04 & 17.99 & 18.53 & 67.02 \\
+ & Rolling classwise & 4.52 & 18.09 & 13.87 & 67.27 \\
+ & Threshold shrinkage & 4.58 & 17.51 & 17.25 & 67.26 \\
+ & Fixed classwise & 7.89 & 26.62 & 22.18 & 65.77 \\
+ & Fixed global & 5.30 & 18.64 & 19.07 & 66.96 \\
+ & Multi-anchor & 5.35 & 21.65 & 16.77 & 66.83 \\
+\addlinespace
+43 & HQR & 5.24 & 21.14 & 14.62 & 69.14 \\
+ & Rolling global & 5.05 & 17.07 & 17.76 & 69.62 \\
+ & Delayed ACI & 5.10 & 17.13 & 17.86 & 69.60 \\
+ & Rolling classwise & 4.82 & 17.29 & 14.76 & 69.59 \\
+ & Threshold shrinkage & 4.64 & 16.73 & 16.08 & 69.84 \\
+ & Fixed classwise & 7.57 & 26.04 & 19.80 & 68.06 \\
+ & Fixed global & 5.75 & 18.02 & 18.63 & 69.41 \\
+ & Multi-anchor & 5.28 & 21.01 & 14.46 & 69.15 \\
+\addlinespace
+44 & HQR & 5.01 & 18.19 & 14.84 & 68.66 \\
+ & Rolling global & 5.23 & 15.67 & 16.04 & 68.91 \\
+ & Delayed ACI & 5.27 & 15.72 & 16.13 & 68.89 \\
+ & Rolling classwise & 4.60 & 15.64 & 13.02 & 69.00 \\
+ & Threshold shrinkage & 4.75 & 15.33 & 15.28 & 69.15 \\
+ & Fixed classwise & 8.15 & 24.23 & 20.03 & 67.17 \\
+ & Fixed global & 4.95 & 15.32 & 15.23 & 69.04 \\
+ & Multi-anchor & 5.05 & 17.83 & 14.41 & 68.71 \\
+\addlinespace
+\bottomrule\end{tabular}
+\end{table}

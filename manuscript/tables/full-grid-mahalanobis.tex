@@ -1,0 +1,67 @@
+\begin{table}[p]
+\centering
+\footnotesize
+\caption{Complete frozen grid for mahalanobis. Rates are in \%; each cell is the mean of the same nine fixed model/audit replications. See the machine-readable operating grid for every individual replication and the input-disjoint view.}
+\label{tab:grid-mahalanobis}
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{rrlrrrr}
+\toprule
+\shortstack{Daily\\budget} & \shortstack{Delay\\(days)} & Calibration & \shortstack{Known\\FRR} & \shortstack{Background\\detection} & \shortstack{Held-out\\detection} & \shortstack{Correct and\\accepted} \\
+\midrule
+32 & 1 & HQR & 5.30 & 22.22 & 15.14 & 67.86 \\
+ &  & Rolling global & 5.21 & 20.07 & 15.84 & 67.51 \\
+ &  & Delayed ACI & 5.19 & 20.03 & 15.79 & 67.51 \\
+ &  & Rolling classwise & 4.45 & 19.70 & 13.79 & 68.02 \\
+ &  & Threshold shrinkage & 4.54 & 19.65 & 14.81 & 67.96 \\
+ &  & Fixed classwise & 9.36 & 28.84 & 20.89 & 65.81 \\
+ &  & Fixed global & 8.86 & 25.77 & 21.79 & 65.45 \\
+ &  & Multi-anchor & 5.29 & 22.06 & 15.39 & 68.01 \\
+\addlinespace
+32 & 7 & HQR & 5.33 & 22.22 & 15.16 & 67.85 \\
+ &  & Rolling global & 5.19 & 19.92 & 15.71 & 67.51 \\
+ &  & Delayed ACI & 5.17 & 19.84 & 15.68 & 67.52 \\
+ &  & Rolling classwise & 4.42 & 19.53 & 13.92 & 68.08 \\
+ &  & Threshold shrinkage & 4.58 & 19.61 & 14.85 & 67.95 \\
+ &  & Fixed classwise & 9.36 & 28.84 & 20.89 & 65.81 \\
+ &  & Fixed global & 8.86 & 25.77 & 21.79 & 65.45 \\
+ &  & Multi-anchor & 5.30 & 22.05 & 15.34 & 68.00 \\
+\addlinespace
+128 & 1 & HQR & 5.17 & 22.00 & 14.92 & 67.94 \\
+ &  & Rolling global & 5.16 & 20.09 & 15.73 & 67.54 \\
+ &  & Delayed ACI & 5.02 & 19.81 & 15.46 & 67.61 \\
+ &  & Rolling classwise & 4.88 & 20.57 & 14.04 & 67.79 \\
+ &  & Threshold shrinkage & 4.55 & 19.93 & 14.35 & 67.99 \\
+ &  & Fixed classwise & 9.36 & 28.84 & 20.89 & 65.81 \\
+ &  & Fixed global & 8.86 & 25.77 & 21.79 & 65.45 \\
+ &  & Multi-anchor & 5.14 & 21.83 & 15.11 & 68.10 \\
+\addlinespace
+128 & 7 & HQR & 5.22 & 22.07 & 14.96 & 67.92 \\
+ &  & Rolling global & 5.21 & 20.11 & 15.77 & 67.51 \\
+ &  & Delayed ACI & 5.00 & 19.64 & 15.32 & 67.63 \\
+ &  & Rolling classwise & 4.87 & 20.47 & 14.15 & 67.80 \\
+ &  & Threshold shrinkage & 4.57 & 19.87 & 14.44 & 67.98 \\
+ &  & Fixed classwise & 9.36 & 28.84 & 20.89 & 65.81 \\
+ &  & Fixed global & 8.86 & 25.77 & 21.79 & 65.45 \\
+ &  & Multi-anchor & 5.19 & 21.90 & 15.17 & 68.07 \\
+\addlinespace
+512 & 1 & HQR & 5.15 & 21.97 & 14.90 & 67.95 \\
+ &  & Rolling global & 5.15 & 20.14 & 15.71 & 67.54 \\
+ &  & Delayed ACI & 4.95 & 19.77 & 15.37 & 67.64 \\
+ &  & Rolling classwise & 5.05 & 20.09 & 13.34 & 67.67 \\
+ &  & Threshold shrinkage & 4.79 & 20.57 & 14.12 & 67.85 \\
+ &  & Fixed classwise & 9.36 & 28.84 & 20.89 & 65.81 \\
+ &  & Fixed global & 8.86 & 25.77 & 21.79 & 65.45 \\
+ &  & Multi-anchor & 5.14 & 21.82 & 15.15 & 68.10 \\
+\addlinespace
+512 & 7 & HQR & 5.22 & 22.07 & 15.00 & 67.92 \\
+ &  & Rolling global & 5.21 & 20.20 & 15.77 & 67.51 \\
+ &  & Delayed ACI & 4.91 & 19.49 & 15.22 & 67.67 \\
+ &  & Rolling classwise & 5.12 & 20.22 & 13.40 & 67.65 \\
+ &  & Threshold shrinkage & 4.82 & 20.59 & 14.21 & 67.85 \\
+ &  & Fixed classwise & 9.36 & 28.84 & 20.89 & 65.81 \\
+ &  & Fixed global & 8.86 & 25.77 & 21.79 & 65.45 \\
+ &  & Multi-anchor & 5.20 & 21.93 & 15.17 & 68.07 \\
+\addlinespace
+\bottomrule
+\end{tabular}
+\end{table}

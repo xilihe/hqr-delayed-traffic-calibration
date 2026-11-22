@@ -1,0 +1,446 @@
+{
+  "status": "RESULT_TABLES_GENERATED_WITH_INDEPENDENT_POINT_ESTIMATE_AGREEMENT",
+  "protocol_sha256": "34f6f6a981cfd11bd202a58cd95705c86d05e566b5f51082dd45a63e1d335ac0",
+  "inputs": [
+    {
+      "path": "outputs/confirmation-analysis-v1/analysis.json",
+      "sha256": "83dfefc3bb99b91f50fe86c69cac04e475d06b92a95b23a913b578759c6bb7a4"
+    },
+    {
+      "path": "research/frozen/confirmation-v1.json",
+      "sha256": "34f6f6a981cfd11bd202a58cd95705c86d05e566b5f51082dd45a63e1d335ac0"
+    },
+    {
+      "path": "outputs/confirmation-analysis-v1/operating-grid.csv",
+      "sha256": "4f137d465361d4bd767424dc3fbf133fbc615596ebc0874a056de85090bacc2c"
+    },
+    {
+      "path": "outputs/pilot-transformer-v1/prepare-complete.json",
+      "sha256": "5b960498dd01b35307a85e500e3a8b21b05af375ecc06f1c1c553e87b0d1c358"
+    },
+    {
+      "path": "outputs/pilot-transformer-v1/period-summary.csv",
+      "sha256": "6b619d097a8e08458ea03cf0edee64daf3dc474cac22365a61e4a58093468935"
+    }
+  ],
+  "point_estimate_cross_checks": [
+    {
+      "method": "shift:rolling_global",
+      "view": "all",
+      "metric": "known_frr",
+      "absolute_difference": 6.938893903907228e-18
+    },
+    {
+      "method": "shift:rolling_global",
+      "view": "all",
+      "metric": "background_macro_detection",
+      "absolute_difference": 2.7755575615628914e-17
+    },
+    {
+      "method": "shift:rolling_global",
+      "view": "all",
+      "metric": "heldout_macro_detection",
+      "absolute_difference": 0.0
+    },
+    {
+      "method": "shift:rolling_global",
+      "view": "all",
+      "metric": "known_correct_accepted",
+      "absolute_difference": 1.1102230246251565e-16
+    },
+    {
+      "method": "shift:rolling_global",
+      "view": "input_disjoint",
+      "metric": "known_frr",
+      "absolute_difference": 6.938893903907228e-18
+    },
+    {
+      "method": "shift:rolling_global",
+      "view": "input_disjoint",
+      "metric": "background_macro_detection",
+      "absolute_difference": 0.0
+    },
+    {
+      "method": "shift:rolling_global",
+      "view": "input_disjoint",
+      "metric": "heldout_macro_detection",
+      "absolute_difference": 0.0
+    },
+    {
+      "method": "shift:rolling_global",
+      "view": "input_disjoint",
+      "metric": "known_correct_accepted",
+      "absolute_difference": 0.0
+    },
+    {
+      "method": "raw:rolling_global",
+      "view": "all",
+      "metric": "known_frr",
+      "absolute_difference": 6.938893903907228e-18
+    },
+    {
+      "method": "raw:rolling_global",
+      "view": "all",
+      "metric": "background_macro_detection",
+      "absolute_difference": 0.0
+    },
+    {
+      "method": "raw:rolling_global",
+      "view": "all",
+      "metric": "heldout_macro_detection",
+      "absolute_difference": 0.0
+    },
+    {
+      "method": "raw:rolling_global",
+      "view": "all",
+      "metric": "known_correct_accepted",
+      "absolute_difference": 1.1102230246251565e-16
+    },
+    {
+      "method": "raw:rolling_global",
+      "view": "input_disjoint",
+      "metric": "known_frr",
+      "absolute_difference": 6.938893903907228e-18
+    },
+    {
+      "method": "raw:rolling_global",
+      "view": "input_disjoint",
+      "metric": "background_macro_detection",
+      "absolute_difference": 0.0
+    },
+    {
+      "method": "raw:rolling_global",
+      "view": "input_disjoint",
+      "metric": "heldout_macro_detection",
+      "absolute_difference": 0.0
+    },
+    {
+      "method": "raw:rolling_global",
+      "view": "input_disjoint",
+      "metric": "known_correct_accepted",
+      "absolute_difference": 0.0
+    },
+    {
+      "method": "raw:delayed_aci_global",
+      "view": "all",
+      "metric": "known_frr",
+      "absolute_difference": 0.0
+    },
+    {
+      "method": "raw:delayed_aci_global",
+      "view": "all",
+      "metric": "background_macro_detection",
+      "absolute_difference": 0.0
+    },
+    {
+      "method": "raw:delayed_aci_global",
+      "view": "all",
+      "metric": "heldout_macro_detection",
+      "absolute_difference": 0.0
+    },
+    {
+      "method": "raw:delayed_aci_global",
+      "view": "all",
+      "metric": "known_correct_accepted",
+      "absolute_difference": 0.0
+    },
+    {
+      "method": "raw:delayed_aci_global",
+      "view": "input_disjoint",
+      "metric": "known_frr",
+      "absolute_difference": 6.938893903907228e-18
+    },
+    {
+      "method": "raw:delayed_aci_global",
+      "view": "input_disjoint",
+      "metric": "background_macro_detection",
+      "absolute_difference": 0.0
+    },
+    {
+      "method": "raw:delayed_aci_global",
+      "view": "input_disjoint",
+      "metric": "heldout_macro_detection",
+      "absolute_difference": 0.0
+    },
+    {
+      "method": "raw:delayed_aci_global",
+      "view": "input_disjoint",
+      "metric": "known_correct_accepted",
+      "absolute_difference": 0.0
+    },
+    {
+      "method": "raw:rolling_classwise",
+      "view": "all",
+      "metric": "known_frr",
+      "absolute_difference": 0.0
+    },
+    {
+      "method": "raw:rolling_classwise",
+      "view": "all",
+      "metric": "background_macro_detection",
+      "absolute_difference": 0.0
+    },
+    {
+      "method": "raw:rolling_classwise",
+      "view": "all",
+      "metric": "heldout_macro_detection",
+      "absolute_difference": 2.7755575615628914e-17
+    },
+    {
+      "method": "raw:rolling_classwise",
+      "view": "all",
+      "metric": "known_correct_accepted",
+      "absolute_difference": 1.1102230246251565e-16
+    },
+    {
+      "method": "raw:rolling_classwise",
+      "view": "input_disjoint",
+      "metric": "known_frr",
+      "absolute_difference": 0.0
+    },
+    {
+      "method": "raw:rolling_classwise",
+      "view": "input_disjoint",
+      "metric": "background_macro_detection",
+      "absolute_difference": 2.7755575615628914e-17
+    },
+    {
+      "method": "raw:rolling_classwise",
+      "view": "input_disjoint",
+      "metric": "heldout_macro_detection",
+      "absolute_difference": 2.7755575615628914e-17
+    },
+    {
+      "method": "raw:rolling_classwise",
+      "view": "input_disjoint",
+      "metric": "known_correct_accepted",
+      "absolute_difference": 0.0
+    },
+    {
+      "method": "raw:pooled_classwise",
+      "view": "all",
+      "metric": "known_frr",
+      "absolute_difference": 6.938893903907228e-18
+    },
+    {
+      "method": "raw:pooled_classwise",
+      "view": "all",
+      "metric": "background_macro_detection",
+      "absolute_difference": 0.0
+    },
+    {
+      "method": "raw:pooled_classwise",
+      "view": "all",
+      "metric": "heldout_macro_detection",
+      "absolute_difference": 0.0
+    },
+    {
+      "method": "raw:pooled_classwise",
+      "view": "all",
+      "metric": "known_correct_accepted",
+      "absolute_difference": 0.0
+    },
+    {
+      "method": "raw:pooled_classwise",
+      "view": "input_disjoint",
+      "metric": "known_frr",
+      "absolute_difference": 0.0
+    },
+    {
+      "method": "raw:pooled_classwise",
+      "view": "input_disjoint",
+      "metric": "background_macro_detection",
+      "absolute_difference": 0.0
+    },
+    {
+      "method": "raw:pooled_classwise",
+      "view": "input_disjoint",
+      "metric": "heldout_macro_detection",
+      "absolute_difference": 0.0
+    },
+    {
+      "method": "raw:pooled_classwise",
+      "view": "input_disjoint",
+      "metric": "known_correct_accepted",
+      "absolute_difference": 0.0
+    },
+    {
+      "method": "raw:fixed_classwise",
+      "view": "all",
+      "metric": "known_frr",
+      "absolute_difference": 0.0
+    },
+    {
+      "method": "raw:fixed_classwise",
+      "view": "all",
+      "metric": "background_macro_detection",
+      "absolute_difference": 0.0
+    },
+    {
+      "method": "raw:fixed_classwise",
+      "view": "all",
+      "metric": "heldout_macro_detection",
+      "absolute_difference": 0.0
+    },
+    {
+      "method": "raw:fixed_classwise",
+      "view": "all",
+      "metric": "known_correct_accepted",
+      "absolute_difference": 0.0
+    },
+    {
+      "method": "raw:fixed_classwise",
+      "view": "input_disjoint",
+      "metric": "known_frr",
+      "absolute_difference": 1.3877787807814457e-17
+    },
+    {
+      "method": "raw:fixed_classwise",
+      "view": "input_disjoint",
+      "metric": "background_macro_detection",
+      "absolute_difference": 0.0
+    },
+    {
+      "method": "raw:fixed_classwise",
+      "view": "input_disjoint",
+      "metric": "heldout_macro_detection",
+      "absolute_difference": 0.0
+    },
+    {
+      "method": "raw:fixed_classwise",
+      "view": "input_disjoint",
+      "metric": "known_correct_accepted",
+      "absolute_difference": 1.1102230246251565e-16
+    },
+    {
+      "method": "raw:fixed_global",
+      "view": "all",
+      "metric": "known_frr",
+      "absolute_difference": 1.3877787807814457e-17
+    },
+    {
+      "method": "raw:fixed_global",
+      "view": "all",
+      "metric": "background_macro_detection",
+      "absolute_difference": 0.0
+    },
+    {
+      "method": "raw:fixed_global",
+      "view": "all",
+      "metric": "heldout_macro_detection",
+      "absolute_difference": 0.0
+    },
+    {
+      "method": "raw:fixed_global",
+      "view": "all",
+      "metric": "known_correct_accepted",
+      "absolute_difference": 1.1102230246251565e-16
+    },
+    {
+      "method": "raw:fixed_global",
+      "view": "input_disjoint",
+      "metric": "known_frr",
+      "absolute_difference": 1.3877787807814457e-17
+    },
+    {
+      "method": "raw:fixed_global",
+      "view": "input_disjoint",
+      "metric": "background_macro_detection",
+      "absolute_difference": 0.0
+    },
+    {
+      "method": "raw:fixed_global",
+      "view": "input_disjoint",
+      "metric": "heldout_macro_detection",
+      "absolute_difference": 2.7755575615628914e-17
+    },
+    {
+      "method": "raw:fixed_global",
+      "view": "input_disjoint",
+      "metric": "known_correct_accepted",
+      "absolute_difference": 0.0
+    },
+    {
+      "method": "reference:rolling_global",
+      "view": "all",
+      "metric": "known_frr",
+      "absolute_difference": 6.938893903907228e-18
+    },
+    {
+      "method": "reference:rolling_global",
+      "view": "all",
+      "metric": "background_macro_detection",
+      "absolute_difference": 0.0
+    },
+    {
+      "method": "reference:rolling_global",
+      "view": "all",
+      "metric": "heldout_macro_detection",
+      "absolute_difference": 0.0
+    },
+    {
+      "method": "reference:rolling_global",
+      "view": "all",
+      "metric": "known_correct_accepted",
+      "absolute_difference": 1.1102230246251565e-16
+    },
+    {
+      "method": "reference:rolling_global",
+      "view": "input_disjoint",
+      "metric": "known_frr",
+      "absolute_difference": 0.0
+    },
+    {
+      "method": "reference:rolling_global",
+      "view": "input_disjoint",
+      "metric": "background_macro_detection",
+      "absolute_difference": 2.7755575615628914e-17
+    },
+    {
+      "method": "reference:rolling_global",
+      "view": "input_disjoint",
+      "metric": "heldout_macro_detection",
+      "absolute_difference": 0.0
+    },
+    {
+      "method": "reference:rolling_global",
+      "view": "input_disjoint",
+      "metric": "known_correct_accepted",
+      "absolute_difference": 1.1102230246251565e-16
+    }
+  ],
+  "outputs": [
+    {
+      "path": "manuscript/tables/primary-results.tex",
+      "sha256": "3de507e93312e276e8649103f530173d68ca990ee86628e384c1ca15f8f2e269"
+    },
+    {
+      "path": "manuscript/tables/paired-contrasts.tex",
+      "sha256": "279c50fef4058378f339cdb5bcf54d4543dc6f5592bb33710858faa01fc1ff7a"
+    },
+    {
+      "path": "manuscript/tables/full-grid-negative_energy.tex",
+      "sha256": "ddc0cfe637302b20743382b01abb37ef91e6324a208c823f455053933f0b5a4f"
+    },
+    {
+      "path": "manuscript/tables/full-grid-one_minus_msp.tex",
+      "sha256": "e1afe98e89f26c9bf0c66ca08bb88ee7464d8e0cb989842b41ccf926a0be2bf3"
+    },
+    {
+      "path": "manuscript/tables/full-grid-mahalanobis.tex",
+      "sha256": "57f83f08acfd0b11a54121be3b71d3d9bf9b0fde9131acef8397c379746c558e"
+    },
+    {
+      "path": "manuscript/tables/cohort-counts.tex",
+      "sha256": "efac8e96928bbc7d10f640c9c48be8bb91d0c45ad92b98a3f52114dc968020a8"
+    }
+  ],
+  "confirmation_population": {
+    "rows": 1417414,
+    "known_n": 764977,
+    "heldout_n": 144912,
+    "background_n": 507525,
+    "input_overlap": 8216
+  },
+  "qa_status": "PENDING_FINAL_LATEX_RENDER"
+}

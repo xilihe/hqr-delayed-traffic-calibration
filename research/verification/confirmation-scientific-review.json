@@ -1,0 +1,59 @@
+{
+  "status": "CONFIRMATION_SCIENTIFIC_REVIEW_COMPLETE",
+  "protocol_sha256": "34f6f6a981cfd11bd202a58cd95705c86d05e566b5f51082dd45a63e1d335ac0",
+  "unique_confirmation_flows": 1417414,
+  "observed_dates": 238,
+  "source_model_seeds": [
+    42,
+    43,
+    44
+  ],
+  "audit_seeds": [
+    101,
+    102,
+    103
+  ],
+  "formal_tuning_after_confirmation": false,
+  "primary_support": {
+    "background_gain_pp": 3.445008310136219,
+    "background_interval_95_pp": [
+      2.5358470543336424,
+      4.585557853242735
+    ],
+    "known_frr_pp": [
+      5.09659309338391,
+      5.19472225060137
+    ],
+    "heldout_detection_pp": [
+      17.41522263415567,
+      15.41167781708333
+    ],
+    "correct_and_accepted_pp": [
+      68.51853515019012,
+      68.21262765701006
+    ]
+  },
+  "interpretation": "Historical recentering provides a background-oriented trade-off; it does not improve every unknown population. Background gains are concentrated in default/Facebook background, with a Google-background decrease. Energy held-out detection and correct-and-accepted known predictions decline. All are reported.",
+  "known_risk_noninferiority": "No formal noninferiority claim; descriptive point difference and full interval are retained. The exact upper28-day bound is0.500898pp, so rounding must not be used to assert a threshold test.",
+  "exploratory_class_summary": "Per-true-service maximum of the30 class-specific mean rejection rates is an exploratory description, not a prespecified worst-class guarantee. Full class rates retained.",
+  "checks": [
+    "All3models FINISHED/0 with864summary rows each",
+    "832642848decision evaluations/model independently reconstructed",
+    "Actual future population identical across source models",
+    "Paired28day analysis with7/56day sensitivity",
+    "64independent point-estimate comparisons between CSV aggregators and count-weighted analysis passed"
+  ],
+  "claims_allowed": [
+    "Higher mean background macro detection in the primary frozen comparison",
+    "Positive mean background differences in all18frozen score/budget/delay cells, as descriptive sensitivity",
+    "Single historical offset retained the multi-anchor benefit in the primary setting",
+    "Effects persist after exact-input-overlap exclusion"
+  ],
+  "claims_not_supported": [
+    "Uniform improvement in unknown-service detection",
+    "No increase in known false rejection",
+    "Per-day arbitrary-drift risk guarantee",
+    "New general conditional-quantile rectification method",
+    "Independent traffic replication count of9"
+  ]
+}

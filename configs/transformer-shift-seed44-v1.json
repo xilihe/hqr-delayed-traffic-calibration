@@ -1,0 +1,89 @@
+{
+  "project_id": "paa-temporal-rejection-20261121",
+  "status": "DEVELOPMENT_PILOT_NOT_CONFIRMATION",
+  "dataset": "CESNET-QUICEXT-25-XS",
+  "dataset_url": "https://liberouter.org/datazoo/download?bucket=cesnet-quicext-25&file=CESNET-QUICEXT-25-XS.h5",
+  "dataset_bytes": 3544625537,
+  "source_start": "20240601",
+  "source_end": "20240628",
+  "calibration_start": "20240629",
+  "calibration_end": "20240707",
+  "development_start": "20240708",
+  "development_end": "20240930",
+  "protected_start": "20241001",
+  "minimum_source_class_rows": 100,
+  "known_class_count": 30,
+  "class_selection_seed": 20261121,
+  "source_cap_per_class": 5000,
+  "calibration_total_cap": 30000,
+  "development_cap_per_day": 6000,
+  "training_seed": 44,
+  "source_sampling_seed": 42,
+  "calibration_sampling_seed": 43,
+  "feature_representation": "reused-quic-signed-log-prefix-v2",
+  "epochs": 50,
+  "batch_size": 512,
+  "learning_rate": 0.001,
+  "weight_decay": 0.001,
+  "rejection_scores": [
+    "rqp_negative_energy",
+    "rqp_one_minus_msp",
+    "rqp_mahalanobis"
+  ],
+  "alpha": 0.05,
+  "label_budgets_per_day": [
+    32,
+    128,
+    512
+  ],
+  "label_delays_days": [
+    1,
+    7
+  ],
+  "window_days": 28,
+  "label_sampling_seeds": [
+    101,
+    102,
+    103
+  ],
+  "methods": [
+    "rolling_global"
+  ],
+  "pooling_pseudocount": 100,
+  "grouping": "predicted_class_at_inference",
+  "label_cost": "Every uniformly requested development-flow label, including unknown flows, counts toward the daily budget.",
+  "primary_outcomes": [
+    "known_false_rejection_rate",
+    "periods_exceeding_alpha",
+    "heldout_service_macro_detection",
+    "known_correct_and_accepted"
+  ],
+  "claim_boundary": "Finite-sample calibration under exchangeability does not imply per-day guarantees under arbitrary temporal drift. Pooling is a heuristic baseline.",
+  "protected_rule": "Read metadata only for dates >= protected_start. Model fitting, label selection, scoring and evaluation stop before protected_start.",
+  "expected_background_group_count": 3,
+  "output_run": "historical-shift-transformer-seed44-v1",
+  "aci_comparator_config": "configs/aci-transformer-rqp-v1.json",
+  "purpose": "Historical additive conditional-quantile rectification selected as the simpler primary candidate from development. All-score historical cache for frozen confirmation; no protected future access.",
+  "model_type": "transformer",
+  "model_parameters": {
+    "d_model": 64,
+    "n_layers": 2,
+    "dropout": 0.1
+  },
+  "covariance_ridge_fraction": 0.01,
+  "upstream_config": "configs/transformer-seed44-v1.json",
+  "reference_quantiles": {
+    "base_scores": [
+      "negative_energy",
+      "one_minus_msp",
+      "mahalanobis"
+    ],
+    "probabilities": [
+      0.95
+    ],
+    "source_prior_count": 20,
+    "role_seed": 20261121,
+    "tails": "Linear extension beyond outer quantile anchors; no clipping.",
+    "kind": "additive_quantile"
+  }
+}

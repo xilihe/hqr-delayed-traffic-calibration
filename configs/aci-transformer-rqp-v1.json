@@ -1,0 +1,19 @@
+{
+  "status": "DEVELOPMENT_COMPARATOR_NOT_CONFIRMATION",
+  "source_run": "pilot-transformer-rqp-v1",
+  "method": "delayed_aci_global",
+  "gamma_grid": [
+    0.0001,
+    0.001,
+    0.01
+  ],
+  "initial_level": "target alpha from the source-run configuration",
+  "update_unit": "One arrived known audit label; all arrivals are processed before the next daily predictions.",
+  "historical_errors": "Use the actual rejection decision at the original prediction time.",
+  "reference_distribution": "Known audit scores within the same past-only 28-calendar-day window; initial calibration if empty.",
+  "unknown_labels": "Count toward requests; excluded from known-score reference and known-risk error updates.",
+  "level_bounds": "Unclipped ACI level; levels <=0 give +inf and levels >=1 give -inf thresholds.",
+  "provenance": "Gibbs and Candes, JMLR 25(162), 2024, Section 2.2, equation (4).",
+  "primary_source": "https://www.jmlr.org/papers/v25/22-1218.html",
+  "claim_boundary": "Budgeted delayed-label adaptation. Original full-feedback theoretical guarantees are not claimed."
+}

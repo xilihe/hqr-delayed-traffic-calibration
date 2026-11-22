@@ -1,0 +1,7 @@
+# Reference experiment environment: Python 3.11, CUDA 12.4.
+# Install torch 2.5.1 with the appropriate official CUDA 12.4 wheel separately.
+numpy==1.26.4
+tables==3.10.2
+torch==2.5.1
+# Publication postprocessing may be run in a separate environment.
+matplotlib>=3.8

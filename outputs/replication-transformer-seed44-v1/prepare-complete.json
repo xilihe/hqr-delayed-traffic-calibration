@@ -1,0 +1,915 @@
+{
+  "status": "DEVELOPMENT_SCORES_COMPLETE",
+  "config_sha256": "49804993d9ebfdaa43c6ba1ba480e4db338c1cb84600efc77440f7bde8760085",
+  "runner_sha256": "ce82c2398c9a5a9bdf58793b169e4502ad6012f07f1bf060bbc9f2d93e1a5ea8",
+  "dataset_sha256": "6b323c4c53b7c9d0ec9011f895b3c5ba6b35247576e41ef19fe84ab8632810ab",
+  "model_sha256": "e6b07c6983a1243945bc3be6bf7c124ad73e478544819205a62d0a36c15444f0",
+  "geometry_sha256": "05005e5384b23ed4138d0b124aa00ec7deb27acd1774613356674ade4c7425ae",
+  "geometry_fit_role": "SOURCE_FITTING_ONLY",
+  "model_type": "transformer",
+  "device": "cuda",
+  "torch": "2.5.1+cu124",
+  "python": "3.11.10",
+  "numpy": "1.26.4",
+  "tables": "3.10.2",
+  "cuda": "12.4",
+  "gpu_name": "NVIDIA GeForce RTX 2080 Ti",
+  "source_rows_sha256": "7f34b18a685555f765648205e5f04775befaeda7b5856e931722198c2baf7d79",
+  "known_codes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    9,
+    13,
+    14,
+    15,
+    16,
+    18,
+    20,
+    22,
+    25,
+    26,
+    27,
+    29,
+    31,
+    32,
+    34,
+    36,
+    37,
+    38,
+    40,
+    43,
+    44,
+    45,
+    49,
+    50
+  ],
+  "source_counts": {
+    "0": 71567,
+    "25": 16729,
+    "26": 7719,
+    "27": 5798,
+    "28": 1212,
+    "29": 296,
+    "30": 228,
+    "31": 16369,
+    "32": 718,
+    "33": 6847,
+    "34": 286,
+    "35": 16616,
+    "36": 23212,
+    "39": 382,
+    "40": 3598,
+    "41": 5724,
+    "44": 518,
+    "50": 2967,
+    "52": 4427,
+    "38": 675,
+    "37": 785,
+    "14": 49740,
+    "1": 28776,
+    "2": 52383,
+    "3": 24377,
+    "4": 28759,
+    "5": 10598,
+    "6": 7893,
+    "7": 48,
+    "8": 12544,
+    "9": 646,
+    "10": 777,
+    "11": 887,
+    "13": 1288,
+    "15": 667,
+    "16": 66388,
+    "17": 3853,
+    "19": 416,
+    "20": 968,
+    "21": 6220,
+    "22": 1723,
+    "23": 414,
+    "43": 1710,
+    "45": 103,
+    "46": 61,
+    "47": 59,
+    "48": 9358,
+    "51": 92307,
+    "12": 47,
+    "18": 289,
+    "24": 45,
+    "42": 45,
+    "49": 203
+  },
+  "training_rows": 82440,
+  "calibration_rows": 30000,
+  "calibration_source_overlap_rows": 163,
+  "calibration_repeated_input_rows": 96,
+  "calibration_policy": "Distinct later flow rows retained, including equal packet prefixes; exact-input overlap reported separately.",
+  "training_history": [
+    {
+      "epoch": 1,
+      "loss": 2.2112673077636527,
+      "elapsed_seconds": 7.021103813778609
+    },
+    {
+      "epoch": 2,
+      "loss": 1.4706628267074429,
+      "elapsed_seconds": 13.174956353846937
+    },
+    {
+      "epoch": 3,
+      "loss": 1.2878105183239992,
+      "elapsed_seconds": 19.16759244306013
+    },
+    {
+      "epoch": 4,
+      "loss": 1.1726750844141514,
+      "elapsed_seconds": 25.31485571200028
+    },
+    {
+      "epoch": 5,
+      "loss": 1.0928720734641137,
+      "elapsed_seconds": 31.100707442034036
+    },
+    {
+      "epoch": 6,
+      "loss": 1.0469035189629528,
+      "elapsed_seconds": 36.93610012717545
+    },
+    {
+      "epoch": 7,
+      "loss": 0.9824852820393647,
+      "elapsed_seconds": 42.992710893042386
+    },
+    {
+      "epoch": 8,
+      "loss": 0.9381949276267065,
+      "elapsed_seconds": 52.81115609779954
+    },
+    {
+      "epoch": 9,
+      "loss": 0.9025656464896926,
+      "elapsed_seconds": 63.09414234990254
+    },
+    {
+      "epoch": 10,
+      "loss": 0.8958650038000566,
+      "elapsed_seconds": 73.37202675780281
+    },
+    {
+      "epoch": 11,
+      "loss": 0.8560636568277684,
+      "elapsed_seconds": 83.76582144806162
+    },
+    {
+      "epoch": 12,
+      "loss": 0.852071479389472,
+      "elapsed_seconds": 93.64284327998757
+    },
+    {
+      "epoch": 13,
+      "loss": 0.8053242670049486,
+      "elapsed_seconds": 103.59264294803143
+    },
+    {
+      "epoch": 14,
+      "loss": 0.7841782398214623,
+      "elapsed_seconds": 113.31193960411474
+    },
+    {
+      "epoch": 15,
+      "loss": 0.7658745585946652,
+      "elapsed_seconds": 123.63188523892313
+    },
+    {
+      "epoch": 16,
+      "loss": 0.7491163960971166,
+      "elapsed_seconds": 133.64242018572986
+    },
+    {
+      "epoch": 17,
+      "loss": 0.731846460574232,
+      "elapsed_seconds": 144.31539516709745
+    },
+    {
+      "epoch": 18,
+      "loss": 0.725394782295278,
+      "elapsed_seconds": 155.08624753076583
+    },
+    {
+      "epoch": 19,
+      "loss": 0.7105037445295557,
+      "elapsed_seconds": 165.38544673100114
+    },
+    {
+      "epoch": 20,
+      "loss": 0.7105897444709304,
+      "elapsed_seconds": 175.9136245669797
+    },
+    {
+      "epoch": 21,
+      "loss": 0.6916024909674224,
+      "elapsed_seconds": 186.3197671500966
+    },
+    {
+      "epoch": 22,
+      "loss": 0.6713049638913361,
+      "elapsed_seconds": 197.03187971189618
+    },
+    {
+      "epoch": 23,
+      "loss": 0.6600912644179454,
+      "elapsed_seconds": 207.39197870204225
+    },
+    {
+      "epoch": 24,
+      "loss": 0.6740750578871518,
+      "elapsed_seconds": 217.683478647843
+    },
+    {
+      "epoch": 25,
+      "loss": 0.6448013954316454,
+      "elapsed_seconds": 227.65644657006487
+    },
+    {
+      "epoch": 26,
+      "loss": 0.6380089092809907,
+      "elapsed_seconds": 237.9130658209324
+    },
+    {
+      "epoch": 27,
+      "loss": 0.6267183020501274,
+      "elapsed_seconds": 247.99334861291572
+    },
+    {
+      "epoch": 28,
+      "loss": 0.6235501926191682,
+      "elapsed_seconds": 257.8925550580025
+    },
+    {
+      "epoch": 29,
+      "loss": 0.633353967142591,
+      "elapsed_seconds": 268.2556187789887
+    },
+    {
+      "epoch": 30,
+      "loss": 0.6065616245179544,
+      "elapsed_seconds": 278.1564804278314
+    },
+    {
+      "epoch": 31,
+      "loss": 0.6094216167492984,
+      "elapsed_seconds": 288.0994558078237
+    },
+    {
+      "epoch": 32,
+      "loss": 0.599115131078907,
+      "elapsed_seconds": 297.9916520630941
+    },
+    {
+      "epoch": 33,
+      "loss": 0.5794386683094276,
+      "elapsed_seconds": 308.0224533928558
+    },
+    {
+      "epoch": 34,
+      "loss": 0.5707165036457132,
+      "elapsed_seconds": 318.213527939748
+    },
+    {
+      "epoch": 35,
+      "loss": 0.5757627591122012,
+      "elapsed_seconds": 328.11884661903605
+    },
+    {
+      "epoch": 36,
+      "loss": 0.5861494679761303,
+      "elapsed_seconds": 338.1151124238968
+    },
+    {
+      "epoch": 37,
+      "loss": 0.5560989055281874,
+      "elapsed_seconds": 348.68363643903285
+    },
+    {
+      "epoch": 38,
+      "loss": 0.5995712813505092,
+      "elapsed_seconds": 359.3833188400604
+    },
+    {
+      "epoch": 39,
+      "loss": 0.5655247470292578,
+      "elapsed_seconds": 369.6409832430072
+    },
+    {
+      "epoch": 40,
+      "loss": 0.5707974763474147,
+      "elapsed_seconds": 379.92999937478453
+    },
+    {
+      "epoch": 41,
+      "loss": 0.5515796219967107,
+      "elapsed_seconds": 389.5895397751592
+    },
+    {
+      "epoch": 42,
+      "loss": 0.5441669685090994,
+      "elapsed_seconds": 399.3636702760123
+    },
+    {
+      "epoch": 43,
+      "loss": 0.537197864894321,
+      "elapsed_seconds": 409.3573176851496
+    },
+    {
+      "epoch": 44,
+      "loss": 0.5375337126415832,
+      "elapsed_seconds": 419.0275053009391
+    },
+    {
+      "epoch": 45,
+      "loss": 0.5295757040460962,
+      "elapsed_seconds": 429.02929851878434
+    },
+    {
+      "epoch": 46,
+      "loss": 0.5274571848025547,
+      "elapsed_seconds": 438.99174391618
+    },
+    {
+      "epoch": 47,
+      "loss": 0.5233498871861472,
+      "elapsed_seconds": 449.0799927338958
+    },
+    {
+      "epoch": 48,
+      "loss": 0.5224481080788423,
+      "elapsed_seconds": 459.02170941978693
+    },
+    {
+      "epoch": 49,
+      "loss": 0.5145459780244501,
+      "elapsed_seconds": 468.97541259089485
+    },
+    {
+      "epoch": 50,
+      "loss": 0.5083433041926555,
+      "elapsed_seconds": 479.1615846580826
+    }
+  ],
+  "development": [
+    {
+      "date": "20240708",
+      "rows": 6000,
+      "source_overlap": 43
+    },
+    {
+      "date": "20240709",
+      "rows": 6000,
+      "source_overlap": 24
+    },
+    {
+      "date": "20240710",
+      "rows": 6000,
+      "source_overlap": 22
+    },
+    {
+      "date": "20240711",
+      "rows": 6000,
+      "source_overlap": 3
+    },
+    {
+      "date": "20240712",
+      "rows": 6000,
+      "source_overlap": 30
+    },
+    {
+      "date": "20240713",
+      "rows": 6000,
+      "source_overlap": 20
+    },
+    {
+      "date": "20240714",
+      "rows": 6000,
+      "source_overlap": 27
+    },
+    {
+      "date": "20240715",
+      "rows": 6000,
+      "source_overlap": 40
+    },
+    {
+      "date": "20240716",
+      "rows": 6000,
+      "source_overlap": 41
+    },
+    {
+      "date": "20240717",
+      "rows": 6000,
+      "source_overlap": 42
+    },
+    {
+      "date": "20240718",
+      "rows": 6000,
+      "source_overlap": 34
+    },
+    {
+      "date": "20240719",
+      "rows": 6000,
+      "source_overlap": 40
+    },
+    {
+      "date": "20240720",
+      "rows": 6000,
+      "source_overlap": 26
+    },
+    {
+      "date": "20240721",
+      "rows": 6000,
+      "source_overlap": 21
+    },
+    {
+      "date": "20240722",
+      "rows": 6000,
+      "source_overlap": 43
+    },
+    {
+      "date": "20240723",
+      "rows": 6000,
+      "source_overlap": 42
+    },
+    {
+      "date": "20240724",
+      "rows": 6000,
+      "source_overlap": 38
+    },
+    {
+      "date": "20240725",
+      "rows": 6000,
+      "source_overlap": 38
+    },
+    {
+      "date": "20240726",
+      "rows": 6000,
+      "source_overlap": 35
+    },
+    {
+      "date": "20240727",
+      "rows": 6000,
+      "source_overlap": 34
+    },
+    {
+      "date": "20240728",
+      "rows": 6000,
+      "source_overlap": 22
+    },
+    {
+      "date": "20240729",
+      "rows": 6000,
+      "source_overlap": 27
+    },
+    {
+      "date": "20240730",
+      "rows": 6000,
+      "source_overlap": 42
+    },
+    {
+      "date": "20240731",
+      "rows": 6000,
+      "source_overlap": 40
+    },
+    {
+      "date": "20240801",
+      "rows": 6000,
+      "source_overlap": 28
+    },
+    {
+      "date": "20240802",
+      "rows": 6000,
+      "source_overlap": 39
+    },
+    {
+      "date": "20240803",
+      "rows": 6000,
+      "source_overlap": 18
+    },
+    {
+      "date": "20240804",
+      "rows": 6000,
+      "source_overlap": 23
+    },
+    {
+      "date": "20240805",
+      "rows": 6000,
+      "source_overlap": 44
+    },
+    {
+      "date": "20240806",
+      "rows": 6000,
+      "source_overlap": 34
+    },
+    {
+      "date": "20240807",
+      "rows": 6000,
+      "source_overlap": 32
+    },
+    {
+      "date": "20240808",
+      "rows": 6000,
+      "source_overlap": 29
+    },
+    {
+      "date": "20240809",
+      "rows": 6000,
+      "source_overlap": 31
+    },
+    {
+      "date": "20240810",
+      "rows": 6000,
+      "source_overlap": 23
+    },
+    {
+      "date": "20240811",
+      "rows": 6000,
+      "source_overlap": 20
+    },
+    {
+      "date": "20240812",
+      "rows": 6000,
+      "source_overlap": 33
+    },
+    {
+      "date": "20240813",
+      "rows": 6000,
+      "source_overlap": 36
+    },
+    {
+      "date": "20240814",
+      "rows": 6000,
+      "source_overlap": 48
+    },
+    {
+      "date": "20240815",
+      "rows": 6000,
+      "source_overlap": 44
+    },
+    {
+      "date": "20240816",
+      "rows": 6000,
+      "source_overlap": 36
+    },
+    {
+      "date": "20240817",
+      "rows": 6000,
+      "source_overlap": 17
+    },
+    {
+      "date": "20240818",
+      "rows": 6000,
+      "source_overlap": 32
+    },
+    {
+      "date": "20240819",
+      "rows": 6000,
+      "source_overlap": 34
+    },
+    {
+      "date": "20240820",
+      "rows": 6000,
+      "source_overlap": 49
+    },
+    {
+      "date": "20240821",
+      "rows": 6000,
+      "source_overlap": 40
+    },
+    {
+      "date": "20240822",
+      "rows": 6000,
+      "source_overlap": 43
+    },
+    {
+      "date": "20240823",
+      "rows": 6000,
+      "source_overlap": 42
+    },
+    {
+      "date": "20240824",
+      "rows": 6000,
+      "source_overlap": 9
+    },
+    {
+      "date": "20240825",
+      "rows": 6000,
+      "source_overlap": 4
+    },
+    {
+      "date": "20240826",
+      "rows": 6000,
+      "source_overlap": 40
+    },
+    {
+      "date": "20240827",
+      "rows": 6000,
+      "source_overlap": 51
+    },
+    {
+      "date": "20240828",
+      "rows": 6000,
+      "source_overlap": 45
+    },
+    {
+      "date": "20240829",
+      "rows": 6000,
+      "source_overlap": 40
+    },
+    {
+      "date": "20240830",
+      "rows": 6000,
+      "source_overlap": 34
+    },
+    {
+      "date": "20240831",
+      "rows": 6000,
+      "source_overlap": 26
+    },
+    {
+      "date": "20240901",
+      "rows": 6000,
+      "source_overlap": 26
+    },
+    {
+      "date": "20240902",
+      "rows": 6000,
+      "source_overlap": 38
+    },
+    {
+      "date": "20240903",
+      "rows": 6000,
+      "source_overlap": 33
+    },
+    {
+      "date": "20240904",
+      "rows": 6000,
+      "source_overlap": 34
+    },
+    {
+      "date": "20240905",
+      "rows": 6000,
+      "source_overlap": 43
+    },
+    {
+      "date": "20240906",
+      "rows": 6000,
+      "source_overlap": 30
+    },
+    {
+      "date": "20240907",
+      "rows": 6000,
+      "source_overlap": 22
+    },
+    {
+      "date": "20240908",
+      "rows": 6000,
+      "source_overlap": 25
+    },
+    {
+      "date": "20240909",
+      "rows": 6000,
+      "source_overlap": 18
+    },
+    {
+      "date": "20240910",
+      "rows": 6000,
+      "source_overlap": 26
+    },
+    {
+      "date": "20240911",
+      "rows": 6000,
+      "source_overlap": 30
+    },
+    {
+      "date": "20240912",
+      "rows": 6000,
+      "source_overlap": 23
+    },
+    {
+      "date": "20240913",
+      "rows": 6000,
+      "source_overlap": 26
+    },
+    {
+      "date": "20240914",
+      "rows": 6000,
+      "source_overlap": 16
+    },
+    {
+      "date": "20240915",
+      "rows": 6000,
+      "source_overlap": 19
+    },
+    {
+      "date": "20240916",
+      "rows": 6000,
+      "source_overlap": 31
+    },
+    {
+      "date": "20240917",
+      "rows": 6000,
+      "source_overlap": 31
+    },
+    {
+      "date": "20240918",
+      "rows": 6000,
+      "source_overlap": 16
+    },
+    {
+      "date": "20240919",
+      "rows": 6000,
+      "source_overlap": 21
+    },
+    {
+      "date": "20240920",
+      "rows": 6000,
+      "source_overlap": 26
+    },
+    {
+      "date": "20240921",
+      "rows": 6000,
+      "source_overlap": 28
+    },
+    {
+      "date": "20240922",
+      "rows": 6000,
+      "source_overlap": 26
+    },
+    {
+      "date": "20240923",
+      "rows": 6000,
+      "source_overlap": 29
+    },
+    {
+      "date": "20240924",
+      "rows": 6000,
+      "source_overlap": 20
+    },
+    {
+      "date": "20240925",
+      "rows": 6000,
+      "source_overlap": 27
+    },
+    {
+      "date": "20240926",
+      "rows": 6000,
+      "source_overlap": 26
+    },
+    {
+      "date": "20240927",
+      "rows": 6000,
+      "source_overlap": 22
+    },
+    {
+      "date": "20240928",
+      "rows": 6000,
+      "source_overlap": 6
+    },
+    {
+      "date": "20240929",
+      "rows": 6000,
+      "source_overlap": 22
+    },
+    {
+      "date": "20240930",
+      "rows": 6000,
+      "source_overlap": 24
+    }
+  ],
+  "flow_tables_read": [
+    "/flows/D20240601",
+    "/flows/D20240602",
+    "/flows/D20240603",
+    "/flows/D20240604",
+    "/flows/D20240605",
+    "/flows/D20240606",
+    "/flows/D20240607",
+    "/flows/D20240608",
+    "/flows/D20240609",
+    "/flows/D20240610",
+    "/flows/D20240611",
+    "/flows/D20240612",
+    "/flows/D20240613",
+    "/flows/D20240614",
+    "/flows/D20240615",
+    "/flows/D20240616",
+    "/flows/D20240617",
+    "/flows/D20240618",
+    "/flows/D20240619",
+    "/flows/D20240620",
+    "/flows/D20240621",
+    "/flows/D20240622",
+    "/flows/D20240623",
+    "/flows/D20240624",
+    "/flows/D20240625",
+    "/flows/D20240626",
+    "/flows/D20240627",
+    "/flows/D20240628",
+    "/flows/D20240629",
+    "/flows/D20240630",
+    "/flows/D20240701",
+    "/flows/D20240702",
+    "/flows/D20240703",
+    "/flows/D20240704",
+    "/flows/D20240705",
+    "/flows/D20240706",
+    "/flows/D20240707",
+    "/flows/D20240708",
+    "/flows/D20240709",
+    "/flows/D20240710",
+    "/flows/D20240711",
+    "/flows/D20240712",
+    "/flows/D20240713",
+    "/flows/D20240714",
+    "/flows/D20240715",
+    "/flows/D20240716",
+    "/flows/D20240717",
+    "/flows/D20240718",
+    "/flows/D20240719",
+    "/flows/D20240720",
+    "/flows/D20240721",
+    "/flows/D20240722",
+    "/flows/D20240723",
+    "/flows/D20240724",
+    "/flows/D20240725",
+    "/flows/D20240726",
+    "/flows/D20240727",
+    "/flows/D20240728",
+    "/flows/D20240729",
+    "/flows/D20240730",
+    "/flows/D20240731",
+    "/flows/D20240801",
+    "/flows/D20240802",
+    "/flows/D20240803",
+    "/flows/D20240804",
+    "/flows/D20240805",
+    "/flows/D20240806",
+    "/flows/D20240807",
+    "/flows/D20240808",
+    "/flows/D20240809",
+    "/flows/D20240810",
+    "/flows/D20240811",
+    "/flows/D20240812",
+    "/flows/D20240813",
+    "/flows/D20240814",
+    "/flows/D20240815",
+    "/flows/D20240816",
+    "/flows/D20240817",
+    "/flows/D20240818",
+    "/flows/D20240819",
+    "/flows/D20240820",
+    "/flows/D20240821",
+    "/flows/D20240822",
+    "/flows/D20240823",
+    "/flows/D20240824",
+    "/flows/D20240825",
+    "/flows/D20240826",
+    "/flows/D20240827",
+    "/flows/D20240828",
+    "/flows/D20240829",
+    "/flows/D20240830",
+    "/flows/D20240831",
+    "/flows/D20240901",
+    "/flows/D20240902",
+    "/flows/D20240903",
+    "/flows/D20240904",
+    "/flows/D20240905",
+    "/flows/D20240906",
+    "/flows/D20240907",
+    "/flows/D20240908",
+    "/flows/D20240909",
+    "/flows/D20240910",
+    "/flows/D20240911",
+    "/flows/D20240912",
+    "/flows/D20240913",
+    "/flows/D20240914",
+    "/flows/D20240915",
+    "/flows/D20240916",
+    "/flows/D20240917",
+    "/flows/D20240918",
+    "/flows/D20240919",
+    "/flows/D20240920",
+    "/flows/D20240921",
+    "/flows/D20240922",
+    "/flows/D20240923",
+    "/flows/D20240924",
+    "/flows/D20240925",
+    "/flows/D20240926",
+    "/flows/D20240927",
+    "/flows/D20240928",
+    "/flows/D20240929",
+    "/flows/D20240930"
+  ],
+  "protected_flow_tables_read": [],
+  "result_claim_allowed": "DEVELOPMENT_ONLY_SINGLE_TRAINING_SEED"
+}

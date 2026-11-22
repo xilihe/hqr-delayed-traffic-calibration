@@ -1,0 +1,1177 @@
+{
+  "status": "DEVELOPMENT_ONLY_ACI_SELECTION_COMPLETE",
+  "criterion": "Minimum mean daily absolute known-FRR deviation from alpha=.05, averaged over all three audit streams; ties favor smaller gamma.",
+  "selected": {
+    "raw": {
+      "negative_energy": {
+        "32": {
+          "1": 0.0001,
+          "7": 0.0001
+        },
+        "128": {
+          "1": 0.0001,
+          "7": 0.0001
+        },
+        "512": {
+          "1": 0.0001,
+          "7": 0.0001
+        }
+      },
+      "one_minus_msp": {
+        "32": {
+          "1": 0.0001,
+          "7": 0.0001
+        },
+        "128": {
+          "1": 0.0001,
+          "7": 0.0001
+        },
+        "512": {
+          "1": 0.0001,
+          "7": 0.0001
+        }
+      },
+      "mahalanobis": {
+        "32": {
+          "1": 0.0001,
+          "7": 0.0001
+        },
+        "128": {
+          "1": 0.0001,
+          "7": 0.0001
+        },
+        "512": {
+          "1": 0.0001,
+          "7": 0.0001
+        }
+      }
+    },
+    "reference": {
+      "negative_energy": {
+        "32": {
+          "1": 0.0001,
+          "7": 0.0001
+        },
+        "128": {
+          "1": 0.0001,
+          "7": 0.0001
+        },
+        "512": {
+          "1": 0.0001,
+          "7": 0.0001
+        }
+      },
+      "one_minus_msp": {
+        "32": {
+          "1": 0.0001,
+          "7": 0.0001
+        },
+        "128": {
+          "1": 0.0001,
+          "7": 0.0001
+        },
+        "512": {
+          "1": 0.0001,
+          "7": 0.0001
+        }
+      },
+      "mahalanobis": {
+        "32": {
+          "1": 0.0001,
+          "7": 0.0001
+        },
+        "128": {
+          "1": 0.0001,
+          "7": 0.0001
+        },
+        "512": {
+          "1": 0.0001,
+          "7": 0.0001
+        }
+      }
+    }
+  },
+  "development_grid": [
+    {
+      "variant": "raw",
+      "score": "negative_energy",
+      "budget": 32,
+      "delay": 1,
+      "gamma": 0.0001,
+      "mean_daily_frr": 0.052369183130585535,
+      "mean_daily_positive_excess": 0.006778455030837475,
+      "mean_absolute_target_deviation": 0.011187726931089418
+    },
+    {
+      "variant": "raw",
+      "score": "negative_energy",
+      "budget": 32,
+      "delay": 1,
+      "gamma": 0.001,
+      "mean_daily_frr": 0.05259668188627045,
+      "mean_daily_positive_excess": 0.007267130224696674,
+      "mean_absolute_target_deviation": 0.011937578563122898
+    },
+    {
+      "variant": "raw",
+      "score": "negative_energy",
+      "budget": 32,
+      "delay": 1,
+      "gamma": 0.01,
+      "mean_daily_frr": 0.05291172427165138,
+      "mean_daily_positive_excess": 0.010135981539163992,
+      "mean_absolute_target_deviation": 0.017360238806676604
+    },
+    {
+      "variant": "raw",
+      "score": "negative_energy",
+      "budget": 32,
+      "delay": 7,
+      "gamma": 0.0001,
+      "mean_daily_frr": 0.05174926420879679,
+      "mean_daily_positive_excess": 0.006445983100164858,
+      "mean_absolute_target_deviation": 0.01114270199153293
+    },
+    {
+      "variant": "raw",
+      "score": "negative_energy",
+      "budget": 32,
+      "delay": 7,
+      "gamma": 0.001,
+      "mean_daily_frr": 0.05183668568757448,
+      "mean_daily_positive_excess": 0.006943576372008261,
+      "mean_absolute_target_deviation": 0.012050467056442048
+    },
+    {
+      "variant": "raw",
+      "score": "negative_energy",
+      "budget": 32,
+      "delay": 7,
+      "gamma": 0.01,
+      "mean_daily_frr": 0.05267004861899393,
+      "mean_daily_positive_excess": 0.014985700734597006,
+      "mean_absolute_target_deviation": 0.027301352850200085
+    },
+    {
+      "variant": "raw",
+      "score": "negative_energy",
+      "budget": 128,
+      "delay": 1,
+      "gamma": 0.0001,
+      "mean_daily_frr": 0.050369029344586314,
+      "mean_daily_positive_excess": 0.0047689937756360936,
+      "mean_absolute_target_deviation": 0.009168958206685876
+    },
+    {
+      "variant": "raw",
+      "score": "negative_energy",
+      "budget": 128,
+      "delay": 1,
+      "gamma": 0.001,
+      "mean_daily_frr": 0.04933929975915996,
+      "mean_daily_positive_excess": 0.004350864728950793,
+      "mean_absolute_target_deviation": 0.009362429698741629
+    },
+    {
+      "variant": "raw",
+      "score": "negative_energy",
+      "budget": 128,
+      "delay": 1,
+      "gamma": 0.01,
+      "mean_daily_frr": 0.049700338633252475,
+      "mean_daily_positive_excess": 0.00880457303345878,
+      "mean_absolute_target_deviation": 0.01790880743366509
+    },
+    {
+      "variant": "raw",
+      "score": "negative_energy",
+      "budget": 128,
+      "delay": 7,
+      "gamma": 0.0001,
+      "mean_daily_frr": 0.05115082658747196,
+      "mean_daily_positive_excess": 0.005304175377153757,
+      "mean_absolute_target_deviation": 0.009457524166835554
+    },
+    {
+      "variant": "raw",
+      "score": "negative_energy",
+      "budget": 128,
+      "delay": 7,
+      "gamma": 0.001,
+      "mean_daily_frr": 0.04938091064629564,
+      "mean_daily_positive_excess": 0.0047162741721472595,
+      "mean_absolute_target_deviation": 0.01005163769799888
+    },
+    {
+      "variant": "raw",
+      "score": "negative_energy",
+      "budget": 128,
+      "delay": 7,
+      "gamma": 0.01,
+      "mean_daily_frr": 0.04904287789795876,
+      "mean_daily_positive_excess": 0.02994438998142702,
+      "mean_absolute_target_deviation": 0.060845902064895284
+    },
+    {
+      "variant": "raw",
+      "score": "negative_energy",
+      "budget": 512,
+      "delay": 1,
+      "gamma": 0.0001,
+      "mean_daily_frr": 0.0511140188055847,
+      "mean_daily_positive_excess": 0.005013988553679421,
+      "mean_absolute_target_deviation": 0.008913958301774145
+    },
+    {
+      "variant": "raw",
+      "score": "negative_energy",
+      "budget": 512,
+      "delay": 1,
+      "gamma": 0.001,
+      "mean_daily_frr": 0.04961137704073267,
+      "mean_daily_positive_excess": 0.004419646299080484,
+      "mean_absolute_target_deviation": 0.009227915557428298
+    },
+    {
+      "variant": "raw",
+      "score": "negative_energy",
+      "budget": 512,
+      "delay": 1,
+      "gamma": 0.01,
+      "mean_daily_frr": 0.05072684067244624,
+      "mean_daily_positive_excess": 0.02483857087554244,
+      "mean_absolute_target_deviation": 0.048950301078638646
+    },
+    {
+      "variant": "raw",
+      "score": "negative_energy",
+      "budget": 512,
+      "delay": 7,
+      "gamma": 0.0001,
+      "mean_daily_frr": 0.051603526015748885,
+      "mean_daily_positive_excess": 0.005438400112123347,
+      "mean_absolute_target_deviation": 0.009273274208497813
+    },
+    {
+      "variant": "raw",
+      "score": "negative_energy",
+      "budget": 512,
+      "delay": 7,
+      "gamma": 0.001,
+      "mean_daily_frr": 0.04924321385654594,
+      "mean_daily_positive_excess": 0.00981237430492105,
+      "mean_absolute_target_deviation": 0.020381534753296165
+    },
+    {
+      "variant": "raw",
+      "score": "negative_energy",
+      "budget": 512,
+      "delay": 7,
+      "gamma": 0.01,
+      "mean_daily_frr": 0.06765199437949602,
+      "mean_daily_positive_excess": 0.055890943956375096,
+      "mean_absolute_target_deviation": 0.09412989353325417
+    },
+    {
+      "variant": "raw",
+      "score": "one_minus_msp",
+      "budget": 32,
+      "delay": 1,
+      "gamma": 0.0001,
+      "mean_daily_frr": 0.05560266956931917,
+      "mean_daily_positive_excess": 0.008392601455525546,
+      "mean_absolute_target_deviation": 0.011182533341731925
+    },
+    {
+      "variant": "raw",
+      "score": "one_minus_msp",
+      "budget": 32,
+      "delay": 1,
+      "gamma": 0.001,
+      "mean_daily_frr": 0.055234432854150556,
+      "mean_daily_positive_excess": 0.008575589481362935,
+      "mean_absolute_target_deviation": 0.011916746108575318
+    },
+    {
+      "variant": "raw",
+      "score": "one_minus_msp",
+      "budget": 32,
+      "delay": 1,
+      "gamma": 0.01,
+      "mean_daily_frr": 0.052937924089502264,
+      "mean_daily_positive_excess": 0.009936845258023757,
+      "mean_absolute_target_deviation": 0.016935766426545252
+    },
+    {
+      "variant": "raw",
+      "score": "one_minus_msp",
+      "budget": 32,
+      "delay": 7,
+      "gamma": 0.0001,
+      "mean_daily_frr": 0.05556051633767578,
+      "mean_daily_positive_excess": 0.00837627924856631,
+      "mean_absolute_target_deviation": 0.011192042159456843
+    },
+    {
+      "variant": "raw",
+      "score": "one_minus_msp",
+      "budget": 32,
+      "delay": 7,
+      "gamma": 0.001,
+      "mean_daily_frr": 0.05520418835123048,
+      "mean_daily_positive_excess": 0.008613967889742807,
+      "mean_absolute_target_deviation": 0.012023747428255134
+    },
+    {
+      "variant": "raw",
+      "score": "one_minus_msp",
+      "budget": 32,
+      "delay": 7,
+      "gamma": 0.01,
+      "mean_daily_frr": 0.05303232729857868,
+      "mean_daily_positive_excess": 0.013430787880643367,
+      "mean_absolute_target_deviation": 0.023829248462708057
+    },
+    {
+      "variant": "raw",
+      "score": "one_minus_msp",
+      "budget": 128,
+      "delay": 1,
+      "gamma": 0.0001,
+      "mean_daily_frr": 0.053289572552831704,
+      "mean_daily_positive_excess": 0.0058868937934054046,
+      "mean_absolute_target_deviation": 0.008484215033979108
+    },
+    {
+      "variant": "raw",
+      "score": "one_minus_msp",
+      "budget": 128,
+      "delay": 1,
+      "gamma": 0.001,
+      "mean_daily_frr": 0.052324873681781424,
+      "mean_daily_positive_excess": 0.005601056567354514,
+      "mean_absolute_target_deviation": 0.008877239452927607
+    },
+    {
+      "variant": "raw",
+      "score": "one_minus_msp",
+      "budget": 128,
+      "delay": 1,
+      "gamma": 0.01,
+      "mean_daily_frr": 0.05121276889169735,
+      "mean_daily_positive_excess": 0.009957490200769676,
+      "mean_absolute_target_deviation": 0.01870221150984201
+    },
+    {
+      "variant": "raw",
+      "score": "one_minus_msp",
+      "budget": 128,
+      "delay": 7,
+      "gamma": 0.0001,
+      "mean_daily_frr": 0.05376816882705068,
+      "mean_daily_positive_excess": 0.006337146747155899,
+      "mean_absolute_target_deviation": 0.008906124667261118
+    },
+    {
+      "variant": "raw",
+      "score": "one_minus_msp",
+      "budget": 128,
+      "delay": 7,
+      "gamma": 0.001,
+      "mean_daily_frr": 0.05147010987113781,
+      "mean_daily_positive_excess": 0.0062740140858077355,
+      "mean_absolute_target_deviation": 0.011077918300477666
+    },
+    {
+      "variant": "raw",
+      "score": "one_minus_msp",
+      "budget": 128,
+      "delay": 7,
+      "gamma": 0.01,
+      "mean_daily_frr": 0.04881970512963242,
+      "mean_daily_positive_excess": 0.02851224597013246,
+      "mean_absolute_target_deviation": 0.0582047868106325
+    },
+    {
+      "variant": "raw",
+      "score": "one_minus_msp",
+      "budget": 512,
+      "delay": 1,
+      "gamma": 0.0001,
+      "mean_daily_frr": 0.050199033522745115,
+      "mean_daily_positive_excess": 0.003438013601076038,
+      "mean_absolute_target_deviation": 0.006676993679406964
+    },
+    {
+      "variant": "raw",
+      "score": "one_minus_msp",
+      "budget": 512,
+      "delay": 1,
+      "gamma": 0.001,
+      "mean_daily_frr": 0.04936603705604788,
+      "mean_daily_positive_excess": 0.0036875551573131928,
+      "mean_absolute_target_deviation": 0.008009073258578504
+    },
+    {
+      "variant": "raw",
+      "score": "one_minus_msp",
+      "budget": 512,
+      "delay": 1,
+      "gamma": 0.01,
+      "mean_daily_frr": 0.0507191621832302,
+      "mean_daily_positive_excess": 0.02317860279935528,
+      "mean_absolute_target_deviation": 0.04563804341548036
+    },
+    {
+      "variant": "raw",
+      "score": "one_minus_msp",
+      "budget": 512,
+      "delay": 7,
+      "gamma": 0.0001,
+      "mean_daily_frr": 0.05042336156428654,
+      "mean_daily_positive_excess": 0.0036648038100070748,
+      "mean_absolute_target_deviation": 0.006906246055727611
+    },
+    {
+      "variant": "raw",
+      "score": "one_minus_msp",
+      "budget": 512,
+      "delay": 7,
+      "gamma": 0.001,
+      "mean_daily_frr": 0.05007341769263096,
+      "mean_daily_positive_excess": 0.014920697664416232,
+      "mean_absolute_target_deviation": 0.029767977636201506
+    },
+    {
+      "variant": "raw",
+      "score": "one_minus_msp",
+      "budget": 512,
+      "delay": 7,
+      "gamma": 0.01,
+      "mean_daily_frr": 0.06858025730150091,
+      "mean_daily_positive_excess": 0.056475892323567874,
+      "mean_absolute_target_deviation": 0.09437152734563484
+    },
+    {
+      "variant": "raw",
+      "score": "mahalanobis",
+      "budget": 32,
+      "delay": 1,
+      "gamma": 0.0001,
+      "mean_daily_frr": 0.048134467950079265,
+      "mean_daily_positive_excess": 0.004654130575526809,
+      "mean_absolute_target_deviation": 0.011173793200974355
+    },
+    {
+      "variant": "raw",
+      "score": "mahalanobis",
+      "budget": 32,
+      "delay": 1,
+      "gamma": 0.001,
+      "mean_daily_frr": 0.04866303936131071,
+      "mean_daily_positive_excess": 0.005262100783709197,
+      "mean_absolute_target_deviation": 0.011861162206107688
+    },
+    {
+      "variant": "raw",
+      "score": "mahalanobis",
+      "budget": 32,
+      "delay": 1,
+      "gamma": 0.01,
+      "mean_daily_frr": 0.04688756850779666,
+      "mean_daily_positive_excess": 0.006878729977036301,
+      "mean_absolute_target_deviation": 0.01686989144627594
+    },
+    {
+      "variant": "raw",
+      "score": "mahalanobis",
+      "budget": 32,
+      "delay": 7,
+      "gamma": 0.0001,
+      "mean_daily_frr": 0.04937283987570608,
+      "mean_daily_positive_excess": 0.005370574070861108,
+      "mean_absolute_target_deviation": 0.01136830826601614
+    },
+    {
+      "variant": "raw",
+      "score": "mahalanobis",
+      "budget": 32,
+      "delay": 7,
+      "gamma": 0.001,
+      "mean_daily_frr": 0.04964302599578764,
+      "mean_daily_positive_excess": 0.006236872806647831,
+      "mean_absolute_target_deviation": 0.012830719617508025
+    },
+    {
+      "variant": "raw",
+      "score": "mahalanobis",
+      "budget": 32,
+      "delay": 7,
+      "gamma": 0.01,
+      "mean_daily_frr": 0.05059967776733246,
+      "mean_daily_positive_excess": 0.01622012574283322,
+      "mean_absolute_target_deviation": 0.031840573718333987
+    },
+    {
+      "variant": "raw",
+      "score": "mahalanobis",
+      "budget": 128,
+      "delay": 1,
+      "gamma": 0.0001,
+      "mean_daily_frr": 0.050190713072403845,
+      "mean_daily_positive_excess": 0.004077990391922964,
+      "mean_absolute_target_deviation": 0.007965267711442086
+    },
+    {
+      "variant": "raw",
+      "score": "mahalanobis",
+      "budget": 128,
+      "delay": 1,
+      "gamma": 0.001,
+      "mean_daily_frr": 0.049187232368812416,
+      "mean_daily_positive_excess": 0.003982517526292172,
+      "mean_absolute_target_deviation": 0.008777802683771931
+    },
+    {
+      "variant": "raw",
+      "score": "mahalanobis",
+      "budget": 128,
+      "delay": 1,
+      "gamma": 0.01,
+      "mean_daily_frr": 0.048744718733079624,
+      "mean_daily_positive_excess": 0.008031203255710082,
+      "mean_absolute_target_deviation": 0.017317687778340543
+    },
+    {
+      "variant": "raw",
+      "score": "mahalanobis",
+      "budget": 128,
+      "delay": 7,
+      "gamma": 0.0001,
+      "mean_daily_frr": 0.05078856678410152,
+      "mean_daily_positive_excess": 0.004452511551664054,
+      "mean_absolute_target_deviation": 0.00811645631922659
+    },
+    {
+      "variant": "raw",
+      "score": "mahalanobis",
+      "budget": 128,
+      "delay": 7,
+      "gamma": 0.001,
+      "mean_daily_frr": 0.048860747266664055,
+      "mean_daily_positive_excess": 0.004439296922980206,
+      "mean_absolute_target_deviation": 0.01001784657929636
+    },
+    {
+      "variant": "raw",
+      "score": "mahalanobis",
+      "budget": 128,
+      "delay": 7,
+      "gamma": 0.01,
+      "mean_daily_frr": 0.05253891049011582,
+      "mean_daily_positive_excess": 0.03392437835568612,
+      "mean_absolute_target_deviation": 0.06530984622125642
+    },
+    {
+      "variant": "raw",
+      "score": "mahalanobis",
+      "budget": 512,
+      "delay": 1,
+      "gamma": 0.0001,
+      "mean_daily_frr": 0.0522252554265521,
+      "mean_daily_positive_excess": 0.004867276978670311,
+      "mean_absolute_target_deviation": 0.007509298530788527
+    },
+    {
+      "variant": "raw",
+      "score": "mahalanobis",
+      "budget": 512,
+      "delay": 1,
+      "gamma": 0.001,
+      "mean_daily_frr": 0.05067417123571196,
+      "mean_daily_positive_excess": 0.004767202247764095,
+      "mean_absolute_target_deviation": 0.008860233259816231
+    },
+    {
+      "variant": "raw",
+      "score": "mahalanobis",
+      "budget": 512,
+      "delay": 1,
+      "gamma": 0.01,
+      "mean_daily_frr": 0.05066215126390562,
+      "mean_daily_positive_excess": 0.024066636276267626,
+      "mean_absolute_target_deviation": 0.04747112128862963
+    },
+    {
+      "variant": "raw",
+      "score": "mahalanobis",
+      "budget": 512,
+      "delay": 7,
+      "gamma": 0.0001,
+      "mean_daily_frr": 0.052698147896502116,
+      "mean_daily_positive_excess": 0.005108483217500594,
+      "mean_absolute_target_deviation": 0.007518818538499075
+    },
+    {
+      "variant": "raw",
+      "score": "mahalanobis",
+      "budget": 512,
+      "delay": 7,
+      "gamma": 0.001,
+      "mean_daily_frr": 0.05427524788984577,
+      "mean_daily_positive_excess": 0.01942102765379612,
+      "mean_absolute_target_deviation": 0.03456680741774647
+    },
+    {
+      "variant": "raw",
+      "score": "mahalanobis",
+      "budget": 512,
+      "delay": 7,
+      "gamma": 0.01,
+      "mean_daily_frr": 0.0605194631393293,
+      "mean_daily_positive_excess": 0.050876155523067484,
+      "mean_absolute_target_deviation": 0.09123284790680566
+    },
+    {
+      "variant": "reference",
+      "score": "negative_energy",
+      "budget": 32,
+      "delay": 1,
+      "gamma": 0.0001,
+      "mean_daily_frr": 0.05128305087868319,
+      "mean_daily_positive_excess": 0.00655913534416447,
+      "mean_absolute_target_deviation": 0.01183521980964575
+    },
+    {
+      "variant": "reference",
+      "score": "negative_energy",
+      "budget": 32,
+      "delay": 1,
+      "gamma": 0.001,
+      "mean_daily_frr": 0.0530962036579067,
+      "mean_daily_positive_excess": 0.007576272076864979,
+      "mean_absolute_target_deviation": 0.012056340495823258
+    },
+    {
+      "variant": "reference",
+      "score": "negative_energy",
+      "budget": 32,
+      "delay": 1,
+      "gamma": 0.01,
+      "mean_daily_frr": 0.05255449354185133,
+      "mean_daily_positive_excess": 0.010161415237351097,
+      "mean_absolute_target_deviation": 0.01776833693285087
+    },
+    {
+      "variant": "reference",
+      "score": "negative_energy",
+      "budget": 32,
+      "delay": 7,
+      "gamma": 0.0001,
+      "mean_daily_frr": 0.05144677108772341,
+      "mean_daily_positive_excess": 0.006938468596566403,
+      "mean_absolute_target_deviation": 0.012430166105409401
+    },
+    {
+      "variant": "reference",
+      "score": "negative_energy",
+      "budget": 32,
+      "delay": 7,
+      "gamma": 0.001,
+      "mean_daily_frr": 0.052103287707868914,
+      "mean_daily_positive_excess": 0.0073179041545969005,
+      "mean_absolute_target_deviation": 0.01253252060132489
+    },
+    {
+      "variant": "reference",
+      "score": "negative_energy",
+      "budget": 32,
+      "delay": 7,
+      "gamma": 0.01,
+      "mean_daily_frr": 0.05101985314122855,
+      "mean_daily_positive_excess": 0.014596934361650778,
+      "mean_absolute_target_deviation": 0.02817401558207301
+    },
+    {
+      "variant": "reference",
+      "score": "negative_energy",
+      "budget": 128,
+      "delay": 1,
+      "gamma": 0.0001,
+      "mean_daily_frr": 0.050812530523159656,
+      "mean_daily_positive_excess": 0.005108412152900238,
+      "mean_absolute_target_deviation": 0.009404293782640823
+    },
+    {
+      "variant": "reference",
+      "score": "negative_energy",
+      "budget": 128,
+      "delay": 1,
+      "gamma": 0.001,
+      "mean_daily_frr": 0.050196886062765525,
+      "mean_daily_positive_excess": 0.0049987468247576425,
+      "mean_absolute_target_deviation": 0.009800607586749763
+    },
+    {
+      "variant": "reference",
+      "score": "negative_energy",
+      "budget": 128,
+      "delay": 1,
+      "gamma": 0.01,
+      "mean_daily_frr": 0.048272245987057864,
+      "mean_daily_positive_excess": 0.008038821706191383,
+      "mean_absolute_target_deviation": 0.017805397425324904
+    },
+    {
+      "variant": "reference",
+      "score": "negative_energy",
+      "budget": 128,
+      "delay": 7,
+      "gamma": 0.0001,
+      "mean_daily_frr": 0.05148766912149244,
+      "mean_daily_positive_excess": 0.005675875730441371,
+      "mean_absolute_target_deviation": 0.009864082339390304
+    },
+    {
+      "variant": "reference",
+      "score": "negative_energy",
+      "budget": 128,
+      "delay": 7,
+      "gamma": 0.001,
+      "mean_daily_frr": 0.04953716930136749,
+      "mean_daily_positive_excess": 0.005551925388185459,
+      "mean_absolute_target_deviation": 0.011566681475003428
+    },
+    {
+      "variant": "reference",
+      "score": "negative_energy",
+      "budget": 128,
+      "delay": 7,
+      "gamma": 0.01,
+      "mean_daily_frr": 0.05284931276867019,
+      "mean_daily_positive_excess": 0.032870914056279135,
+      "mean_absolute_target_deviation": 0.06289251534388808
+    },
+    {
+      "variant": "reference",
+      "score": "negative_energy",
+      "budget": 512,
+      "delay": 1,
+      "gamma": 0.0001,
+      "mean_daily_frr": 0.05178200166483578,
+      "mean_daily_positive_excess": 0.005318265669089891,
+      "mean_absolute_target_deviation": 0.008854529673344007
+    },
+    {
+      "variant": "reference",
+      "score": "negative_energy",
+      "budget": 512,
+      "delay": 1,
+      "gamma": 0.001,
+      "mean_daily_frr": 0.04980214558241671,
+      "mean_daily_positive_excess": 0.0043336135385946516,
+      "mean_absolute_target_deviation": 0.008865081494772595
+    },
+    {
+      "variant": "reference",
+      "score": "negative_energy",
+      "budget": 512,
+      "delay": 1,
+      "gamma": 0.01,
+      "mean_daily_frr": 0.05043907731777402,
+      "mean_daily_positive_excess": 0.02504810466673975,
+      "mean_absolute_target_deviation": 0.04965713201570548
+    },
+    {
+      "variant": "reference",
+      "score": "negative_energy",
+      "budget": 512,
+      "delay": 7,
+      "gamma": 0.0001,
+      "mean_daily_frr": 0.05313557968582809,
+      "mean_daily_positive_excess": 0.006241128246456225,
+      "mean_absolute_target_deviation": 0.009346676807084361
+    },
+    {
+      "variant": "reference",
+      "score": "negative_energy",
+      "budget": 512,
+      "delay": 7,
+      "gamma": 0.001,
+      "mean_daily_frr": 0.04965596761003418,
+      "mean_daily_positive_excess": 0.011044889310338209,
+      "mean_absolute_target_deviation": 0.022433811010642242
+    },
+    {
+      "variant": "reference",
+      "score": "negative_energy",
+      "budget": 512,
+      "delay": 7,
+      "gamma": 0.01,
+      "mean_daily_frr": 0.06771355372216728,
+      "mean_daily_positive_excess": 0.05552441603578659,
+      "mean_absolute_target_deviation": 0.0933352783494059
+    },
+    {
+      "variant": "reference",
+      "score": "one_minus_msp",
+      "budget": 32,
+      "delay": 1,
+      "gamma": 0.0001,
+      "mean_daily_frr": 0.052361906232774626,
+      "mean_daily_positive_excess": 0.005891961723654154,
+      "mean_absolute_target_deviation": 0.009422017214533686
+    },
+    {
+      "variant": "reference",
+      "score": "one_minus_msp",
+      "budget": 32,
+      "delay": 1,
+      "gamma": 0.001,
+      "mean_daily_frr": 0.05237178348510268,
+      "mean_daily_positive_excess": 0.006313384349757808,
+      "mean_absolute_target_deviation": 0.01025498521441294
+    },
+    {
+      "variant": "reference",
+      "score": "one_minus_msp",
+      "budget": 32,
+      "delay": 1,
+      "gamma": 0.01,
+      "mean_daily_frr": 0.05174189304970438,
+      "mean_daily_positive_excess": 0.009472982680169488,
+      "mean_absolute_target_deviation": 0.017204072310634602
+    },
+    {
+      "variant": "reference",
+      "score": "one_minus_msp",
+      "budget": 32,
+      "delay": 7,
+      "gamma": 0.0001,
+      "mean_daily_frr": 0.052888483394601726,
+      "mean_daily_positive_excess": 0.006553310942196666,
+      "mean_absolute_target_deviation": 0.010218138489791608
+    },
+    {
+      "variant": "reference",
+      "score": "one_minus_msp",
+      "budget": 32,
+      "delay": 7,
+      "gamma": 0.001,
+      "mean_daily_frr": 0.05302176094602937,
+      "mean_daily_positive_excess": 0.007331586814574832,
+      "mean_absolute_target_deviation": 0.0116414126831203
+    },
+    {
+      "variant": "reference",
+      "score": "one_minus_msp",
+      "budget": 32,
+      "delay": 7,
+      "gamma": 0.01,
+      "mean_daily_frr": 0.05107642954346077,
+      "mean_daily_positive_excess": 0.013616562972342768,
+      "mean_absolute_target_deviation": 0.02615669640122477
+    },
+    {
+      "variant": "reference",
+      "score": "one_minus_msp",
+      "budget": 128,
+      "delay": 1,
+      "gamma": 0.0001,
+      "mean_daily_frr": 0.05208136145865276,
+      "mean_daily_positive_excess": 0.005204533781562282,
+      "mean_absolute_target_deviation": 0.008327706104471805
+    },
+    {
+      "variant": "reference",
+      "score": "one_minus_msp",
+      "budget": 128,
+      "delay": 1,
+      "gamma": 0.001,
+      "mean_daily_frr": 0.05041242527779561,
+      "mean_daily_positive_excess": 0.0045483470393439165,
+      "mean_absolute_target_deviation": 0.008684268800892226
+    },
+    {
+      "variant": "reference",
+      "score": "one_minus_msp",
+      "budget": 128,
+      "delay": 1,
+      "gamma": 0.01,
+      "mean_daily_frr": 0.050318039909908525,
+      "mean_daily_positive_excess": 0.009071662606376932,
+      "mean_absolute_target_deviation": 0.017825285302845342
+    },
+    {
+      "variant": "reference",
+      "score": "one_minus_msp",
+      "budget": 128,
+      "delay": 7,
+      "gamma": 0.0001,
+      "mean_daily_frr": 0.052950068719960566,
+      "mean_daily_positive_excess": 0.005896730809988847,
+      "mean_absolute_target_deviation": 0.00884339290001713
+    },
+    {
+      "variant": "reference",
+      "score": "one_minus_msp",
+      "budget": 128,
+      "delay": 7,
+      "gamma": 0.001,
+      "mean_daily_frr": 0.05107980237174452,
+      "mean_daily_positive_excess": 0.005341584061987531,
+      "mean_absolute_target_deviation": 0.009603365752230548
+    },
+    {
+      "variant": "reference",
+      "score": "one_minus_msp",
+      "budget": 128,
+      "delay": 7,
+      "gamma": 0.01,
+      "mean_daily_frr": 0.04863883201658479,
+      "mean_daily_positive_excess": 0.02949455535146019,
+      "mean_absolute_target_deviation": 0.06035027868633559
+    },
+    {
+      "variant": "reference",
+      "score": "one_minus_msp",
+      "budget": 512,
+      "delay": 1,
+      "gamma": 0.0001,
+      "mean_daily_frr": 0.05058771203814008,
+      "mean_daily_positive_excess": 0.0039526060452273444,
+      "mean_absolute_target_deviation": 0.00731750005231461
+    },
+    {
+      "variant": "reference",
+      "score": "one_minus_msp",
+      "budget": 512,
+      "delay": 1,
+      "gamma": 0.001,
+      "mean_daily_frr": 0.04930874126443269,
+      "mean_daily_positive_excess": 0.00384120448908622,
+      "mean_absolute_target_deviation": 0.008373667713739756
+    },
+    {
+      "variant": "reference",
+      "score": "one_minus_msp",
+      "budget": 512,
+      "delay": 1,
+      "gamma": 0.01,
+      "mean_daily_frr": 0.04952024994137845,
+      "mean_daily_positive_excess": 0.024206204340556495,
+      "mean_absolute_target_deviation": 0.04889215873973454
+    },
+    {
+      "variant": "reference",
+      "score": "one_minus_msp",
+      "budget": 512,
+      "delay": 7,
+      "gamma": 0.0001,
+      "mean_daily_frr": 0.051079112206190665,
+      "mean_daily_positive_excess": 0.004477790526547307,
+      "mean_absolute_target_deviation": 0.007876468846903953
+    },
+    {
+      "variant": "reference",
+      "score": "one_minus_msp",
+      "budget": 512,
+      "delay": 7,
+      "gamma": 0.001,
+      "mean_daily_frr": 0.04917684496420716,
+      "mean_daily_positive_excess": 0.013500027743409563,
+      "mean_absolute_target_deviation": 0.027823210522611965
+    },
+    {
+      "variant": "reference",
+      "score": "one_minus_msp",
+      "budget": 512,
+      "delay": 7,
+      "gamma": 0.01,
+      "mean_daily_frr": 0.05666352442571542,
+      "mean_daily_positive_excess": 0.046408008903443654,
+      "mean_absolute_target_deviation": 0.0861524933811719
+    },
+    {
+      "variant": "reference",
+      "score": "mahalanobis",
+      "budget": 32,
+      "delay": 1,
+      "gamma": 0.0001,
+      "mean_daily_frr": 0.05169566840856508,
+      "mean_daily_positive_excess": 0.007106734266487372,
+      "mean_absolute_target_deviation": 0.012517800124409669
+    },
+    {
+      "variant": "reference",
+      "score": "mahalanobis",
+      "budget": 32,
+      "delay": 1,
+      "gamma": 0.001,
+      "mean_daily_frr": 0.052226156575692725,
+      "mean_daily_positive_excess": 0.00786120933293557,
+      "mean_absolute_target_deviation": 0.013496262090178419
+    },
+    {
+      "variant": "reference",
+      "score": "mahalanobis",
+      "budget": 32,
+      "delay": 1,
+      "gamma": 0.01,
+      "mean_daily_frr": 0.0497265810999726,
+      "mean_daily_positive_excess": 0.009986468231587282,
+      "mean_absolute_target_deviation": 0.02024635536320197
+    },
+    {
+      "variant": "reference",
+      "score": "mahalanobis",
+      "budget": 32,
+      "delay": 7,
+      "gamma": 0.0001,
+      "mean_daily_frr": 0.05272161946017221,
+      "mean_daily_positive_excess": 0.007907180126518521,
+      "mean_absolute_target_deviation": 0.013092740792864835
+    },
+    {
+      "variant": "reference",
+      "score": "mahalanobis",
+      "budget": 32,
+      "delay": 7,
+      "gamma": 0.001,
+      "mean_daily_frr": 0.05191434407086001,
+      "mean_daily_positive_excess": 0.008491957213967635,
+      "mean_absolute_target_deviation": 0.015069570357075259
+    },
+    {
+      "variant": "reference",
+      "score": "mahalanobis",
+      "budget": 32,
+      "delay": 7,
+      "gamma": 0.01,
+      "mean_daily_frr": 0.05217858977107323,
+      "mean_daily_positive_excess": 0.018453826708110122,
+      "mean_absolute_target_deviation": 0.03472906364514702
+    },
+    {
+      "variant": "reference",
+      "score": "mahalanobis",
+      "budget": 128,
+      "delay": 1,
+      "gamma": 0.0001,
+      "mean_daily_frr": 0.05010965024753145,
+      "mean_daily_positive_excess": 0.004291329662565364,
+      "mean_absolute_target_deviation": 0.008473009077599278
+    },
+    {
+      "variant": "reference",
+      "score": "mahalanobis",
+      "budget": 128,
+      "delay": 1,
+      "gamma": 0.001,
+      "mean_daily_frr": 0.04936144761665869,
+      "mean_daily_positive_excess": 0.004215261865342723,
+      "mean_absolute_target_deviation": 0.009069076114026757
+    },
+    {
+      "variant": "reference",
+      "score": "mahalanobis",
+      "budget": 128,
+      "delay": 1,
+      "gamma": 0.01,
+      "mean_daily_frr": 0.0491857323942521,
+      "mean_daily_positive_excess": 0.008326763530903582,
+      "mean_absolute_target_deviation": 0.01746779466755507
+    },
+    {
+      "variant": "reference",
+      "score": "mahalanobis",
+      "budget": 128,
+      "delay": 7,
+      "gamma": 0.0001,
+      "mean_daily_frr": 0.0508952838913876,
+      "mean_daily_positive_excess": 0.004953984354835896,
+      "mean_absolute_target_deviation": 0.009012684818284192
+    },
+    {
+      "variant": "reference",
+      "score": "mahalanobis",
+      "budget": 128,
+      "delay": 7,
+      "gamma": 0.001,
+      "mean_daily_frr": 0.04890322583637084,
+      "mean_daily_positive_excess": 0.005095960963329945,
+      "mean_absolute_target_deviation": 0.011288696090289051
+    },
+    {
+      "variant": "reference",
+      "score": "mahalanobis",
+      "budget": 128,
+      "delay": 7,
+      "gamma": 0.01,
+      "mean_daily_frr": 0.05258004117769561,
+      "mean_daily_positive_excess": 0.03333138157285011,
+      "mean_absolute_target_deviation": 0.0640827219680046
+    },
+    {
+      "variant": "reference",
+      "score": "mahalanobis",
+      "budget": 512,
+      "delay": 1,
+      "gamma": 0.0001,
+      "mean_daily_frr": 0.052149886902184917,
+      "mean_daily_positive_excess": 0.005070399429142072,
+      "mean_absolute_target_deviation": 0.007990911956099231
+    },
+    {
+      "variant": "reference",
+      "score": "mahalanobis",
+      "budget": 512,
+      "delay": 1,
+      "gamma": 0.001,
+      "mean_daily_frr": 0.05067919060866073,
+      "mean_daily_positive_excess": 0.0049422318422873476,
+      "mean_absolute_target_deviation": 0.009205273075913966
+    },
+    {
+      "variant": "reference",
+      "score": "mahalanobis",
+      "budget": 512,
+      "delay": 1,
+      "gamma": 0.01,
+      "mean_daily_frr": 0.04993998230438929,
+      "mean_daily_positive_excess": 0.023719926113207397,
+      "mean_absolute_target_deviation": 0.047499869922025505
+    },
+    {
+      "variant": "reference",
+      "score": "mahalanobis",
+      "budget": 512,
+      "delay": 7,
+      "gamma": 0.0001,
+      "mean_daily_frr": 0.05280809903805581,
+      "mean_daily_positive_excess": 0.005480283599513009,
+      "mean_absolute_target_deviation": 0.008152468160970209
+    },
+    {
+      "variant": "reference",
+      "score": "mahalanobis",
+      "budget": 512,
+      "delay": 7,
+      "gamma": 0.001,
+      "mean_daily_frr": 0.054819297378941804,
+      "mean_daily_positive_excess": 0.020717893719168042,
+      "mean_absolute_target_deviation": 0.03661649005939428
+    },
+    {
+      "variant": "reference",
+      "score": "mahalanobis",
+      "budget": 512,
+      "delay": 7,
+      "gamma": 0.01,
+      "mean_daily_frr": 0.06133955616653888,
+      "mean_daily_positive_excess": 0.05163536320705166,
+      "mean_absolute_target_deviation": 0.09193117024756443
+    }
+  ],
+  "confirmation_scores_read": false
+}

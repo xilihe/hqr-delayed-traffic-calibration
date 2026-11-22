@@ -1,0 +1,71 @@
+{
+  "status": "DEVELOPMENT_REVIEW_COMPLETE_NO_CONFIRMATION_FLOW_ACCESS",
+  "selected_candidate": "Historical predicted-class 95th-quantile recentering followed by one shared rolling quantile (HQR).",
+  "selection_reason": "The single historical offset matches the multi-anchor candidate at the primary development setting and uses a simpler mapping. General conditional-quantile rectification is established by Plassier et al. (ICML2025).",
+  "primary_setting": {
+    "score": "negative_energy",
+    "budget_per_day": 32,
+    "delay_days": 7
+  },
+  "formal_confirmation_performed": false,
+  "protected_future_flow_tables_read": [],
+  "findings": {
+    "raw|all": {
+      "mean_daily_known_frr": 0.05177667430156334,
+      "period_known_macro_rejection": 0.04220977228849128,
+      "period_heldout_macro_rejection": 0.15673754905450413,
+      "period_background_macro_rejection": 0.14966330815277565,
+      "period_known_correct_accepted": 0.7531064619152684
+    },
+    "raw|input_disjoint": {
+      "mean_daily_known_frr": 0.047258537818388,
+      "period_known_macro_rejection": 0.03827918023886057,
+      "period_heldout_macro_rejection": 0.15198965092652073,
+      "period_background_macro_rejection": 0.1477568648004271,
+      "period_known_correct_accepted": 0.7570385818561001
+    },
+    "multi_anchor|all": {
+      "mean_daily_known_frr": 0.05140555952569537,
+      "period_known_macro_rejection": 0.04079810905818622,
+      "period_heldout_macro_rejection": 0.15662003361021937,
+      "period_background_macro_rejection": 0.1994699458429037,
+      "period_known_correct_accepted": 0.7482825352389538
+    },
+    "multi_anchor|input_disjoint": {
+      "mean_daily_known_frr": 0.048592956998982084,
+      "period_known_macro_rejection": 0.03850448873139734,
+      "period_heldout_macro_rejection": 0.1526016250590175,
+      "period_background_macro_rejection": 0.19779371689051845,
+      "period_known_correct_accepted": 0.7521235582635325
+    },
+    "historical_recenter|all": {
+      "mean_daily_known_frr": 0.05133661769908924,
+      "period_known_macro_rejection": 0.04076872127197892,
+      "period_heldout_macro_rejection": 0.15714516488701946,
+      "period_background_macro_rejection": 0.2006366025648588,
+      "period_known_correct_accepted": 0.7482520326580966
+    },
+    "historical_recenter|input_disjoint": {
+      "mean_daily_known_frr": 0.0484875437150431,
+      "period_known_macro_rejection": 0.03844388582035053,
+      "period_heldout_macro_rejection": 0.15311922404925055,
+      "period_background_macro_rejection": 0.19892819028091305,
+      "period_known_correct_accepted": 0.752095160854285
+    }
+  },
+  "source_files": [
+    {
+      "path": "outputs/pilot-transformer-v1/period-summary.csv",
+      "sha256": "6b619d097a8e08458ea03cf0edee64daf3dc474cac22365a61e4a58093468935"
+    },
+    {
+      "path": "outputs/pilot-transformer-rqp-v1/period-summary.csv",
+      "sha256": "0e2027a57fae9c49ddbd5062e4aefd6264639f86ae97f9ff48626a3b854dd695"
+    },
+    {
+      "path": "outputs/pilot-transformer-shift-v1/period-summary.csv",
+      "sha256": "6396db46e77937e633c81290517939683363efc8fc70ac2d634bc63181690634"
+    }
+  ],
+  "interpretation": "The development gain is concentrated in the three official background groups; period-level held-out-service detection is essentially unchanged. Daily macro and period macro estimands must not be conflated. This is a bounded application study under shared budgets and delays, not a claim to invent generic calibration, information sharing, delayed ACI or score rectification."
+}

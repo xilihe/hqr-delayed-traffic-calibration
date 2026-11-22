@@ -1,0 +1,76 @@
+\footnotesize
+\begin{longtable}{lllrrr}
+\caption{Paired primary contrasts under different calendar-block lengths. Differences and percentile 95\% intervals use percentage points and 2,000 resamples. Every contrast is HQR minus the named comparator. All means use the nine fixed model/audit cells. The input-disjoint view keeps the same decisions and requests.}\label{tab:block-sensitivity}\\
+
+\toprule
+View & Comparator & Outcome & Block & Difference & 95\% interval \\
+\midrule\endfirsthead
+\multicolumn{6}{l}{\tablename~\thetable\ (continued)}\\
+\toprule View & Comparator & Outcome & Block & Difference & 95\% interval \\ \midrule\endhead
+\bottomrule\endfoot
+All & Rolling global & Known FRR & 7 & +0.098 & [-0.186, +0.469] \\
+All & Rolling global & Known FRR & 28 & +0.098 & [-0.208, +0.501] \\
+All & Rolling global & Known FRR & 56 & +0.098 & [-0.109, +0.444] \\
+\addlinespace
+All & Rolling global & Background & 7 & +3.445 & [+2.856, +4.103] \\
+All & Rolling global & Background & 28 & +3.445 & [+2.536, +4.586] \\
+All & Rolling global & Background & 56 & +3.445 & [+2.382, +4.842] \\
+\addlinespace
+All & Rolling global & Held-out & 7 & -2.004 & [-2.818, -1.104] \\
+All & Rolling global & Held-out & 28 & -2.004 & [-3.442, -0.348] \\
+All & Rolling global & Held-out & 56 & -2.004 & [-3.666, +0.128] \\
+\addlinespace
+All & Rolling global & Correct/accepted & 7 & -0.306 & [-0.477, -0.173] \\
+All & Rolling global & Correct/accepted & 28 & -0.306 & [-0.471, -0.168] \\
+All & Rolling global & Correct/accepted & 56 & -0.306 & [-0.455, -0.196] \\
+\addlinespace
+All & Multi-anchor & Known FRR & 7 & -0.032 & [-0.069, +0.014] \\
+All & Multi-anchor & Known FRR & 28 & -0.032 & [-0.057, +0.029] \\
+All & Multi-anchor & Known FRR & 56 & -0.032 & [-0.049, +0.022] \\
+\addlinespace
+All & Multi-anchor & Background & 7 & +0.181 & [+0.088, +0.289] \\
+All & Multi-anchor & Background & 28 & +0.181 & [+0.086, +0.356] \\
+All & Multi-anchor & Background & 56 & +0.181 & [+0.088, +0.346] \\
+\addlinespace
+All & Multi-anchor & Held-out & 7 & +0.199 & [+0.009, +0.376] \\
+All & Multi-anchor & Held-out & 28 & +0.199 & [+0.086, +0.377] \\
+All & Multi-anchor & Held-out & 56 & +0.199 & [+0.137, +0.350] \\
+\addlinespace
+All & Multi-anchor & Correct/accepted & 7 & -0.019 & [-0.036, -0.005] \\
+All & Multi-anchor & Correct/accepted & 28 & -0.019 & [-0.041, -0.009] \\
+All & Multi-anchor & Correct/accepted & 56 & -0.019 & [-0.031, -0.013] \\
+\addlinespace
+Disjoint & Rolling global & Known FRR & 7 & +0.117 & [-0.169, +0.487] \\
+Disjoint & Rolling global & Known FRR & 28 & +0.117 & [-0.186, +0.521] \\
+Disjoint & Rolling global & Known FRR & 56 & +0.117 & [-0.087, +0.466] \\
+\addlinespace
+Disjoint & Rolling global & Background & 7 & +3.447 & [+2.856, +4.105] \\
+Disjoint & Rolling global & Background & 28 & +3.447 & [+2.536, +4.593] \\
+Disjoint & Rolling global & Background & 56 & +3.447 & [+2.370, +4.848] \\
+\addlinespace
+Disjoint & Rolling global & Held-out & 7 & -1.971 & [-2.782, -1.080] \\
+Disjoint & Rolling global & Held-out & 28 & -1.971 & [-3.413, -0.329] \\
+Disjoint & Rolling global & Held-out & 56 & -1.971 & [-3.648, +0.137] \\
+\addlinespace
+Disjoint & Rolling global & Correct/accepted & 7 & -0.307 & [-0.478, -0.174] \\
+Disjoint & Rolling global & Correct/accepted & 28 & -0.307 & [-0.473, -0.168] \\
+Disjoint & Rolling global & Correct/accepted & 56 & -0.307 & [-0.457, -0.198] \\
+\addlinespace
+Disjoint & Multi-anchor & Known FRR & 7 & -0.032 & [-0.069, +0.015] \\
+Disjoint & Multi-anchor & Known FRR & 28 & -0.032 & [-0.056, +0.029] \\
+Disjoint & Multi-anchor & Known FRR & 56 & -0.032 & [-0.049, +0.022] \\
+\addlinespace
+Disjoint & Multi-anchor & Background & 7 & +0.183 & [+0.090, +0.291] \\
+Disjoint & Multi-anchor & Background & 28 & +0.183 & [+0.087, +0.359] \\
+Disjoint & Multi-anchor & Background & 56 & +0.183 & [+0.089, +0.347] \\
+\addlinespace
+Disjoint & Multi-anchor & Held-out & 7 & +0.210 & [+0.023, +0.380] \\
+Disjoint & Multi-anchor & Held-out & 28 & +0.210 & [+0.092, +0.384] \\
+Disjoint & Multi-anchor & Held-out & 56 & +0.210 & [+0.145, +0.352] \\
+\addlinespace
+Disjoint & Multi-anchor & Correct/accepted & 7 & -0.019 & [-0.036, -0.006] \\
+Disjoint & Multi-anchor & Correct/accepted & 28 & -0.019 & [-0.041, -0.009] \\
+Disjoint & Multi-anchor & Correct/accepted & 56 & -0.019 & [-0.031, -0.013] \\
+\addlinespace
+\end{longtable}
+\normalsize

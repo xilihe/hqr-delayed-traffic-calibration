@@ -1,0 +1,21 @@
+\begin{table}[tb]
+\centering
+\small
+\caption{Frozen primary comparison: energy score, a daily budget of 32 labels and a seven-day delay. Rates (\%) average the three source-model seeds and three common audit streams on the same traffic. Known false rejection and correct-and-accepted rates average dates; unknown detection uses period-level true-class macros. Static rules request zero deployment labels.}
+\label{tab:primary}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrr}
+\toprule
+Calibration & \shortstack{Known\\FRR} & \shortstack{Background\\detection} & \shortstack{Held-out\\detection} & \shortstack{Correct and\\accepted} \\
+\midrule
+\textbf{HQR} & 5.19 & 20.35 & 15.41 & 68.21 \\
+Rolling global & 5.10 & 16.90 & 17.42 & 68.52 \\
+Delayed ACI & 5.14 & 16.95 & 17.51 & 68.50 \\
+Rolling classwise & 4.64 & 17.00 & 13.88 & 68.62 \\
+Threshold shrinkage & 4.66 & 16.52 & 16.20 & 68.75 \\
+Fixed classwise & 7.87 & 25.63 & 20.67 & 67.00 \\
+Fixed global & 5.33 & 17.33 & 17.65 & 68.47 \\
+Multi-anchor & 5.23 & 20.16 & 15.21 & 68.23 \\
+\bottomrule
+\end{tabular}
+\end{table}

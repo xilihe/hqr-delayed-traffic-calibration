@@ -1,0 +1,10 @@
+{
+  "status": "PASS_SEALED_DEVELOPMENT_SELECTION_REGENERATED",
+  "same_semantic_content": true,
+  "same_bytes": true,
+  "original_sha256": "0e29aa7350ef63d987c11dd29f607c8605e1c203ee0abc70d47b86aa7289782e",
+  "reproduced_sha256": "0e29aa7350ef63d987c11dd29f607c8605e1c203ee0abc70d47b86aa7289782e",
+  "source_script": "scripts/select_aci.py",
+  "script_added_after_original_freeze_for_packaging_only": true,
+  "confirmation_data_read": false
+}

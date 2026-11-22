@@ -1,0 +1,1547 @@
+{
+  "status": "METADATA_ONLY_NO_FLOW_ROWS_READ",
+  "dataset_url": "https://liberouter.org/datazoo/download?bucket=cesnet-quicext-25&file=CESNET-QUICEXT-25-XS.h5",
+  "bytes": 3544625537,
+  "sha256": "6b323c4c53b7c9d0ec9011f895b3c5ba6b35247576e41ef19fe84ab8632810ab",
+  "tables": [
+    {
+      "path": "/flows/D20240601",
+      "rows": 768
+    },
+    {
+      "path": "/flows/D20240602",
+      "rows": 790
+    },
+    {
+      "path": "/flows/D20240603",
+      "rows": 1816
+    },
+    {
+      "path": "/flows/D20240604",
+      "rows": 1855
+    },
+    {
+      "path": "/flows/D20240605",
+      "rows": 1748
+    },
+    {
+      "path": "/flows/D20240606",
+      "rows": 1619
+    },
+    {
+      "path": "/flows/D20240607",
+      "rows": 4189
+    },
+    {
+      "path": "/flows/D20240608",
+      "rows": 14924
+    },
+    {
+      "path": "/flows/D20240609",
+      "rows": 16061
+    },
+    {
+      "path": "/flows/D20240610",
+      "rows": 37498
+    },
+    {
+      "path": "/flows/D20240611",
+      "rows": 37349
+    },
+    {
+      "path": "/flows/D20240612",
+      "rows": 30912
+    },
+    {
+      "path": "/flows/D20240613",
+      "rows": 35296
+    },
+    {
+      "path": "/flows/D20240614",
+      "rows": 31404
+    },
+    {
+      "path": "/flows/D20240615",
+      "rows": 14206
+    },
+    {
+      "path": "/flows/D20240616",
+      "rows": 14776
+    },
+    {
+      "path": "/flows/D20240617",
+      "rows": 36412
+    },
+    {
+      "path": "/flows/D20240618",
+      "rows": 35821
+    },
+    {
+      "path": "/flows/D20240619",
+      "rows": 35264
+    },
+    {
+      "path": "/flows/D20240620",
+      "rows": 33328
+    },
+    {
+      "path": "/flows/D20240621",
+      "rows": 28411
+    },
+    {
+      "path": "/flows/D20240622",
+      "rows": 12898
+    },
+    {
+      "path": "/flows/D20240623",
+      "rows": 13645
+    },
+    {
+      "path": "/flows/D20240624",
+      "rows": 33016
+    },
+    {
+      "path": "/flows/D20240625",
+      "rows": 32316
+    },
+    {
+      "path": "/flows/D20240626",
+      "rows": 31064
+    },
+    {
+      "path": "/flows/D20240627",
+      "rows": 29621
+    },
+    {
+      "path": "/flows/D20240628",
+      "rows": 23258
+    },
+    {
+      "path": "/flows/D20240629",
+      "rows": 10169
+    },
+    {
+      "path": "/flows/D20240630",
+      "rows": 10358
+    },
+    {
+      "path": "/flows/D20240701",
+      "rows": 22502
+    },
+    {
+      "path": "/flows/D20240702",
+      "rows": 21651
+    },
+    {
+      "path": "/flows/D20240703",
+      "rows": 21129
+    },
+    {
+      "path": "/flows/D20240704",
+      "rows": 18882
+    },
+    {
+      "path": "/flows/D20240705",
+      "rows": 9707
+    },
+    {
+      "path": "/flows/D20240706",
+      "rows": 9159
+    },
+    {
+      "path": "/flows/D20240707",
+      "rows": 9124
+    },
+    {
+      "path": "/flows/D20240708",
+      "rows": 20912
+    },
+    {
+      "path": "/flows/D20240709",
+      "rows": 21666
+    },
+    {
+      "path": "/flows/D20240710",
+      "rows": 20662
+    },
+    {
+      "path": "/flows/D20240711",
+      "rows": 20091
+    },
+    {
+      "path": "/flows/D20240712",
+      "rows": 17685
+    },
+    {
+      "path": "/flows/D20240713",
+      "rows": 8993
+    },
+    {
+      "path": "/flows/D20240714",
+      "rows": 9075
+    },
+    {
+      "path": "/flows/D20240715",
+      "rows": 20466
+    },
+    {
+      "path": "/flows/D20240716",
+      "rows": 20653
+    },
+    {
+      "path": "/flows/D20240717",
+      "rows": 20627
+    },
+    {
+      "path": "/flows/D20240718",
+      "rows": 19677
+    },
+    {
+      "path": "/flows/D20240719",
+      "rows": 17160
+    },
+    {
+      "path": "/flows/D20240720",
+      "rows": 9235
+    },
+    {
+      "path": "/flows/D20240721",
+      "rows": 9237
+    },
+    {
+      "path": "/flows/D20240722",
+      "rows": 20651
+    },
+    {
+      "path": "/flows/D20240723",
+      "rows": 20647
+    },
+    {
+      "path": "/flows/D20240724",
+      "rows": 20485
+    },
+    {
+      "path": "/flows/D20240725",
+      "rows": 19564
+    },
+    {
+      "path": "/flows/D20240726",
+      "rows": 17125
+    },
+    {
+      "path": "/flows/D20240727",
+      "rows": 9066
+    },
+    {
+      "path": "/flows/D20240728",
+      "rows": 8899
+    },
+    {
+      "path": "/flows/D20240729",
+      "rows": 19844
+    },
+    {
+      "path": "/flows/D20240730",
+      "rows": 20006
+    },
+    {
+      "path": "/flows/D20240731",
+      "rows": 19603
+    },
+    {
+      "path": "/flows/D20240801",
+      "rows": 19068
+    },
+    {
+      "path": "/flows/D20240802",
+      "rows": 17246
+    },
+    {
+      "path": "/flows/D20240803",
+      "rows": 8808
+    },
+    {
+      "path": "/flows/D20240804",
+      "rows": 9185
+    },
+    {
+      "path": "/flows/D20240805",
+      "rows": 20439
+    },
+    {
+      "path": "/flows/D20240806",
+      "rows": 20359
+    },
+    {
+      "path": "/flows/D20240807",
+      "rows": 19997
+    },
+    {
+      "path": "/flows/D20240808",
+      "rows": 19717
+    },
+    {
+      "path": "/flows/D20240809",
+      "rows": 17130
+    },
+    {
+      "path": "/flows/D20240810",
+      "rows": 8903
+    },
+    {
+      "path": "/flows/D20240811",
+      "rows": 9061
+    },
+    {
+      "path": "/flows/D20240812",
+      "rows": 20148
+    },
+    {
+      "path": "/flows/D20240813",
+      "rows": 20448
+    },
+    {
+      "path": "/flows/D20240814",
+      "rows": 19916
+    },
+    {
+      "path": "/flows/D20240815",
+      "rows": 19592
+    },
+    {
+      "path": "/flows/D20240816",
+      "rows": 17098
+    },
+    {
+      "path": "/flows/D20240817",
+      "rows": 9203
+    },
+    {
+      "path": "/flows/D20240818",
+      "rows": 9617
+    },
+    {
+      "path": "/flows/D20240819",
+      "rows": 21672
+    },
+    {
+      "path": "/flows/D20240820",
+      "rows": 22246
+    },
+    {
+      "path": "/flows/D20240821",
+      "rows": 21723
+    },
+    {
+      "path": "/flows/D20240822",
+      "rows": 22144
+    },
+    {
+      "path": "/flows/D20240823",
+      "rows": 18888
+    },
+    {
+      "path": "/flows/D20240824",
+      "rows": 9500
+    },
+    {
+      "path": "/flows/D20240825",
+      "rows": 9927
+    },
+    {
+      "path": "/flows/D20240826",
+      "rows": 24171
+    },
+    {
+      "path": "/flows/D20240827",
+      "rows": 24058
+    },
+    {
+      "path": "/flows/D20240828",
+      "rows": 23820
+    },
+    {
+      "path": "/flows/D20240829",
+      "rows": 19649
+    },
+    {
+      "path": "/flows/D20240830",
+      "rows": 18450
+    },
+    {
+      "path": "/flows/D20240831",
+      "rows": 9395
+    },
+    {
+      "path": "/flows/D20240901",
+      "rows": 10556
+    },
+    {
+      "path": "/flows/D20240902",
+      "rows": 28990
+    },
+    {
+      "path": "/flows/D20240903",
+      "rows": 33724
+    },
+    {
+      "path": "/flows/D20240904",
+      "rows": 31877
+    },
+    {
+      "path": "/flows/D20240905",
+      "rows": 33253
+    },
+    {
+      "path": "/flows/D20240906",
+      "rows": 28804
+    },
+    {
+      "path": "/flows/D20240907",
+      "rows": 10725
+    },
+    {
+      "path": "/flows/D20240908",
+      "rows": 11736
+    },
+    {
+      "path": "/flows/D20240909",
+      "rows": 36063
+    },
+    {
+      "path": "/flows/D20240910",
+      "rows": 37433
+    },
+    {
+      "path": "/flows/D20240911",
+      "rows": 36680
+    },
+    {
+      "path": "/flows/D20240912",
+      "rows": 36882
+    },
+    {
+      "path": "/flows/D20240913",
+      "rows": 33855
+    },
+    {
+      "path": "/flows/D20240914",
+      "rows": 13890
+    },
+    {
+      "path": "/flows/D20240915",
+      "rows": 16158
+    },
+    {
+      "path": "/flows/D20240916",
+      "rows": 45325
+    },
+    {
+      "path": "/flows/D20240917",
+      "rows": 44942
+    },
+    {
+      "path": "/flows/D20240918",
+      "rows": 44759
+    },
+    {
+      "path": "/flows/D20240919",
+      "rows": 43478
+    },
+    {
+      "path": "/flows/D20240920",
+      "rows": 36985
+    },
+    {
+      "path": "/flows/D20240921",
+      "rows": 15698
+    },
+    {
+      "path": "/flows/D20240922",
+      "rows": 19272
+    },
+    {
+      "path": "/flows/D20240923",
+      "rows": 50703
+    },
+    {
+      "path": "/flows/D20240924",
+      "rows": 50213
+    },
+    {
+      "path": "/flows/D20240925",
+      "rows": 51510
+    },
+    {
+      "path": "/flows/D20240926",
+      "rows": 46736
+    },
+    {
+      "path": "/flows/D20240927",
+      "rows": 38114
+    },
+    {
+      "path": "/flows/D20240928",
+      "rows": 17549
+    },
+    {
+      "path": "/flows/D20240929",
+      "rows": 20812
+    },
+    {
+      "path": "/flows/D20240930",
+      "rows": 51944
+    },
+    {
+      "path": "/flows/D20241001",
+      "rows": 52538
+    },
+    {
+      "path": "/flows/D20241002",
+      "rows": 50921
+    },
+    {
+      "path": "/flows/D20241003",
+      "rows": 48970
+    },
+    {
+      "path": "/flows/D20241004",
+      "rows": 41046
+    },
+    {
+      "path": "/flows/D20241005",
+      "rows": 18374
+    },
+    {
+      "path": "/flows/D20241006",
+      "rows": 22132
+    },
+    {
+      "path": "/flows/D20241007",
+      "rows": 49979
+    },
+    {
+      "path": "/flows/D20241008",
+      "rows": 52720
+    },
+    {
+      "path": "/flows/D20241009",
+      "rows": 47356
+    },
+    {
+      "path": "/flows/D20241010",
+      "rows": 45224
+    },
+    {
+      "path": "/flows/D20241011",
+      "rows": 40771
+    },
+    {
+      "path": "/flows/D20241012",
+      "rows": 18889
+    },
+    {
+      "path": "/flows/D20241013",
+      "rows": 22398
+    },
+    {
+      "path": "/flows/D20241014",
+      "rows": 50436
+    },
+    {
+      "path": "/flows/D20241015",
+      "rows": 51868
+    },
+    {
+      "path": "/flows/D20241016",
+      "rows": 50960
+    },
+    {
+      "path": "/flows/D20241017",
+      "rows": 49880
+    },
+    {
+      "path": "/flows/D20241018",
+      "rows": 41488
+    },
+    {
+      "path": "/flows/D20241019",
+      "rows": 19988
+    },
+    {
+      "path": "/flows/D20241020",
+      "rows": 22864
+    },
+    {
+      "path": "/flows/D20241021",
+      "rows": 50957
+    },
+    {
+      "path": "/flows/D20241022",
+      "rows": 53234
+    },
+    {
+      "path": "/flows/D20241023",
+      "rows": 52727
+    },
+    {
+      "path": "/flows/D20241024",
+      "rows": 49580
+    },
+    {
+      "path": "/flows/D20241025",
+      "rows": 41051
+    },
+    {
+      "path": "/flows/D20241026",
+      "rows": 18122
+    },
+    {
+      "path": "/flows/D20241027",
+      "rows": 19110
+    },
+    {
+      "path": "/flows/D20241028",
+      "rows": 38227
+    },
+    {
+      "path": "/flows/D20241029",
+      "rows": 52122
+    },
+    {
+      "path": "/flows/D20241030",
+      "rows": 4106
+    },
+    {
+      "path": "/flows/D20241101",
+      "rows": 7611
+    },
+    {
+      "path": "/flows/D20241102",
+      "rows": 18757
+    },
+    {
+      "path": "/flows/D20241103",
+      "rows": 22745
+    },
+    {
+      "path": "/flows/D20241104",
+      "rows": 43523
+    },
+    {
+      "path": "/flows/D20241105",
+      "rows": 51365
+    },
+    {
+      "path": "/flows/D20241106",
+      "rows": 53560
+    },
+    {
+      "path": "/flows/D20241107",
+      "rows": 50705
+    },
+    {
+      "path": "/flows/D20241108",
+      "rows": 44846
+    },
+    {
+      "path": "/flows/D20241109",
+      "rows": 23766
+    },
+    {
+      "path": "/flows/D20241110",
+      "rows": 29411
+    },
+    {
+      "path": "/flows/D20241111",
+      "rows": 64104
+    },
+    {
+      "path": "/flows/D20241112",
+      "rows": 56902
+    },
+    {
+      "path": "/flows/D20241113",
+      "rows": 49864
+    },
+    {
+      "path": "/flows/D20241114",
+      "rows": 51042
+    },
+    {
+      "path": "/flows/D20241115",
+      "rows": 42665
+    },
+    {
+      "path": "/flows/D20241116",
+      "rows": 20267
+    },
+    {
+      "path": "/flows/D20241117",
+      "rows": 23927
+    },
+    {
+      "path": "/flows/D20241118",
+      "rows": 50673
+    },
+    {
+      "path": "/flows/D20241119",
+      "rows": 50363
+    },
+    {
+      "path": "/flows/D20241120",
+      "rows": 50374
+    },
+    {
+      "path": "/flows/D20241121",
+      "rows": 48019
+    },
+    {
+      "path": "/flows/D20241122",
+      "rows": 41695
+    },
+    {
+      "path": "/flows/D20241123",
+      "rows": 21229
+    },
+    {
+      "path": "/flows/D20241124",
+      "rows": 24334
+    },
+    {
+      "path": "/flows/D20241125",
+      "rows": 52181
+    },
+    {
+      "path": "/flows/D20241126",
+      "rows": 52114
+    },
+    {
+      "path": "/flows/D20241127",
+      "rows": 54006
+    },
+    {
+      "path": "/flows/D20241128",
+      "rows": 52104
+    },
+    {
+      "path": "/flows/D20241129",
+      "rows": 43370
+    },
+    {
+      "path": "/flows/D20241130",
+      "rows": 20837
+    },
+    {
+      "path": "/flows/D20241201",
+      "rows": 23422
+    },
+    {
+      "path": "/flows/D20241202",
+      "rows": 51135
+    },
+    {
+      "path": "/flows/D20241203",
+      "rows": 51376
+    },
+    {
+      "path": "/flows/D20241204",
+      "rows": 56951
+    },
+    {
+      "path": "/flows/D20241205",
+      "rows": 52135
+    },
+    {
+      "path": "/flows/D20241206",
+      "rows": 36760
+    },
+    {
+      "path": "/flows/D20241207",
+      "rows": 19873
+    },
+    {
+      "path": "/flows/D20241208",
+      "rows": 22575
+    },
+    {
+      "path": "/flows/D20241209",
+      "rows": 47585
+    },
+    {
+      "path": "/flows/D20241210",
+      "rows": 4386
+    },
+    {
+      "path": "/flows/D20241215",
+      "rows": 11217
+    },
+    {
+      "path": "/flows/D20241216",
+      "rows": 42085
+    },
+    {
+      "path": "/flows/D20241217",
+      "rows": 44252
+    },
+    {
+      "path": "/flows/D20241218",
+      "rows": 42511
+    },
+    {
+      "path": "/flows/D20241219",
+      "rows": 45641
+    },
+    {
+      "path": "/flows/D20241220",
+      "rows": 28335
+    },
+    {
+      "path": "/flows/D20241221",
+      "rows": 11254
+    },
+    {
+      "path": "/flows/D20241222",
+      "rows": 10058
+    },
+    {
+      "path": "/flows/D20241223",
+      "rows": 11061
+    },
+    {
+      "path": "/flows/D20241224",
+      "rows": 8612
+    },
+    {
+      "path": "/flows/D20241225",
+      "rows": 8274
+    },
+    {
+      "path": "/flows/D20241226",
+      "rows": 9109
+    },
+    {
+      "path": "/flows/D20241227",
+      "rows": 10631
+    },
+    {
+      "path": "/flows/D20241228",
+      "rows": 9411
+    },
+    {
+      "path": "/flows/D20241229",
+      "rows": 9455
+    },
+    {
+      "path": "/flows/D20241230",
+      "rows": 12797
+    },
+    {
+      "path": "/flows/D20241231",
+      "rows": 11116
+    },
+    {
+      "path": "/flows/D20250101",
+      "rows": 10401
+    },
+    {
+      "path": "/flows/D20250102",
+      "rows": 20684
+    },
+    {
+      "path": "/flows/D20250103",
+      "rows": 22162
+    },
+    {
+      "path": "/flows/D20250104",
+      "rows": 14787
+    },
+    {
+      "path": "/flows/D20250105",
+      "rows": 17282
+    },
+    {
+      "path": "/flows/D20250106",
+      "rows": 41373
+    },
+    {
+      "path": "/flows/D20250107",
+      "rows": 48336
+    },
+    {
+      "path": "/flows/D20250108",
+      "rows": 54355
+    },
+    {
+      "path": "/flows/D20250109",
+      "rows": 52262
+    },
+    {
+      "path": "/flows/D20250110",
+      "rows": 43885
+    },
+    {
+      "path": "/flows/D20250111",
+      "rows": 19760
+    },
+    {
+      "path": "/flows/D20250112",
+      "rows": 21314
+    },
+    {
+      "path": "/flows/D20250113",
+      "rows": 51905
+    },
+    {
+      "path": "/flows/D20250114",
+      "rows": 52904
+    },
+    {
+      "path": "/flows/D20250115",
+      "rows": 50866
+    },
+    {
+      "path": "/flows/D20250116",
+      "rows": 47687
+    },
+    {
+      "path": "/flows/D20250117",
+      "rows": 39485
+    },
+    {
+      "path": "/flows/D20250118",
+      "rows": 17612
+    },
+    {
+      "path": "/flows/D20250119",
+      "rows": 18850
+    },
+    {
+      "path": "/flows/D20250120",
+      "rows": 49239
+    },
+    {
+      "path": "/flows/D20250121",
+      "rows": 49524
+    },
+    {
+      "path": "/flows/D20250122",
+      "rows": 48543
+    },
+    {
+      "path": "/flows/D20250123",
+      "rows": 46280
+    },
+    {
+      "path": "/flows/D20250124",
+      "rows": 37895
+    },
+    {
+      "path": "/flows/D20250125",
+      "rows": 15960
+    },
+    {
+      "path": "/flows/D20250126",
+      "rows": 16611
+    },
+    {
+      "path": "/flows/D20250127",
+      "rows": 44579
+    },
+    {
+      "path": "/flows/D20250128",
+      "rows": 43805
+    },
+    {
+      "path": "/flows/D20250129",
+      "rows": 40895
+    },
+    {
+      "path": "/flows/D20250130",
+      "rows": 37084
+    },
+    {
+      "path": "/flows/D20250131",
+      "rows": 26694
+    },
+    {
+      "path": "/flows/D20250201",
+      "rows": 12402
+    },
+    {
+      "path": "/flows/D20250202",
+      "rows": 13083
+    },
+    {
+      "path": "/flows/D20250203",
+      "rows": 35363
+    },
+    {
+      "path": "/flows/D20250204",
+      "rows": 35699
+    },
+    {
+      "path": "/flows/D20250205",
+      "rows": 34266
+    },
+    {
+      "path": "/flows/D20250206",
+      "rows": 30514
+    },
+    {
+      "path": "/flows/D20250207",
+      "rows": 24661
+    },
+    {
+      "path": "/flows/D20250208",
+      "rows": 11165
+    },
+    {
+      "path": "/flows/D20250209",
+      "rows": 12245
+    },
+    {
+      "path": "/flows/D20250210",
+      "rows": 35609
+    },
+    {
+      "path": "/flows/D20250211",
+      "rows": 36027
+    },
+    {
+      "path": "/flows/D20250212",
+      "rows": 34754
+    },
+    {
+      "path": "/flows/D20250213",
+      "rows": 32308
+    },
+    {
+      "path": "/flows/D20250214",
+      "rows": 24252
+    },
+    {
+      "path": "/flows/D20250215",
+      "rows": 10982
+    },
+    {
+      "path": "/flows/D20250216",
+      "rows": 13466
+    },
+    {
+      "path": "/flows/D20250217",
+      "rows": 40299
+    },
+    {
+      "path": "/flows/D20250218",
+      "rows": 44639
+    },
+    {
+      "path": "/flows/D20250219",
+      "rows": 43170
+    },
+    {
+      "path": "/flows/D20250220",
+      "rows": 38268
+    },
+    {
+      "path": "/flows/D20250221",
+      "rows": 25379
+    },
+    {
+      "path": "/flows/D20250222",
+      "rows": 10949
+    },
+    {
+      "path": "/flows/D20250223",
+      "rows": 12741
+    },
+    {
+      "path": "/flows/D20250224",
+      "rows": 37254
+    },
+    {
+      "path": "/flows/D20250225",
+      "rows": 40079
+    },
+    {
+      "path": "/flows/D20250226",
+      "rows": 38950
+    },
+    {
+      "path": "/flows/D20250227",
+      "rows": 38460
+    },
+    {
+      "path": "/flows/D20250228",
+      "rows": 24544
+    },
+    {
+      "path": "/flows/D20250301",
+      "rows": 12221
+    },
+    {
+      "path": "/flows/D20250302",
+      "rows": 13796
+    },
+    {
+      "path": "/flows/D20250303",
+      "rows": 43820
+    },
+    {
+      "path": "/flows/D20250304",
+      "rows": 46419
+    },
+    {
+      "path": "/flows/D20250305",
+      "rows": 31029
+    },
+    {
+      "path": "/flows/D20250306",
+      "rows": 33608
+    },
+    {
+      "path": "/flows/D20250307",
+      "rows": 23641
+    },
+    {
+      "path": "/flows/D20250308",
+      "rows": 10625
+    },
+    {
+      "path": "/flows/D20250309",
+      "rows": 12526
+    },
+    {
+      "path": "/flows/D20250310",
+      "rows": 39022
+    },
+    {
+      "path": "/flows/D20250311",
+      "rows": 40616
+    },
+    {
+      "path": "/flows/D20250312",
+      "rows": 37615
+    },
+    {
+      "path": "/flows/D20250313",
+      "rows": 17823
+    },
+    {
+      "path": "/flows/D20250314",
+      "rows": 12142
+    },
+    {
+      "path": "/flows/D20250315",
+      "rows": 2299
+    },
+    {
+      "path": "/flows/D20250316",
+      "rows": 2623
+    },
+    {
+      "path": "/flows/D20250317",
+      "rows": 8352
+    },
+    {
+      "path": "/flows/D20250318",
+      "rows": 8843
+    },
+    {
+      "path": "/flows/D20250319",
+      "rows": 32916
+    },
+    {
+      "path": "/flows/D20250320",
+      "rows": 33578
+    },
+    {
+      "path": "/flows/D20250321",
+      "rows": 21812
+    },
+    {
+      "path": "/flows/D20250322",
+      "rows": 10362
+    },
+    {
+      "path": "/flows/D20250323",
+      "rows": 12037
+    },
+    {
+      "path": "/flows/D20250324",
+      "rows": 37787
+    },
+    {
+      "path": "/flows/D20250325",
+      "rows": 34034
+    },
+    {
+      "path": "/flows/D20250326",
+      "rows": 38140
+    },
+    {
+      "path": "/flows/D20250327",
+      "rows": 28373
+    },
+    {
+      "path": "/flows/D20250328",
+      "rows": 26688
+    },
+    {
+      "path": "/flows/D20250329",
+      "rows": 11962
+    },
+    {
+      "path": "/flows/D20250330",
+      "rows": 13060
+    },
+    {
+      "path": "/flows/D20250331",
+      "rows": 42504
+    },
+    {
+      "path": "/flows/D20250401",
+      "rows": 44977
+    },
+    {
+      "path": "/flows/D20250402",
+      "rows": 42873
+    },
+    {
+      "path": "/flows/D20250403",
+      "rows": 37742
+    },
+    {
+      "path": "/flows/D20250404",
+      "rows": 26198
+    },
+    {
+      "path": "/flows/D20250405",
+      "rows": 11706
+    },
+    {
+      "path": "/flows/D20250406",
+      "rows": 13232
+    },
+    {
+      "path": "/flows/D20250407",
+      "rows": 40653
+    },
+    {
+      "path": "/flows/D20250408",
+      "rows": 42311
+    },
+    {
+      "path": "/flows/D20250409",
+      "rows": 38610
+    },
+    {
+      "path": "/flows/D20250410",
+      "rows": 37759
+    },
+    {
+      "path": "/flows/D20250411",
+      "rows": 25532
+    },
+    {
+      "path": "/flows/D20250412",
+      "rows": 11757
+    },
+    {
+      "path": "/flows/D20250413",
+      "rows": 13374
+    },
+    {
+      "path": "/flows/D20250414",
+      "rows": 39263
+    },
+    {
+      "path": "/flows/D20250415",
+      "rows": 42210
+    },
+    {
+      "path": "/flows/D20250416",
+      "rows": 37937
+    },
+    {
+      "path": "/flows/D20250417",
+      "rows": 24060
+    },
+    {
+      "path": "/flows/D20250418",
+      "rows": 9484
+    },
+    {
+      "path": "/flows/D20250419",
+      "rows": 8160
+    },
+    {
+      "path": "/flows/D20250420",
+      "rows": 7965
+    },
+    {
+      "path": "/flows/D20250421",
+      "rows": 10452
+    },
+    {
+      "path": "/flows/D20250422",
+      "rows": 33542
+    },
+    {
+      "path": "/flows/D20250423",
+      "rows": 38928
+    },
+    {
+      "path": "/flows/D20250424",
+      "rows": 38291
+    },
+    {
+      "path": "/flows/D20250425",
+      "rows": 27785
+    },
+    {
+      "path": "/flows/D20250426",
+      "rows": 12560
+    },
+    {
+      "path": "/flows/D20250427",
+      "rows": 13827
+    },
+    {
+      "path": "/flows/D20250428",
+      "rows": 40176
+    },
+    {
+      "path": "/flows/D20250429",
+      "rows": 41400
+    },
+    {
+      "path": "/flows/D20250430",
+      "rows": 35695
+    },
+    {
+      "path": "/flows/D20250501",
+      "rows": 13495
+    },
+    {
+      "path": "/flows/D20250502",
+      "rows": 19387
+    },
+    {
+      "path": "/flows/D20250503",
+      "rows": 11479
+    },
+    {
+      "path": "/flows/D20250504",
+      "rows": 13627
+    },
+    {
+      "path": "/flows/D20250505",
+      "rows": 37074
+    },
+    {
+      "path": "/flows/D20250506",
+      "rows": 39894
+    },
+    {
+      "path": "/flows/D20250507",
+      "rows": 35563
+    },
+    {
+      "path": "/flows/D20250508",
+      "rows": 14421
+    },
+    {
+      "path": "/flows/D20250509",
+      "rows": 19135
+    },
+    {
+      "path": "/flows/D20250510",
+      "rows": 11354
+    },
+    {
+      "path": "/flows/D20250511",
+      "rows": 13518
+    },
+    {
+      "path": "/flows/D20250512",
+      "rows": 35439
+    },
+    {
+      "path": "/flows/D20250513",
+      "rows": 36487
+    },
+    {
+      "path": "/flows/D20250514",
+      "rows": 35866
+    },
+    {
+      "path": "/flows/D20250515",
+      "rows": 35258
+    },
+    {
+      "path": "/flows/D20250516",
+      "rows": 26628
+    },
+    {
+      "path": "/flows/D20250517",
+      "rows": 13317
+    },
+    {
+      "path": "/flows/D20250518",
+      "rows": 15179
+    },
+    {
+      "path": "/flows/D20250519",
+      "rows": 35704
+    },
+    {
+      "path": "/flows/D20250520",
+      "rows": 34321
+    },
+    {
+      "path": "/flows/D20250521",
+      "rows": 32477
+    },
+    {
+      "path": "/flows/D20250522",
+      "rows": 31359
+    },
+    {
+      "path": "/flows/D20250523",
+      "rows": 24902
+    },
+    {
+      "path": "/flows/D20250524",
+      "rows": 12152
+    },
+    {
+      "path": "/flows/D20250525",
+      "rows": 13043
+    },
+    {
+      "path": "/flows/D20250526",
+      "rows": 31953
+    },
+    {
+      "path": "/flows/D20250527",
+      "rows": 33487
+    },
+    {
+      "path": "/flows/D20250528",
+      "rows": 34080
+    },
+    {
+      "path": "/flows/D20250529",
+      "rows": 32764
+    },
+    {
+      "path": "/flows/D20250530",
+      "rows": 27840
+    },
+    {
+      "path": "/flows/D20250531",
+      "rows": 13885
+    }
+  ],
+  "columns": {
+    "ID": "uint32",
+    "DST_IP": "|S10",
+    "DST_IP_SUBNET": "|S10",
+    "DST_IP_VERSION": "uint8",
+    "DST_ASN": "uint32",
+    "DST_COUNTRY": "|S2",
+    "DST_PORT": "uint16",
+    "PROTOCOL": "uint8",
+    "TIME_FIRST": "float64",
+    "TIME_LAST": "float64",
+    "DURATION": "float32",
+    "FLOW_ENDREASON_IDLE": "bool",
+    "FLOW_ENDREASON_ACTIVE": "bool",
+    "FLOW_ENDREASON_OTHER": "bool",
+    "BYTES": "uint64",
+    "BYTES_REV": "uint64",
+    "PACKETS": "uint32",
+    "PACKETS_REV": "uint32",
+    "QUIC_VERSION": "uint32",
+    "QUIC_CLIENT_VERSION": "uint32",
+    "QUIC_TOKEN_LENGTH": "uint16",
+    "QUIC_MULTIPLEXED": "uint8",
+    "QUIC_ZERO_RTT": "uint16",
+    "QUIC_OCCID": "|S40",
+    "QUIC_OSCID": "|S40",
+    "QUIC_SCID": "|S40",
+    "QUIC_RETRY_SCID": "|S40",
+    "QUIC_SNI": "|S50",
+    "QUIC_USER_AGENT": "|S75",
+    "QUIC_TLS_EXT_LEN": "('<i4', (20,))",
+    "QUIC_TLS_EXT_TYPE": "('<i4', (20,))",
+    "QUIC_PACKETS": "('<i2', (30,))",
+    "PPI": "('<i4', (3, 30))",
+    "PPI_LEN": "uint16",
+    "PPI_DURATION": "float32",
+    "PPI_ROUNDTRIPS": "uint16",
+    "PHIST_SRC_SIZES": "('<u4', (8,))",
+    "PHIST_DST_SIZES": "('<u4', (8,))",
+    "PHIST_SRC_IPT": "('<u4', (8,))",
+    "PHIST_DST_IPT": "('<u4', (8,))",
+    "APP": "int16",
+    "CATEGORY": "int16"
+  },
+  "apps": {
+    "default-background": 0,
+    "google-www": 1,
+    "google-play": 2,
+    "google-services": 3,
+    "google-gstatic": 4,
+    "google-usercontent": 5,
+    "google-authentication": 6,
+    "google-conncheck": 7,
+    "google-fonts": 8,
+    "google-drive": 9,
+    "google-docs": 10,
+    "google-photos": 11,
+    "google-colab": 12,
+    "google-translate": 13,
+    "youtube": 14,
+    "google-hangouts": 15,
+    "google-ads": 16,
+    "google-safebrowsing": 17,
+    "google-recaptcha": 18,
+    "google-pay": 19,
+    "google-imasdk": 20,
+    "google-calendar": 21,
+    "google-autofill": 22,
+    "firebase-crashlytics": 23,
+    "chrome-remotedesktop": 24,
+    "facebook-graph": 25,
+    "facebook-media": 26,
+    "facebook-web": 27,
+    "facebook-connect": 28,
+    "facebook-rupload": 29,
+    "facebook-messenger": 30,
+    "instagram": 31,
+    "whatsapp": 32,
+    "microsoft-outlook": 33,
+    "microsoft-substrate": 34,
+    "tiktok": 35,
+    "snapchat": 36,
+    "unitygames": 37,
+    "jsdelivr": 38,
+    "cloudflare-cdnjs": 39,
+    "apple-privaterelay": 40,
+    "dns-doh": 41,
+    "uber": 42,
+    "openx": 43,
+    "connectad": 44,
+    "joinhoney": 45,
+    "dm-de": 46,
+    "revolut": 47,
+    "spotify": 48,
+    "usercentrics": 49,
+    "discord": 50,
+    "google-background": 51,
+    "facebook-background": 52
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "status": "FIGURES_RENDERED_AND_VISUALLY_REVIEWED",
+  "python": "3.12.14",
+  "numpy": "2.5.4",
+  "matplotlib": "3.11.2",
+  "backend": "Agg",
+  "input_files": [
+    {
+      "path": "research/frozen/confirmation-v1.json",
+      "sha256": "34f6f6a981cfd11bd202a58cd95705c86d05e566b5f51082dd45a63e1d335ac0"
+    },
+    {
+      "path": "outputs/confirmation-analysis-v1/analysis.json",
+      "sha256": "83dfefc3bb99b91f50fe86c69cac04e475d06b92a95b23a913b578759c6bb7a4"
+    },
+    {
+      "path": "outputs/inventory.json",
+      "sha256": "51aeb57d177ae0481dbe12aae6d7a1860efd4ca25bb17f59afb7e2014c6d1bf4"
+    },
+    {
+      "path": "outputs/confirmation-analysis-v1/primary-daily-counts.jsonl.gz",
+      "sha256": "cee3b7c94d2e17a81994e70b72651af2d645472ebd282a69e530b8c90e4cbb62"
+    },
+    {
+      "path": "outputs/confirmation-analysis-v1/operating-grid.csv",
+      "sha256": "4f137d465361d4bd767424dc3fbf133fbc615596ebc0874a056de85090bacc2c"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed42-v1/score-complete.json",
+      "sha256": "a6553ea9f572ef0803b038d9daa98bdabbe260bf33afb3bacf6d803b28cc4358"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/score-complete.json",
+      "sha256": "8adca892b80794f3f585b45b760309c4f7773cdeeaad132171613c5d7a65cb14"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed44-v1/score-complete.json",
+      "sha256": "86f7ee965db7e50153fb80f09b053057197735c5a49bbbe502050f929d4f6b7c"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "manuscript/figures/figure1-cohort.pdf",
+      "sha256": "66ac3fd59f24dbdae7aea51a40305627430170af67395e8304c966f1db442cd4",
+      "sources": [
+        "confirmation score ledgers",
+        "frozen date inventory"
+      ],
+      "description": "Observed-date composition; trailing28-calendar-day classification accuracy before rejection, mean and range across three source-model seeds."
+    },
+    {
+      "path": "manuscript/figures/figure1-cohort.svg",
+      "sha256": "877993e56ea3ed6631478f4db7bcb7e0ba8a3cd0f1103a4d6674e14d615c4247",
+      "sources": [
+        "confirmation score ledgers",
+        "frozen date inventory"
+      ],
+      "description": "Observed-date composition; trailing28-calendar-day classification accuracy before rejection, mean and range across three source-model seeds."
+    },
+    {
+      "path": "manuscript/figures/figure1-cohort.png",
+      "sha256": "fae25ee95f4df5ddf7634c0cb6474483471f0a96a6d6b6a41d1c1586df73ba08",
+      "sources": [
+        "confirmation score ledgers",
+        "frozen date inventory"
+      ],
+      "description": "Observed-date composition; trailing28-calendar-day classification accuracy before rejection, mean and range across three source-model seeds."
+    },
+    {
+      "path": "manuscript/figures/figure2-primary.pdf",
+      "sha256": "60a585a70925438892c63d797c996e8a869507f70f93ddec72d2fc9e7e39febb",
+      "sources": [
+        "primary-daily-counts.jsonl.gz"
+      ],
+      "description": "Trailing28-calendar-day display with >=7 observed dates; class counts pooled before unknown-class macros; mean and range of three model means, each averaged over three audit streams."
+    },
+    {
+      "path": "manuscript/figures/figure2-primary.svg",
+      "sha256": "c668a51657b34eb525cc35a1d3828a0653c3f44f4994febfe440d098e33b5902",
+      "sources": [
+        "primary-daily-counts.jsonl.gz"
+      ],
+      "description": "Trailing28-calendar-day display with >=7 observed dates; class counts pooled before unknown-class macros; mean and range of three model means, each averaged over three audit streams."
+    },
+    {
+      "path": "manuscript/figures/figure2-primary.png",
+      "sha256": "8a530ce48d9b5f3a34bb0cd6656820d4aacbf6ac246704277ca9353d056eec41",
+      "sources": [
+        "primary-daily-counts.jsonl.gz"
+      ],
+      "description": "Trailing28-calendar-day display with >=7 observed dates; class counts pooled before unknown-class macros; mean and range of three model means, each averaged over three audit streams."
+    },
+    {
+      "path": "manuscript/figures/figure3-budget-delay.pdf",
+      "sha256": "c7fc28501422b533b72bbbbdb4b09b2ad0c5d5af6f073c94aa74b70efff7f96e",
+      "sources": [
+        "operating-grid.csv"
+      ],
+      "description": "Energy operating points for every frozen budget/delay setting. Whiskers show the range of three model means over common audit streams. Static classwise reference has zero deployment queries."
+    },
+    {
+      "path": "manuscript/figures/figure3-budget-delay.svg",
+      "sha256": "8a7a1a6451386e4e52b34aa42b3da4930f989c08191acd4c72109d5cf4b34a07",
+      "sources": [
+        "operating-grid.csv"
+      ],
+      "description": "Energy operating points for every frozen budget/delay setting. Whiskers show the range of three model means over common audit streams. Static classwise reference has zero deployment queries."
+    },
+    {
+      "path": "manuscript/figures/figure3-budget-delay.png",
+      "sha256": "75a1a8bc321f6cb308297f69adc5227d9e65f600ec1ffdca89cf3566a431df8a",
+      "sources": [
+        "operating-grid.csv"
+      ],
+      "description": "Energy operating points for every frozen budget/delay setting. Whiskers show the range of three model means over common audit streams. Static classwise reference has zero deployment queries."
+    },
+    {
+      "path": "manuscript/figures/figure4-mechanism-sensitivity.pdf",
+      "sha256": "51710e2c4d1fef42f5c6569696b6452aaa00b7d214859546656d81c0811aecd0",
+      "sources": [
+        "analysis.json",
+        "operating-grid.csv"
+      ],
+      "description": "Primary population-specific rates, per-score paired model-mean ranges, and all/input-disjoint paired28-day bootstrap95% intervals. pp means percentage points."
+    },
+    {
+      "path": "manuscript/figures/figure4-mechanism-sensitivity.svg",
+      "sha256": "f5ef1b862c5859f1a754bf2ba361f0975c56558f2d711650f7b14cdc4cf1c26f",
+      "sources": [
+        "analysis.json",
+        "operating-grid.csv"
+      ],
+      "description": "Primary population-specific rates, per-score paired model-mean ranges, and all/input-disjoint paired28-day bootstrap95% intervals. pp means percentage points."
+    },
+    {
+      "path": "manuscript/figures/figure4-mechanism-sensitivity.png",
+      "sha256": "68bfde48bf7f468d8343872b80ba896ec440fe7cb00f58fbf4819ef61fd311f8",
+      "sources": [
+        "analysis.json",
+        "operating-grid.csv"
+      ],
+      "description": "Primary population-specific rates, per-score paired model-mean ranges, and all/input-disjoint paired28-day bootstrap95% intervals. pp means percentage points."
+    }
+  ],
+  "style_reference": "research/figures/reference-selection.md",
+  "profile": "JOURNAL_RESULT",
+  "result_pixels_from_real_verified_inputs": true,
+  "source_smoothing": "Trailing28-calendar-day display with at least7 observed dates; no smoothed values enter frozen statistical estimates.",
+  "qa_status": "PASS_ACTUAL_RENDER_INSPECTION",
+  "qa_report": "research/verification/figure-visual-qa-v1.json"
+}

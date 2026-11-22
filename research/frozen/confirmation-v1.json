@@ -1,0 +1,470 @@
+{
+  "status": "FROZEN_BEFORE_CONFIRMATION_FLOW_ACCESS",
+  "dataset": "CESNET-QUICEXT-25-XS",
+  "dataset_sha256": "6b323c4c53b7c9d0ec9011f895b3c5ba6b35247576e41ef19fe84ab8632810ab",
+  "confirmation_start": "20241001",
+  "confirmation_end": "20250531",
+  "confirmation_tables": [
+    "/flows/D20241001",
+    "/flows/D20241002",
+    "/flows/D20241003",
+    "/flows/D20241004",
+    "/flows/D20241005",
+    "/flows/D20241006",
+    "/flows/D20241007",
+    "/flows/D20241008",
+    "/flows/D20241009",
+    "/flows/D20241010",
+    "/flows/D20241011",
+    "/flows/D20241012",
+    "/flows/D20241013",
+    "/flows/D20241014",
+    "/flows/D20241015",
+    "/flows/D20241016",
+    "/flows/D20241017",
+    "/flows/D20241018",
+    "/flows/D20241019",
+    "/flows/D20241020",
+    "/flows/D20241021",
+    "/flows/D20241022",
+    "/flows/D20241023",
+    "/flows/D20241024",
+    "/flows/D20241025",
+    "/flows/D20241026",
+    "/flows/D20241027",
+    "/flows/D20241028",
+    "/flows/D20241029",
+    "/flows/D20241030",
+    "/flows/D20241101",
+    "/flows/D20241102",
+    "/flows/D20241103",
+    "/flows/D20241104",
+    "/flows/D20241105",
+    "/flows/D20241106",
+    "/flows/D20241107",
+    "/flows/D20241108",
+    "/flows/D20241109",
+    "/flows/D20241110",
+    "/flows/D20241111",
+    "/flows/D20241112",
+    "/flows/D20241113",
+    "/flows/D20241114",
+    "/flows/D20241115",
+    "/flows/D20241116",
+    "/flows/D20241117",
+    "/flows/D20241118",
+    "/flows/D20241119",
+    "/flows/D20241120",
+    "/flows/D20241121",
+    "/flows/D20241122",
+    "/flows/D20241123",
+    "/flows/D20241124",
+    "/flows/D20241125",
+    "/flows/D20241126",
+    "/flows/D20241127",
+    "/flows/D20241128",
+    "/flows/D20241129",
+    "/flows/D20241130",
+    "/flows/D20241201",
+    "/flows/D20241202",
+    "/flows/D20241203",
+    "/flows/D20241204",
+    "/flows/D20241205",
+    "/flows/D20241206",
+    "/flows/D20241207",
+    "/flows/D20241208",
+    "/flows/D20241209",
+    "/flows/D20241210",
+    "/flows/D20241215",
+    "/flows/D20241216",
+    "/flows/D20241217",
+    "/flows/D20241218",
+    "/flows/D20241219",
+    "/flows/D20241220",
+    "/flows/D20241221",
+    "/flows/D20241222",
+    "/flows/D20241223",
+    "/flows/D20241224",
+    "/flows/D20241225",
+    "/flows/D20241226",
+    "/flows/D20241227",
+    "/flows/D20241228",
+    "/flows/D20241229",
+    "/flows/D20241230",
+    "/flows/D20241231",
+    "/flows/D20250101",
+    "/flows/D20250102",
+    "/flows/D20250103",
+    "/flows/D20250104",
+    "/flows/D20250105",
+    "/flows/D20250106",
+    "/flows/D20250107",
+    "/flows/D20250108",
+    "/flows/D20250109",
+    "/flows/D20250110",
+    "/flows/D20250111",
+    "/flows/D20250112",
+    "/flows/D20250113",
+    "/flows/D20250114",
+    "/flows/D20250115",
+    "/flows/D20250116",
+    "/flows/D20250117",
+    "/flows/D20250118",
+    "/flows/D20250119",
+    "/flows/D20250120",
+    "/flows/D20250121",
+    "/flows/D20250122",
+    "/flows/D20250123",
+    "/flows/D20250124",
+    "/flows/D20250125",
+    "/flows/D20250126",
+    "/flows/D20250127",
+    "/flows/D20250128",
+    "/flows/D20250129",
+    "/flows/D20250130",
+    "/flows/D20250131",
+    "/flows/D20250201",
+    "/flows/D20250202",
+    "/flows/D20250203",
+    "/flows/D20250204",
+    "/flows/D20250205",
+    "/flows/D20250206",
+    "/flows/D20250207",
+    "/flows/D20250208",
+    "/flows/D20250209",
+    "/flows/D20250210",
+    "/flows/D20250211",
+    "/flows/D20250212",
+    "/flows/D20250213",
+    "/flows/D20250214",
+    "/flows/D20250215",
+    "/flows/D20250216",
+    "/flows/D20250217",
+    "/flows/D20250218",
+    "/flows/D20250219",
+    "/flows/D20250220",
+    "/flows/D20250221",
+    "/flows/D20250222",
+    "/flows/D20250223",
+    "/flows/D20250224",
+    "/flows/D20250225",
+    "/flows/D20250226",
+    "/flows/D20250227",
+    "/flows/D20250228",
+    "/flows/D20250301",
+    "/flows/D20250302",
+    "/flows/D20250303",
+    "/flows/D20250304",
+    "/flows/D20250305",
+    "/flows/D20250306",
+    "/flows/D20250307",
+    "/flows/D20250308",
+    "/flows/D20250309",
+    "/flows/D20250310",
+    "/flows/D20250311",
+    "/flows/D20250312",
+    "/flows/D20250313",
+    "/flows/D20250314",
+    "/flows/D20250315",
+    "/flows/D20250316",
+    "/flows/D20250317",
+    "/flows/D20250318",
+    "/flows/D20250319",
+    "/flows/D20250320",
+    "/flows/D20250321",
+    "/flows/D20250322",
+    "/flows/D20250323",
+    "/flows/D20250324",
+    "/flows/D20250325",
+    "/flows/D20250326",
+    "/flows/D20250327",
+    "/flows/D20250328",
+    "/flows/D20250329",
+    "/flows/D20250330",
+    "/flows/D20250331",
+    "/flows/D20250401",
+    "/flows/D20250402",
+    "/flows/D20250403",
+    "/flows/D20250404",
+    "/flows/D20250405",
+    "/flows/D20250406",
+    "/flows/D20250407",
+    "/flows/D20250408",
+    "/flows/D20250409",
+    "/flows/D20250410",
+    "/flows/D20250411",
+    "/flows/D20250412",
+    "/flows/D20250413",
+    "/flows/D20250414",
+    "/flows/D20250415",
+    "/flows/D20250416",
+    "/flows/D20250417",
+    "/flows/D20250418",
+    "/flows/D20250419",
+    "/flows/D20250420",
+    "/flows/D20250421",
+    "/flows/D20250422",
+    "/flows/D20250423",
+    "/flows/D20250424",
+    "/flows/D20250425",
+    "/flows/D20250426",
+    "/flows/D20250427",
+    "/flows/D20250428",
+    "/flows/D20250429",
+    "/flows/D20250430",
+    "/flows/D20250501",
+    "/flows/D20250502",
+    "/flows/D20250503",
+    "/flows/D20250504",
+    "/flows/D20250505",
+    "/flows/D20250506",
+    "/flows/D20250507",
+    "/flows/D20250508",
+    "/flows/D20250509",
+    "/flows/D20250510",
+    "/flows/D20250511",
+    "/flows/D20250512",
+    "/flows/D20250513",
+    "/flows/D20250514",
+    "/flows/D20250515",
+    "/flows/D20250516",
+    "/flows/D20250517",
+    "/flows/D20250518",
+    "/flows/D20250519",
+    "/flows/D20250520",
+    "/flows/D20250521",
+    "/flows/D20250522",
+    "/flows/D20250523",
+    "/flows/D20250524",
+    "/flows/D20250525",
+    "/flows/D20250526",
+    "/flows/D20250527",
+    "/flows/D20250528",
+    "/flows/D20250529",
+    "/flows/D20250530",
+    "/flows/D20250531"
+  ],
+  "flows_per_day": 6000,
+  "warmup_dates": 85,
+  "source_rows_sha256": "7f34b18a685555f765648205e5f04775befaeda7b5856e931722198c2baf7d79",
+  "known_codes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    9,
+    13,
+    14,
+    15,
+    16,
+    18,
+    20,
+    22,
+    25,
+    26,
+    27,
+    29,
+    31,
+    32,
+    34,
+    36,
+    37,
+    38,
+    40,
+    43,
+    44,
+    45,
+    49,
+    50
+  ],
+  "models": [
+    {
+      "seed": 42,
+      "source_config": "configs/transformer-v1.json",
+      "raw_config": "configs/transformer-v1.json",
+      "raw_run": "outputs/pilot-transformer-v1",
+      "reference_config": "configs/transformer-rqp-v1.json",
+      "reference_run": "outputs/pilot-transformer-rqp-v1",
+      "shift_config": "configs/transformer-shift-full-v1.json",
+      "shift_run": "outputs/historical-shift-transformer-seed42-v1",
+      "confirmation_run": "outputs/confirmation-transformer-seed42-v1"
+    },
+    {
+      "seed": 43,
+      "source_config": "configs/transformer-seed43-v1.json",
+      "raw_config": "configs/transformer-seed43-v1.json",
+      "raw_run": "outputs/replication-transformer-seed43-v1",
+      "reference_config": "configs/transformer-rqp-seed43-v1.json",
+      "reference_run": "outputs/historical-rqp-transformer-seed43-v1",
+      "shift_config": "configs/transformer-shift-seed43-v1.json",
+      "shift_run": "outputs/historical-shift-transformer-seed43-v1",
+      "confirmation_run": "outputs/confirmation-transformer-seed43-v1"
+    },
+    {
+      "seed": 44,
+      "source_config": "configs/transformer-seed44-v1.json",
+      "raw_config": "configs/transformer-seed44-v1.json",
+      "raw_run": "outputs/replication-transformer-seed44-v1",
+      "reference_config": "configs/transformer-rqp-seed44-v1.json",
+      "reference_run": "outputs/historical-rqp-transformer-seed44-v1",
+      "shift_config": "configs/transformer-shift-seed44-v1.json",
+      "shift_run": "outputs/historical-shift-transformer-seed44-v1",
+      "confirmation_run": "outputs/confirmation-transformer-seed44-v1"
+    }
+  ],
+  "scores": [
+    "negative_energy",
+    "one_minus_msp",
+    "mahalanobis"
+  ],
+  "budgets": [
+    32,
+    128,
+    512
+  ],
+  "delays": [
+    1,
+    7
+  ],
+  "audit_seeds": [
+    101,
+    102,
+    103
+  ],
+  "alpha": 0.05,
+  "window_days": 28,
+  "primary": {
+    "method": "historical_quantile_recentering",
+    "score": "negative_energy",
+    "budget": 32,
+    "delay": 7
+  },
+  "variant_methods": {
+    "raw": [
+      "fixed_global",
+      "fixed_classwise",
+      "rolling_global",
+      "rolling_classwise",
+      "pooled_classwise"
+    ],
+    "shift": [
+      "rolling_global"
+    ],
+    "reference": [
+      "rolling_global"
+    ]
+  },
+  "aci_gamma": {
+    "raw": {
+      "negative_energy": {
+        "32": {
+          "1": 0.0001,
+          "7": 0.0001
+        },
+        "128": {
+          "1": 0.0001,
+          "7": 0.0001
+        },
+        "512": {
+          "1": 0.0001,
+          "7": 0.0001
+        }
+      },
+      "one_minus_msp": {
+        "32": {
+          "1": 0.0001,
+          "7": 0.0001
+        },
+        "128": {
+          "1": 0.0001,
+          "7": 0.0001
+        },
+        "512": {
+          "1": 0.0001,
+          "7": 0.0001
+        }
+      },
+      "mahalanobis": {
+        "32": {
+          "1": 0.0001,
+          "7": 0.0001
+        },
+        "128": {
+          "1": 0.0001,
+          "7": 0.0001
+        },
+        "512": {
+          "1": 0.0001,
+          "7": 0.0001
+        }
+      }
+    },
+    "reference": {
+      "negative_energy": {
+        "32": {
+          "1": 0.0001,
+          "7": 0.0001
+        },
+        "128": {
+          "1": 0.0001,
+          "7": 0.0001
+        },
+        "512": {
+          "1": 0.0001,
+          "7": 0.0001
+        }
+      },
+      "one_minus_msp": {
+        "32": {
+          "1": 0.0001,
+          "7": 0.0001
+        },
+        "128": {
+          "1": 0.0001,
+          "7": 0.0001
+        },
+        "512": {
+          "1": 0.0001,
+          "7": 0.0001
+        }
+      },
+      "mahalanobis": {
+        "32": {
+          "1": 0.0001,
+          "7": 0.0001
+        },
+        "128": {
+          "1": 0.0001,
+          "7": 0.0001
+        },
+        "512": {
+          "1": 0.0001,
+          "7": 0.0001
+        }
+      }
+    }
+  },
+  "known_frr_operational_margin": 0.005,
+  "resampling": {
+    "block_lengths": [
+      7,
+      28,
+      56
+    ],
+    "primary_block": 28,
+    "replicates": 2000,
+    "seed": 20261122
+  },
+  "analysis_plan": "research/confirmation-design-working.md",
+  "selection_evidence": "research/verification/aci-selection.json",
+  "primary_estimands": [
+    "mean_daily_known_frr",
+    "period_background_macro_detection",
+    "period_heldout_service_macro_detection",
+    "mean_daily_known_correct_accepted"
+  ],
+  "claim_boundary": "Application of historical conditional-quantile recentering; background-rejection hypothesis from development, with held-out-service detection reported separately. No first rectification/feedback/delayed-conformal claim; no arbitrary-drift per-day guarantee.",
+  "stopping_rule": "One frozen confirmation; preserve all outcomes and original failures. Repairs require a documented amendment and affected-output audit."
+}

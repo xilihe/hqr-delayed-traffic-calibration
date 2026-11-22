@@ -1,0 +1,882 @@
+{
+  "status": "FROZEN_CONFIRMATION_REPLAY_AND_INDEPENDENT_AUDIT_COMPLETE",
+  "model_seed": 43,
+  "protocol_sha256": "34f6f6a981cfd11bd202a58cd95705c86d05e566b5f51082dd45a63e1d335ac0",
+  "summary_cells": 864,
+  "decision_evaluations": 832642848,
+  "files": [
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/negative_energy-budget32-delay1-seed101.jsonl.gz",
+      "sha256": "f7fbfecdea1b86a5c6d446b2dc5f11529c6134993bc9583ec9892d41654604ad"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/negative_energy-budget32-delay1-seed101-aci.jsonl.gz",
+      "sha256": "a13b575a98937c6e9e5359f5167a2e7aeae7d5aca142f60f06ff173bc51ac557"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/negative_energy-budget32-delay1-seed102.jsonl.gz",
+      "sha256": "a0ecb115533b8c4c68f0f8a4a73d97e449ee58f11419a77f0763996255e87738"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/negative_energy-budget32-delay1-seed102-aci.jsonl.gz",
+      "sha256": "ddb347d23b32835691172fa55787dd1fe33cc2a5222313dd796417841c8953de"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/negative_energy-budget32-delay1-seed103.jsonl.gz",
+      "sha256": "9e934141e043cb235791d17261dfb3ae66204ab4bc3c7f7d6046b31938181b5c"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/negative_energy-budget32-delay1-seed103-aci.jsonl.gz",
+      "sha256": "b1ba680c0f42916f668647018ca605f0650fc2ea1dd6b17da55582e0159e9a44"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/negative_energy-budget32-delay7-seed101.jsonl.gz",
+      "sha256": "aefea4895899ac1d9c3d96b1e9d59250d134277a11e460e64c3811d45caec8c4"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/negative_energy-budget32-delay7-seed101-aci.jsonl.gz",
+      "sha256": "ed8795448592518576ac80a8d8572f9a966d4819c30f806075f8e07dcb4f8ffe"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/negative_energy-budget32-delay7-seed102.jsonl.gz",
+      "sha256": "8c7911ff3aaf378a91eb68f2ba9181c978a6b75d37d9041533e60b8ec42eb90f"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/negative_energy-budget32-delay7-seed102-aci.jsonl.gz",
+      "sha256": "cb119af678c76a5adeb1a22426932d2e961e540466b048a7c2d35b8583b38e70"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/negative_energy-budget32-delay7-seed103.jsonl.gz",
+      "sha256": "2228280c6410bd1952e317189a553b7dab8e393cfc1c11c2ed8d5ef6cef565c0"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/negative_energy-budget32-delay7-seed103-aci.jsonl.gz",
+      "sha256": "34213c33e37fc6a916953324a9a75595b76e1ba06f31aa24e2a755ac503e097c"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/negative_energy-budget128-delay1-seed101.jsonl.gz",
+      "sha256": "100efb62e29a6b6103f40eaecb09a2d35b2a9ad2c3c64a66cd820de54651a4d1"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/negative_energy-budget128-delay1-seed101-aci.jsonl.gz",
+      "sha256": "3b1a0deeddce6fdaacaeaf2bb9cf4cd055f5dbd0f4aaa56e7e26ada7d418cd6f"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/negative_energy-budget128-delay1-seed102.jsonl.gz",
+      "sha256": "1195acc4abeb27dbeb6d53761c42e4893cc2be24ac32528ec1ac417acd935e5c"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/negative_energy-budget128-delay1-seed102-aci.jsonl.gz",
+      "sha256": "f7b2e111f10000e4d172a2296275ffb40fa0a33cc92b59bc9a742904a8d8618b"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/negative_energy-budget128-delay1-seed103.jsonl.gz",
+      "sha256": "fdbdc0e408eb0689da5549d18de49bd6b11c4f2416fb5deedc4ca3ace19c8202"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/negative_energy-budget128-delay1-seed103-aci.jsonl.gz",
+      "sha256": "eea252e5318113597bb849959f769e8380c3a595d725b29219146f9ede53fedc"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/negative_energy-budget128-delay7-seed101.jsonl.gz",
+      "sha256": "b4eb2040f6dd88f9f4185bb273191140190f02bee16e3bdd66b538e45ddd176f"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/negative_energy-budget128-delay7-seed101-aci.jsonl.gz",
+      "sha256": "be5c9ba47235cd4eef9a83dba88455a5ee391f8a453dc6b1803f86299e5b4ec2"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/negative_energy-budget128-delay7-seed102.jsonl.gz",
+      "sha256": "8a85c1f672e011ac1241fac500dbdfa37d245de26c7bc6070c71ff18c70c9c1c"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/negative_energy-budget128-delay7-seed102-aci.jsonl.gz",
+      "sha256": "c00c41a7c59cb10e5cd0c2bc51c21d463f369aa8256c1063e6ede496e166ab61"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/negative_energy-budget128-delay7-seed103.jsonl.gz",
+      "sha256": "fe16987d3ba38b96f9fbdedb324d1d90f157120b2fb9adca010546582ec99975"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/negative_energy-budget128-delay7-seed103-aci.jsonl.gz",
+      "sha256": "b7aa75c08423d3887d66cf4e907647c29e4c517cae289810155adef1a6aa54d2"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/negative_energy-budget512-delay1-seed101.jsonl.gz",
+      "sha256": "64156315c5bf25671ee8fe04b55cf8c415cc32c2fe2ccf6be6a305b6ccfd1714"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/negative_energy-budget512-delay1-seed101-aci.jsonl.gz",
+      "sha256": "2cc25d5f66138bd66d4e0a0205d89184e150673a44812362d004e1c863426d5a"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/negative_energy-budget512-delay1-seed102.jsonl.gz",
+      "sha256": "c4a2ec18304742e159a4c48f2ed6ebb613e6ed10812cc156d0a5261f3ab52392"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/negative_energy-budget512-delay1-seed102-aci.jsonl.gz",
+      "sha256": "5a5c295682c9be1301cd12c25080ff48f9704632963842f8ae955a6e0a3e3fd2"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/negative_energy-budget512-delay1-seed103.jsonl.gz",
+      "sha256": "d4cb3f9cd153ce1f54cdb4d28f7e63b6a7921aaf1114b2b1713995c435004ba3"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/negative_energy-budget512-delay1-seed103-aci.jsonl.gz",
+      "sha256": "9c5ec44b872d77177339ccd9ea74262a431b75d762a83d914bbf0a428a6e7e29"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/negative_energy-budget512-delay7-seed101.jsonl.gz",
+      "sha256": "7b148df23f56e25c66d336c599509dec7c1c64a3214c698af03cf5ee30f6fd4c"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/negative_energy-budget512-delay7-seed101-aci.jsonl.gz",
+      "sha256": "51d521fb7cf034bf042491737d5b3598278e968614ebd16e0753fdbdc206e3cb"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/negative_energy-budget512-delay7-seed102.jsonl.gz",
+      "sha256": "65a957035ecfe8397fa5637622b3cce38f4ccfd69146e033f2af14c0ef69eff9"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/negative_energy-budget512-delay7-seed102-aci.jsonl.gz",
+      "sha256": "b431ddc01db22ccf20943b9c9275c1064720fd86ce5a9a949b97620e82d890e4"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/negative_energy-budget512-delay7-seed103.jsonl.gz",
+      "sha256": "622e9b3a0731e179dca59ad57792ec3eee89fb13881e7f84239f01831d1d0058"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/negative_energy-budget512-delay7-seed103-aci.jsonl.gz",
+      "sha256": "3d400a599f112eafc3650b8ef5618fc12e26244dc642cce1959cc69b612b065e"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/one_minus_msp-budget32-delay1-seed101.jsonl.gz",
+      "sha256": "e80f7a5701a696406fffdd6a6bd984fd9d80f4e520e93a3a0adda7537399538f"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/one_minus_msp-budget32-delay1-seed101-aci.jsonl.gz",
+      "sha256": "710ea77bc74a4c429a302959163aa29be26d756a99439f02aef4286965e73f61"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/one_minus_msp-budget32-delay1-seed102.jsonl.gz",
+      "sha256": "18cf92570d91151459ed0f8911fe8cb9923b3d0cfc8ac4e56d02ce33c86f5a39"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/one_minus_msp-budget32-delay1-seed102-aci.jsonl.gz",
+      "sha256": "e2a7beed38c45e477489183dfe41e845a77ac43d6f7b7f9d96833ed87124b839"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/one_minus_msp-budget32-delay1-seed103.jsonl.gz",
+      "sha256": "be95d310990e482aa74fdb20fe29048a32c3e3ae06866e80481081b19d6a6497"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/one_minus_msp-budget32-delay1-seed103-aci.jsonl.gz",
+      "sha256": "90174a82f0d4c5b696e32d9002292e8f6359b02165ac7f678ad157bf5e8b9b2b"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/one_minus_msp-budget32-delay7-seed101.jsonl.gz",
+      "sha256": "54396ed4601ca6628f62bcddca5670385693ebfe70c1bbfb71067ed2269efa4e"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/one_minus_msp-budget32-delay7-seed101-aci.jsonl.gz",
+      "sha256": "8c0691b3904f849e7e156d893c6b715283de20151c9e7414ba851e063a9a8dd3"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/one_minus_msp-budget32-delay7-seed102.jsonl.gz",
+      "sha256": "c0e9fec5ca54a49815c76c97921d3a9ae39a5263c41659ade79439fa331dc8a7"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/one_minus_msp-budget32-delay7-seed102-aci.jsonl.gz",
+      "sha256": "4b6e13bdeea2eb1a88ff5151472764e1661a9ccd332929ec59a999ece9349d68"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/one_minus_msp-budget32-delay7-seed103.jsonl.gz",
+      "sha256": "23258239c6bac2b3cb20953307866d0b9112e0dbf18ddf9f911a230be05ae530"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/one_minus_msp-budget32-delay7-seed103-aci.jsonl.gz",
+      "sha256": "b08fffc496802ffddc569896a6b2153957954b19b446a89f9eadafa3c88a444a"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/one_minus_msp-budget128-delay1-seed101.jsonl.gz",
+      "sha256": "607dd531a019395ff06ebeb88ef2c7ad7d57b06adbc0ef4a2c7f24e070ddab32"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/one_minus_msp-budget128-delay1-seed101-aci.jsonl.gz",
+      "sha256": "61c9e7c446a040dd614b67de2fae44a16e6e9e08a8dca1743b5ee055be0e2d16"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/one_minus_msp-budget128-delay1-seed102.jsonl.gz",
+      "sha256": "3a6398ee3441f5b2a771609010377bc42a747b287d88961b40bf6859dd5d7a1c"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/one_minus_msp-budget128-delay1-seed102-aci.jsonl.gz",
+      "sha256": "40397282d4c1013fd90d1acb2260354b6fd1b514e5d6171b89a15521238e8e94"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/one_minus_msp-budget128-delay1-seed103.jsonl.gz",
+      "sha256": "a917e2c45c13d665306bd316c02ea6cc0b9ad36fe0dc4f4fdb4a15c95ed7433b"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/one_minus_msp-budget128-delay1-seed103-aci.jsonl.gz",
+      "sha256": "3adfa5d6446c2a492b74e9a5cfed7112fd4da1ded7f6e4f1a333f474c3df6648"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/one_minus_msp-budget128-delay7-seed101.jsonl.gz",
+      "sha256": "e284033ee9dddf9bb1cc0a333043fac97d668dc27128693abcbda4292f7ef9f2"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/one_minus_msp-budget128-delay7-seed101-aci.jsonl.gz",
+      "sha256": "3b6ea3babf323bbf9f18ebb814a4e9cf574a722923e18e0473524738af6e2963"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/one_minus_msp-budget128-delay7-seed102.jsonl.gz",
+      "sha256": "0da0bcb64b10a81720a8c79c26dc821925c1ccbbf9b59ae1d2e94fddde54660c"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/one_minus_msp-budget128-delay7-seed102-aci.jsonl.gz",
+      "sha256": "e593831f3c1d9c0f79161633a83d76dbf2b94655c59403bdef6d51d4072628e7"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/one_minus_msp-budget128-delay7-seed103.jsonl.gz",
+      "sha256": "c14123a5b7dbe782046de694bc0ecb9f75ec61c76e50dd7a3e74e11d95b9dac3"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/one_minus_msp-budget128-delay7-seed103-aci.jsonl.gz",
+      "sha256": "1c5d47d106154cf093212264bfd01c2b9c571f95266e807263c661e0b7a98087"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/one_minus_msp-budget512-delay1-seed101.jsonl.gz",
+      "sha256": "d5add8d77a02170f8a8946c7670fd0115d7bc9d660845a4fe5a33d345d7e05c3"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/one_minus_msp-budget512-delay1-seed101-aci.jsonl.gz",
+      "sha256": "48c44e8ce5d028c4e546564050b3efab3c0ed73ba8f2b591d20b28192e6a75e7"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/one_minus_msp-budget512-delay1-seed102.jsonl.gz",
+      "sha256": "07d4054ddc58bee2ae5ba213d32ab74b6becdb9e48f210a9037065712f66e424"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/one_minus_msp-budget512-delay1-seed102-aci.jsonl.gz",
+      "sha256": "f55553cc47d50b2dfee408da8d358e7275f7528e0b21560ddd3408cf34c00f10"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/one_minus_msp-budget512-delay1-seed103.jsonl.gz",
+      "sha256": "679cfed4ae7dc3def4ad5c62c5aa5361daa00864d1ddde2b0d0b0307ea538ea0"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/one_minus_msp-budget512-delay1-seed103-aci.jsonl.gz",
+      "sha256": "ae2ca83e453b262a0e0fa1ffbdf6be8bd2907add79470f6f3e9b1e9fa07ec617"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/one_minus_msp-budget512-delay7-seed101.jsonl.gz",
+      "sha256": "f0238d2c20113c57aab700931d171c995c0e81ca554d85f9c4f0ef25a6def2ad"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/one_minus_msp-budget512-delay7-seed101-aci.jsonl.gz",
+      "sha256": "5ff878a93c430aed466d27c20bd36736ae579bda9cbf6c389c44b7f34bae6f70"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/one_minus_msp-budget512-delay7-seed102.jsonl.gz",
+      "sha256": "1b37a285b3c4527088abf134882010c91b0b281131aab38d199ac50f2f6dce0f"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/one_minus_msp-budget512-delay7-seed102-aci.jsonl.gz",
+      "sha256": "26dac49d19ecc8bc27a6453822021befbeba0ab0537f729a34feec85bafef65c"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/one_minus_msp-budget512-delay7-seed103.jsonl.gz",
+      "sha256": "dd5b02d2d859e8daa54423f3bb1dd1c57e7e24e106ab38e22d2c14081ce95652"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/one_minus_msp-budget512-delay7-seed103-aci.jsonl.gz",
+      "sha256": "0329ddbfdc8764421333a3341bf6fe057eceecd6de1a6f054da6765b3505b0c5"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/mahalanobis-budget32-delay1-seed101.jsonl.gz",
+      "sha256": "b6e532dbb0bada379fc6e29224139c65e5021f83e7068f882b6b6c110d748c79"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/mahalanobis-budget32-delay1-seed101-aci.jsonl.gz",
+      "sha256": "9b551c3887cc92d5bf6645118170622bc813b4dc775dedff1fc1d1ea04a3ce4c"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/mahalanobis-budget32-delay1-seed102.jsonl.gz",
+      "sha256": "116d1499cdda3a32ff070e5422a429a584ecaade3eaa0ea770a5aa67221c6fda"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/mahalanobis-budget32-delay1-seed102-aci.jsonl.gz",
+      "sha256": "5452d9b543bdd7cd2a35b18df45de22f586416d90ba37af18fe1510e571c2c73"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/mahalanobis-budget32-delay1-seed103.jsonl.gz",
+      "sha256": "dd20bd8d554d2766adfbde6d657bdaffc9c5c7a5f1ac39c4d9a6669818d12cc3"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/mahalanobis-budget32-delay1-seed103-aci.jsonl.gz",
+      "sha256": "2df68a5c88d07cdcfdd1482316c5e30e5b86d87a87023e2caaa8b37a03df7693"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/mahalanobis-budget32-delay7-seed101.jsonl.gz",
+      "sha256": "405d9eb5ee4db0111c19208245cc731bea74081b511ed73b79f17f79b7a22755"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/mahalanobis-budget32-delay7-seed101-aci.jsonl.gz",
+      "sha256": "a1e338ab4e2e8c8685f042aac0b4f0bd88b75512100b73f4cd60e42c44a9b71e"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/mahalanobis-budget32-delay7-seed102.jsonl.gz",
+      "sha256": "f884c396b55cfa29d14d186cee22db63c43189051bc34d3559e41e9e19a5bd2e"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/mahalanobis-budget32-delay7-seed102-aci.jsonl.gz",
+      "sha256": "67e0923b01489cabf63ef2bb56340fe1246fb5799704c33cb3c891d5a30344d9"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/mahalanobis-budget32-delay7-seed103.jsonl.gz",
+      "sha256": "a28e9b6a0365377f486d60bb96f8d7c2c5d64fd12f2561635a2b78b1713eacbf"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/mahalanobis-budget32-delay7-seed103-aci.jsonl.gz",
+      "sha256": "e5048a7d568685b5aa8ddb3342ba28a0e89615d291a5e24a74ea031ad5300081"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/mahalanobis-budget128-delay1-seed101.jsonl.gz",
+      "sha256": "a5cc4c03f402f86e98d342ec5227dc07a50adf9c1caf5894b3a01b3efd0976d8"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/mahalanobis-budget128-delay1-seed101-aci.jsonl.gz",
+      "sha256": "b1e393850fc24e2138e5a2cf3d94f4c10945faf2c709e1dcf85f9811dbf2a91d"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/mahalanobis-budget128-delay1-seed102.jsonl.gz",
+      "sha256": "2fd675a3e8e359d9ded8af1cd1cbe6ecbb9b840fd465b2e8c2ee4a16fcecb76f"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/mahalanobis-budget128-delay1-seed102-aci.jsonl.gz",
+      "sha256": "761c75f04d6ca097b12a86e35a11a7c069e93e8ec62236f235a274ccdef84ba1"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/mahalanobis-budget128-delay1-seed103.jsonl.gz",
+      "sha256": "7419586e77dec6d1048d84e3387bb90cc58a071b3660900135339f06b08e4bca"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/mahalanobis-budget128-delay1-seed103-aci.jsonl.gz",
+      "sha256": "f6960d7e009ba107a2222020d782e185e76c1a6c1832a3c04d09647eb045110c"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/mahalanobis-budget128-delay7-seed101.jsonl.gz",
+      "sha256": "9cf0e6426fb3de9a7d8d546561d147a4619cd954a041df44d22839f5ba885128"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/mahalanobis-budget128-delay7-seed101-aci.jsonl.gz",
+      "sha256": "20cf8571278da2f6e42b3096a78bef8676e811054025583539326e77d207d61a"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/mahalanobis-budget128-delay7-seed102.jsonl.gz",
+      "sha256": "d4e33646b69eacba42f92cf29418e26fb25cc6f76124f6e76c1951aa80320173"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/mahalanobis-budget128-delay7-seed102-aci.jsonl.gz",
+      "sha256": "f335b155f1c1cafc17875913f810435b4670f6f1421935484cf822a994c7aee9"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/mahalanobis-budget128-delay7-seed103.jsonl.gz",
+      "sha256": "2a0a65b1b5f1446569f47d95ad72471098a6f3a5c0c9240e955f8b95478fa262"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/mahalanobis-budget128-delay7-seed103-aci.jsonl.gz",
+      "sha256": "fe8f109bdd882783d55a1b37eeb3b626f187060cf482a796179cd37ba9df0945"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/mahalanobis-budget512-delay1-seed101.jsonl.gz",
+      "sha256": "2db97355af3ead5738866ad22dba24136421be70dcdc7cdc95a4aa786774826b"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/mahalanobis-budget512-delay1-seed101-aci.jsonl.gz",
+      "sha256": "4956b891ec16b3d77ba463719129ca5508945667246ce3d11f49d3907dd049ac"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/mahalanobis-budget512-delay1-seed102.jsonl.gz",
+      "sha256": "5c6d38a06447d3f153e9db004c526d5dc50a843eba20c38a2c6faf7ae54f8a07"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/mahalanobis-budget512-delay1-seed102-aci.jsonl.gz",
+      "sha256": "17857c48e7e1df96cf35e6efef98a26ddf2476619b4074f66a2f3c3e9ca02453"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/mahalanobis-budget512-delay1-seed103.jsonl.gz",
+      "sha256": "b07656e14256a23ab99ca2339332eb9fc27bc4e81f307f1a96ff98cf3a0e70bc"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/mahalanobis-budget512-delay1-seed103-aci.jsonl.gz",
+      "sha256": "a6c99c9149d39b33bde49e6535bd9ce1dbd2c16d964db9b57f5305de614f3aea"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/mahalanobis-budget512-delay7-seed101.jsonl.gz",
+      "sha256": "280cec866e963738e3dab593e6f9b09653203a36929a97aa39b497d8cf9d9d92"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/mahalanobis-budget512-delay7-seed101-aci.jsonl.gz",
+      "sha256": "4284a832050dbb7446894f23fa3ac46c3e7b672d0d95aaed769dff3ddd6e6b53"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/mahalanobis-budget512-delay7-seed102.jsonl.gz",
+      "sha256": "f917be86a8e4de9b00d1b5d726babd87e76c9a118c11649824478b09a7c34489"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/mahalanobis-budget512-delay7-seed102-aci.jsonl.gz",
+      "sha256": "72f401e5a78c69fc41f9ac52fd6a174187b6b05dbec63f895b20f8db69d3ea9d"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/mahalanobis-budget512-delay7-seed103.jsonl.gz",
+      "sha256": "158ea0555567f61d2350d03c1434bf13251542aae3f97c406311fe4dbaf22f07"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/raw/mahalanobis-budget512-delay7-seed103-aci.jsonl.gz",
+      "sha256": "e0ba195714a053f7e89e23a514f827da549741e2ab78b884dbccebfa7743bff8"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_negative_energy-budget32-delay1-seed101.jsonl.gz",
+      "sha256": "fe9d6c128f54ef5e06df642f7448be977a3f5971b756c466f1b92ce33a45c64d"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_negative_energy-budget32-delay1-seed102.jsonl.gz",
+      "sha256": "9ec8326ade28d28750aaaf8ffcd4c9da0b79f078dc49991111e3f4d7d13ce188"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_negative_energy-budget32-delay1-seed103.jsonl.gz",
+      "sha256": "1ab66829544a8bdbc7a4655d40789b44bc2e34bbb6df39ffcde38e81f9e32bc5"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_negative_energy-budget32-delay7-seed101.jsonl.gz",
+      "sha256": "27fa2494f44c6bd35084eb2325b2d29405caf6e7cf2bbba04b17a91f51c85150"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_negative_energy-budget32-delay7-seed102.jsonl.gz",
+      "sha256": "d382d3b08f2a33f24925a2db350a7798569127da1856f4f8fbb7fd59b2be2ea9"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_negative_energy-budget32-delay7-seed103.jsonl.gz",
+      "sha256": "dd838951049d3359a2a6968667e10edd17c08d872742cddbfd9372245778818a"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_negative_energy-budget128-delay1-seed101.jsonl.gz",
+      "sha256": "2337953e39ea220ffae1f8006d614dea44ff8c7702add20e84c9b49295b9b40d"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_negative_energy-budget128-delay1-seed102.jsonl.gz",
+      "sha256": "4a17f7263426417e262cef2ba430703618853fd5d5808d8300bcad0bb0a153c4"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_negative_energy-budget128-delay1-seed103.jsonl.gz",
+      "sha256": "943ea8c5c49b0465f5d693b6bafd2812b8f13bfcb4895ee6549dd4fbdc425919"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_negative_energy-budget128-delay7-seed101.jsonl.gz",
+      "sha256": "b15298627f83dc768e3fddf966f8741b42974cb8b20cb2b0f2d25b98089f054e"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_negative_energy-budget128-delay7-seed102.jsonl.gz",
+      "sha256": "81002432113eb5999ed2a0ab034deffd9aea688790b209ad65c440c34f32e71a"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_negative_energy-budget128-delay7-seed103.jsonl.gz",
+      "sha256": "c5e84d5ee2e88ff3b7d9d3c46a8325f8071b940b2f01a7281c8d8a1c0661d52a"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_negative_energy-budget512-delay1-seed101.jsonl.gz",
+      "sha256": "c02ca5efa4fc95fd6ee02377065386201788057ed135672c91c14feb56aaa619"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_negative_energy-budget512-delay1-seed102.jsonl.gz",
+      "sha256": "715c894123492f99246a6546526ab2663f8921703a571271982ba54aa971ba94"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_negative_energy-budget512-delay1-seed103.jsonl.gz",
+      "sha256": "fd477fdd43d1fa184903473a8b6deb17c213df66039da30ddc11be2358cb1f19"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_negative_energy-budget512-delay7-seed101.jsonl.gz",
+      "sha256": "bcf0580522552f33ad0a92b9da07fe0d9710cf52faed4b4c49ea2075896592b8"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_negative_energy-budget512-delay7-seed102.jsonl.gz",
+      "sha256": "f7e774b1e48501f9f7df0a2a6fb108938d6ba06138179898836ee8a9e4398f9e"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_negative_energy-budget512-delay7-seed103.jsonl.gz",
+      "sha256": "d4fc1c3375ea2d69c6df0db47b94aed6485d8d3c83a563c79cf70a095bda1e3b"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_one_minus_msp-budget32-delay1-seed101.jsonl.gz",
+      "sha256": "4c6879837513b90da21ce905e456c6a46399cf4611da3553ca868dd19aee0855"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_one_minus_msp-budget32-delay1-seed102.jsonl.gz",
+      "sha256": "10feed12171bb9e7b41760d25339272e1fa545549f3da99f15661008082868dc"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_one_minus_msp-budget32-delay1-seed103.jsonl.gz",
+      "sha256": "f557d2e2db239383cbf4fc53eae551ae4c18f85583f111ea3a26f0f8f3048397"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_one_minus_msp-budget32-delay7-seed101.jsonl.gz",
+      "sha256": "c6c7af2d66fa8b334ddc51b05f9018d2e75b215c9c74c8c7ec49dddbf3118a14"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_one_minus_msp-budget32-delay7-seed102.jsonl.gz",
+      "sha256": "866bc719cb84ddc717946947dcde2a4ec6166d7870a04c95967da19ab45fdcca"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_one_minus_msp-budget32-delay7-seed103.jsonl.gz",
+      "sha256": "f962a1560567d085ffadeeebac0ab6c7f97eb507bfd3874b417587c81a991fc1"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_one_minus_msp-budget128-delay1-seed101.jsonl.gz",
+      "sha256": "017062732d39a6ba3d14559ced72d7da05d3d8a976a39cb55ba0c718be95f06e"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_one_minus_msp-budget128-delay1-seed102.jsonl.gz",
+      "sha256": "3bafeffc586e8ca8af28df1cb8960cb2c3c85f445f489b8891b5789b5f51df08"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_one_minus_msp-budget128-delay1-seed103.jsonl.gz",
+      "sha256": "8c8e39c7a759b6c51815016d3d40de28860c76c7a1b7c0da1c7fca4d9ea720e7"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_one_minus_msp-budget128-delay7-seed101.jsonl.gz",
+      "sha256": "9aeeb08cf99c95facf2105749da69e2e36c0f9ca75c8bb86e579d4c7ae41a1a4"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_one_minus_msp-budget128-delay7-seed102.jsonl.gz",
+      "sha256": "ee55212d5eb9618a3d1361c69f446f3c4f183be7674095001c3142be4016da13"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_one_minus_msp-budget128-delay7-seed103.jsonl.gz",
+      "sha256": "0d272b4071d72297e3c80ed9687ae41e9417ed9c18f20b4f09b315387384ec80"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_one_minus_msp-budget512-delay1-seed101.jsonl.gz",
+      "sha256": "5048b65047b46efea7b8c9386c12dc37d78241d86d5ca5fc0cada93cbae869ad"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_one_minus_msp-budget512-delay1-seed102.jsonl.gz",
+      "sha256": "8dd3c4c98ed33628656cb96be2227e30adad506362f2914c34de9d55eaa9a365"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_one_minus_msp-budget512-delay1-seed103.jsonl.gz",
+      "sha256": "b8ca6bd0267e23788a1d15ac391536c81365df1c1619834687e9745f84ee57ec"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_one_minus_msp-budget512-delay7-seed101.jsonl.gz",
+      "sha256": "0f583481399d553145ec3acf9b9139a1f956d2cb910a31f942ecf7d0b6ed88a4"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_one_minus_msp-budget512-delay7-seed102.jsonl.gz",
+      "sha256": "8bb321caea682fb9911cdc5a76e7e353d279875f74c2f4804fad15c810f5907e"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_one_minus_msp-budget512-delay7-seed103.jsonl.gz",
+      "sha256": "f110737fa389c36b7c13959c19d654d3892ef8791848ef5eb30c17160a09c4be"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_mahalanobis-budget32-delay1-seed101.jsonl.gz",
+      "sha256": "88570c4d4b402982ef3211803fd2291bd0bc486e8e81da1b5ded926e223cdf27"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_mahalanobis-budget32-delay1-seed102.jsonl.gz",
+      "sha256": "ecfc00a4f468ba14801efc2f9c44d17b2e2f7f53a0c4c07bc7dbafc9b0daca5e"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_mahalanobis-budget32-delay1-seed103.jsonl.gz",
+      "sha256": "8db98cc1c2cb0bbbf23208762af151904ed239d4eb94e5a9bd70a72a6220c57d"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_mahalanobis-budget32-delay7-seed101.jsonl.gz",
+      "sha256": "7709c561ffd85a12a7a8b047b557bbc87e28e1d2730be8c7d197b5abdeff7ce1"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_mahalanobis-budget32-delay7-seed102.jsonl.gz",
+      "sha256": "1b50e95a08738b773defb3b8d0238af1bbdae51569f57df5ea2c12f672a81bfa"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_mahalanobis-budget32-delay7-seed103.jsonl.gz",
+      "sha256": "cc80ee43ad760cf390fbb8438b1d7548be5003c75f70449be6f2ed468114b8a9"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_mahalanobis-budget128-delay1-seed101.jsonl.gz",
+      "sha256": "51c2390b05ed2c5800362f9fc8b59c28496e7b49767950d73a265ffc12ffc39f"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_mahalanobis-budget128-delay1-seed102.jsonl.gz",
+      "sha256": "33564ae77e0d05b59827dbc83735d2a0c2892ab0b294176c36cec9f99b0c55cb"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_mahalanobis-budget128-delay1-seed103.jsonl.gz",
+      "sha256": "c6784bab16ad7bb50d61d3e091f78e5be14e20e4b69ecab6dcf2e9d71cc26997"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_mahalanobis-budget128-delay7-seed101.jsonl.gz",
+      "sha256": "24c163e6206b6d33975f69f31206f45563940b70b7b6f2e5f539bf515cc387ee"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_mahalanobis-budget128-delay7-seed102.jsonl.gz",
+      "sha256": "bd543dfa8025377a770e18843e88691e8d0d1f12c961177ea86f3aae797f7a7a"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_mahalanobis-budget128-delay7-seed103.jsonl.gz",
+      "sha256": "b4f0c58e64f6e9c365190c10e0a4b8624b646cf110cf2bd5fe025cd2739ab65c"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_mahalanobis-budget512-delay1-seed101.jsonl.gz",
+      "sha256": "96e489368df6e04d5462acc114432a9fc084c0ca212c59aa742d3b5814aa352d"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_mahalanobis-budget512-delay1-seed102.jsonl.gz",
+      "sha256": "808ae15ad3b778971be589be54540bc92513afc555631838b78c6a65f96f1f1b"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_mahalanobis-budget512-delay1-seed103.jsonl.gz",
+      "sha256": "1cb29af99e6626341013b24b0b4b09c1d0dfcea82c707d5c738ec7e72733d3da"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_mahalanobis-budget512-delay7-seed101.jsonl.gz",
+      "sha256": "382f1f652270ad79a6ebcb1109d2459337645d2831dde22efe91eaa53ace17f9"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_mahalanobis-budget512-delay7-seed102.jsonl.gz",
+      "sha256": "fbfe5d8fd8b47990c577161a9e836d7030f8e6b60a4e306f1e91523e573165ac"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/reference/rqp_mahalanobis-budget512-delay7-seed103.jsonl.gz",
+      "sha256": "1938f6bf6de7ab12c7c9c403b1ee6fd967ef169ce89f0d8cc20843d85e05dae1"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_negative_energy-budget32-delay1-seed101.jsonl.gz",
+      "sha256": "f13257e987a8d5034d9e9dd2fd3a22b638fd47d21d9a398769cd81bb23d7eafa"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_negative_energy-budget32-delay1-seed102.jsonl.gz",
+      "sha256": "2fa17dc5902350b1b90f4d1802aaf7d5970c97806b2b733554a2e736c3b9b818"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_negative_energy-budget32-delay1-seed103.jsonl.gz",
+      "sha256": "421ba032d907bef50507386a67db255e1cc3891ccd927469d72c66ba42b22d54"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_negative_energy-budget32-delay7-seed101.jsonl.gz",
+      "sha256": "341dea09c02b4968f980020c2c830092f02b56c33645fe2b700804fff398140c"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_negative_energy-budget32-delay7-seed102.jsonl.gz",
+      "sha256": "083d5e4e454946691993823a9492534d48970bfd4bd7c01875b2794fbcd48ac6"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_negative_energy-budget32-delay7-seed103.jsonl.gz",
+      "sha256": "f38bbefb6b3cea1a5643104ba3239159b17cbcf2f39b85236479cfdf184f3571"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_negative_energy-budget128-delay1-seed101.jsonl.gz",
+      "sha256": "d9ec21232b5e0530cbaa96f466f417253004ba2ff49422c62018050b03803907"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_negative_energy-budget128-delay1-seed102.jsonl.gz",
+      "sha256": "1c8c111422086fabb6d32b072c7bdc338c537cf3a1c3f25fe29361ec54c96ae6"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_negative_energy-budget128-delay1-seed103.jsonl.gz",
+      "sha256": "dd67fd9f073c986478c0691de7d5533d42860d332f762f1597e8c47085bdb7c9"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_negative_energy-budget128-delay7-seed101.jsonl.gz",
+      "sha256": "f906c3a44f0ba7e27f553f1b2e4f41e36c3bd4790fb9ae73282e6bdd92b9db74"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_negative_energy-budget128-delay7-seed102.jsonl.gz",
+      "sha256": "7455249d4cdc7a910c811a68519272dccdefe86b117daa4f94c59233f23f638f"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_negative_energy-budget128-delay7-seed103.jsonl.gz",
+      "sha256": "b7548ed75d340cd208ae739e1c3cdf5f2a6470361b3bcae19f43517b1ad7454c"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_negative_energy-budget512-delay1-seed101.jsonl.gz",
+      "sha256": "ccfe2943951f1e08e7f975dd31822fbc703419dbf16e01ebf5e17706105d25e3"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_negative_energy-budget512-delay1-seed102.jsonl.gz",
+      "sha256": "648709bdfe6eef2fe8a99918c66c472010725f1d324e6da224f18975c8ba2b77"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_negative_energy-budget512-delay1-seed103.jsonl.gz",
+      "sha256": "95e5e1988fecee0aef87403621de74ddbe8faf6503b0e64f0056532786c66328"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_negative_energy-budget512-delay7-seed101.jsonl.gz",
+      "sha256": "f0998a8a16256409f6ac2ffbaa20fb66315f1207f22c5be9dbfeb554df066b9a"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_negative_energy-budget512-delay7-seed102.jsonl.gz",
+      "sha256": "33f1ea6fc258e6a91b45f6f1d5e9821e02ce684a1290b55a93e9544505ed1c88"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_negative_energy-budget512-delay7-seed103.jsonl.gz",
+      "sha256": "e6df743ef2725dc741745caec3939be5e686f4cae8f3bcff98f6cd06eb83e43a"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_one_minus_msp-budget32-delay1-seed101.jsonl.gz",
+      "sha256": "b2266f1f7ad8bd2305366980760c4a717d9a900f515824d786f452887d0c9f93"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_one_minus_msp-budget32-delay1-seed102.jsonl.gz",
+      "sha256": "48a93ff8179a7c26120351230d3c8c14ed0b15286824b58f0b96101858bb3147"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_one_minus_msp-budget32-delay1-seed103.jsonl.gz",
+      "sha256": "d7a6c68dce0e3e8d6495713f1d6a10dd32ed53775608612131cf613fc12e8da6"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_one_minus_msp-budget32-delay7-seed101.jsonl.gz",
+      "sha256": "1d76db7a7fc5a32f3ae29d1425d2e99c4a9f8253e1345188bac35df7907bdaff"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_one_minus_msp-budget32-delay7-seed102.jsonl.gz",
+      "sha256": "3da71e66ef5cd9177ac59b4302c4353aeb1dccfb35a12af6e1f3c1728b1dba33"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_one_minus_msp-budget32-delay7-seed103.jsonl.gz",
+      "sha256": "3abfffb6930108d722a622f71845ea6ba42bf47722d3b0bb6bc4c97ad88c4e99"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_one_minus_msp-budget128-delay1-seed101.jsonl.gz",
+      "sha256": "d1a4ad5ba4af90a2a6ad8578ad14e05918fe4c78c49625180de35d05222476b7"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_one_minus_msp-budget128-delay1-seed102.jsonl.gz",
+      "sha256": "756698156a161be6b47e9d05f0dd4b56836f954919918015b83241cff54c21f5"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_one_minus_msp-budget128-delay1-seed103.jsonl.gz",
+      "sha256": "b23a75fc925f57a7e19561db3bc3e01c0447ead78f6bdbdfabd675bc8a65ec42"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_one_minus_msp-budget128-delay7-seed101.jsonl.gz",
+      "sha256": "198a19cade3c3eaf30988764117d0926c8e98334225d84515c67eef2e4f0cabf"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_one_minus_msp-budget128-delay7-seed102.jsonl.gz",
+      "sha256": "cfc1d780071224262e6dc4a12830c9c9e1de0ad7aacb7e19df168b863f28827e"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_one_minus_msp-budget128-delay7-seed103.jsonl.gz",
+      "sha256": "b5f82db8c81cf8e31317399746cf608ecd27f8f14a4bcd7916b62893315aa1a4"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_one_minus_msp-budget512-delay1-seed101.jsonl.gz",
+      "sha256": "cbfcb4c982aa4968141c6afb9a8b53a581eeb61da3e6d534b4c7eaa27d009341"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_one_minus_msp-budget512-delay1-seed102.jsonl.gz",
+      "sha256": "4f6c703366ae6a669bfff120043cd0c3a7e0498e2ad41e7964237262b55c91cc"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_one_minus_msp-budget512-delay1-seed103.jsonl.gz",
+      "sha256": "7184af5310735856464d6df0eadde09a7ee1f3322bc14c4e9b7ac5852aa8e2d1"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_one_minus_msp-budget512-delay7-seed101.jsonl.gz",
+      "sha256": "bd3199c340ceee39d29d9fb17a063bcdec9b5881e65e6d06656dfc86077ca063"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_one_minus_msp-budget512-delay7-seed102.jsonl.gz",
+      "sha256": "b62cb800a4a522fa71da50b0a5707d477be41e06d4298b256ea575599f5ff84e"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_one_minus_msp-budget512-delay7-seed103.jsonl.gz",
+      "sha256": "82aa9761bee81b18f114b0afa74d0ddd4f5dad3cf79f61556381f41c2b7d619b"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_mahalanobis-budget32-delay1-seed101.jsonl.gz",
+      "sha256": "e281ac184bdd77b3e72218fac78bef079976775f8ae2c679c07f8082a0653955"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_mahalanobis-budget32-delay1-seed102.jsonl.gz",
+      "sha256": "6206afceaddced7845e5e65ee5d907e5b5b5797647ad8d2581bc9bdfceafe0fe"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_mahalanobis-budget32-delay1-seed103.jsonl.gz",
+      "sha256": "eb135a5348c73bbb5eeb6a4d92d0e9ea276b982a577472b3b439d4fa1adf49c5"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_mahalanobis-budget32-delay7-seed101.jsonl.gz",
+      "sha256": "a6f8f1bd8db3d8dfd4fadb8c4d9cf1b12816c070cabe8c20cc6c9792dddc6dec"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_mahalanobis-budget32-delay7-seed102.jsonl.gz",
+      "sha256": "96f8a096913448aee77f506aef6edded7d01e02a12db9371a56611e3d50ca84e"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_mahalanobis-budget32-delay7-seed103.jsonl.gz",
+      "sha256": "1104dddc8975e1bfa49159a0e485136ab36787ad3c355c48e4b1bac8b9fca165"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_mahalanobis-budget128-delay1-seed101.jsonl.gz",
+      "sha256": "b8100b8da72c0427e912999c8600a68dbc00c24f1cffdbadc28d1b7d42deb667"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_mahalanobis-budget128-delay1-seed102.jsonl.gz",
+      "sha256": "62fe5d6512860f69e3a3b33d6ee7dbd5ee3c423edd628ec99bb6b4a3bc32ac99"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_mahalanobis-budget128-delay1-seed103.jsonl.gz",
+      "sha256": "3d5930837d33cfb2f9985cbebaf82a680f4d1d3be4a4d36fdf529fd3da2c2866"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_mahalanobis-budget128-delay7-seed101.jsonl.gz",
+      "sha256": "0a5d23ea0b20832c8fd3c099f24364a659a7ea40cc98c1cd249881d1228f7ed6"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_mahalanobis-budget128-delay7-seed102.jsonl.gz",
+      "sha256": "5e72dd6adedf8cc3453d5ab51bc317d848d9babd4155dcf343a5ac56116eac54"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_mahalanobis-budget128-delay7-seed103.jsonl.gz",
+      "sha256": "eb0ceded9c5e11467f06127ae7fce433195a5023233fd553df886290e8a499aa"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_mahalanobis-budget512-delay1-seed101.jsonl.gz",
+      "sha256": "78cea666a9d14fde8a202f4a2098895ec90a394b0ae6bd8aa952562cf7f075a3"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_mahalanobis-budget512-delay1-seed102.jsonl.gz",
+      "sha256": "c4e1ff3982eb8f9db866c5d36883fa0c0e7a29ccbf60ef4baed2eecae12e889b"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_mahalanobis-budget512-delay1-seed103.jsonl.gz",
+      "sha256": "81a758664a29358178b575cb3d71ad98e152640246912ea0f416377060dde1e6"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_mahalanobis-budget512-delay7-seed101.jsonl.gz",
+      "sha256": "f613734f0134dc0a06855e10b07398219cd92d126fcebac902db076bb53db64f"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_mahalanobis-budget512-delay7-seed102.jsonl.gz",
+      "sha256": "545068c1357e57544ff1c1ae92df242cf574f7519b4e5f67d2ac55d2192f9032"
+    },
+    {
+      "path": "outputs/confirmation-transformer-seed43-v1/replay/shift/rqp_mahalanobis-budget512-delay7-seed103.jsonl.gz",
+      "sha256": "0d9f24cecb5f9f4bda226a5497407e86453f30fb5c492af47e40c9073ac74950"
+    }
+  ],
+  "summary_sha256": "509220c2834dc32f0f15fa5989f754df4b196d06f6d3fb8710a96cb3661bbd9a",
+  "checks": [
+    "Calendar-day warmup continuation",
+    "Shared uniformly sampled requests including unknown labels",
+    "Independent order statistics and feedback histories",
+    "All true-class decision counts and input-disjoint sensitivity",
+    "Prediction-time cumulative ACI errors",
+    "Confirmation-only period and daily estimands"
+  ]
+}
