@@ -909,8 +909,8 @@
     {
       "path": "revisions/final-v1/scripts/build_final_tables_figures.py",
       "bytes": 9546,
-      "sha256": "39daf8e1a9307800809740af8f0be62ba586cee38fd405e8b703a712b35239cf",
-      "git_blob_sha1": "95b2d1168df07883094a67ab2d637d3d92572025"
+      "sha256": "f3afd371dab0792188a883431fde4b979e2777f27114352c53249563fa2b91cc",
+      "git_blob_sha1": "5e0d727e260b08d03443889b063b829d2344c89a"
     },
     {
       "path": "revisions/final-v1/scripts/independent_final_audit.py",

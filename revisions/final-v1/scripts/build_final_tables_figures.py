@@ -81,4 +81,4 @@ for i,r in enumerate(rr):
 axes[0].set_yticks(range(len(rr)),[x['service']+' ('+x['unique_n']+')' for x in rr]);axes[0].invert_yaxis();axes[1].set_xlim(-8,12);axes[0].set_xlabel('Class change\nfull range (pp)');axes[1].set_xlabel('Class change\ncentral zoom (pp)');axes[2].set_xlabel('Leave-one-out\nmacro change (pp)')
 for ax,l in zip(axes,'abc'):
  ax.axvline(0,color='#777777',lw=.6);ax.spines[['top','right']].set_visible(False);ax.grid(axis='x',color='#E6E6E6',lw=.4);ax.set_axisbelow(True);ax.text(0,1.015,l,transform=ax.transAxes,fontweight='bold',fontsize=10)
-save(fig,'final-class-robustness',[cp,lp]);(F/'source-mapping.json').write_text(json.dumps({'status':'EXECUTED_REAL_RESULTS_PENDING_VISUAL_QA','figures':manifest},indent=2)+'\n');print('Built 14 final tables and two vector figures from CSV.')
+save(fig,'final-class-robustness',[cp,lp]);(F/'source-mapping.json').write_text(json.dumps({'status':'EXECUTED_REAL_RESULTS_PENDING_VISUAL_QA','figures':manifest},indent=2)+'\n');print('Built 13 final tables and two vector figures from CSV.')
