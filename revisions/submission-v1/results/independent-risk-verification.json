@@ -1,0 +1,15 @@
+{
+  "status": "PASS_INDEPENDENT_FULL_DAILY_RISK_BOOTSTRAP",
+  "daily_rows_checked": 34272,
+  "fixed_cells": 144,
+  "known_denominator_sources": [
+    "OriginalsavedperclassJSONL",
+    "Secondpartitionsavedclass/date-counts"
+  ],
+  "calendar_sequences_independently_constructed": 2000,
+  "all192summary_points_and_intervals_checked": true,
+  "all160paired_points_and_intervals_checked": true,
+  "p90_method": "Directexpandedresamples, missingdatesremoved; linear np.quantile percell beforeaveraging",
+  "max_draw_absolute_difference": 8.526512829121202e-14,
+  "corrected_count_draws_within_0_238": true
+}

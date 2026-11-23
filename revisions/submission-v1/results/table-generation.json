@@ -1,0 +1,31 @@
+{
+  "status": "S23_S31_GENERATED_FROM_CORRECTED_COUNTS",
+  "changed_tables": [
+    "S24",
+    "S26",
+    "S28",
+    "S30"
+  ],
+  "unchanged_tables": [
+    "S23",
+    "S25",
+    "S27",
+    "S29",
+    "S31"
+  ],
+  "point_estimates_unchanged": true,
+  "changed_tex_files": [
+    "final-risk-0-0-exceed.tex",
+    "final-risk-0-1-exceed.tex",
+    "final-risk-1-0-exceed.tex",
+    "final-risk-1-1-exceed.tex"
+  ],
+  "unchanged_tex_files": [
+    "final-risk-0-0.tex",
+    "final-risk-0-1.tex",
+    "final-risk-1-0.tex",
+    "final-risk-1-1.tex",
+    "final-risk-paired.tex"
+  ],
+  "source_sha256": "8f81f9649f097e48461dd4403e7341544bd4264844d3a3c55b0073623ed441f3"
+}

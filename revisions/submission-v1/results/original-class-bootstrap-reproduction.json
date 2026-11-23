@@ -1,0 +1,28 @@
+{
+  "status": "PASS_REEXECUTED_PUBLIC_SAVED_COUNT_ANALYSIS",
+  "checks": [
+    {
+      "file": "class-specific-uncertainty.csv",
+      "rows": 53,
+      "max_numeric_error": 0.0
+    },
+    {
+      "file": "leave-one-class-out.csv",
+      "rows": 23,
+      "max_numeric_error": 0.0
+    },
+    {
+      "file": "aggregate-detection-and-bootstrap.csv",
+      "rows": 24,
+      "max_numeric_error": 0.0
+    },
+    {
+      "file": "temporal-periods.csv",
+      "rows": 112,
+      "max_numeric_error": 0.0
+    }
+  ],
+  "executed_script": "revisions/major-v1/scripts/analyse_saved_counts.py",
+  "location": "isolatedpubliccheckout",
+  "training_or_policy_replay": false
+}

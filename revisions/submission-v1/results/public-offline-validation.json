@@ -1,0 +1,70 @@
+{
+  "status": "PASS_PUBLIC_ONLY_ISOLATED_EIGHT_STEP_REPRODUCTION",
+  "elapsed_seconds": 17.692742291023023,
+  "steps": [
+    {
+      "command": [
+        "revisions/submission-v1/scripts/repair_risk_bootstrap.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 1.6797062079422176
+    },
+    {
+      "command": [
+        "revisions/submission-v1/scripts/verify_risk_repair.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 10.571916374959983
+    },
+    {
+      "command": [
+        "revisions/submission-v1/scripts/verify_offline_results.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.5514009170001373
+    },
+    {
+      "command": [
+        "revisions/major-v1/scripts/analyse_saved_counts.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 2.9079845420783386
+    },
+    {
+      "command": [
+        "scripts/build_result_tables.py",
+        "--root",
+        "<NEW_WORK_DIR>"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.10301891702692956
+    },
+    {
+      "command": [
+        "revisions/major-v1/scripts/build_revision_tables.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.054738709004595876
+    },
+    {
+      "command": [
+        "revisions/final-v1/scripts/build_final_tables_figures.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 1.7735676249722019
+    },
+    {
+      "command": [
+        "revisions/submission-v1/scripts/build_submission_tables.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.045181166962720454
+    }
+  ],
+  "original_local_receipt_sha256": "96287d15ee8db55f951745ccd0a8e1381ed5584d5cb73b560717b9432e2c091d",
+  "path_normalization": "Only absoluteworkdir replaced forpublicreceipt; rawexecutionrecord retainedlocal.",
+  "corrected_risk_csv_byte_matches": 6,
+  "corrected_S23_S31_table_byte_matches": 9,
+  "unchanged_figure_png_byte_matches": 2,
+  "full_training_executed": false
+}

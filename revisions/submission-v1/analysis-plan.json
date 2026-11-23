@@ -1,0 +1,20 @@
+{
+  "status": "RECORDED_BEFORE_RECOMPUTATION",
+  "scope": "Statistical reporting correction and low-cost reproducibility; no training, tuning, taxonomy or original freeze changes.",
+  "bootstrap": "Reuse original2000paired28-calendar-day moving-block draws, seed20261122,243calendar positions with5missing dates.",
+  "original_count": "Mean_cell sum_day w[day]*I(observed)*I(FRR>threshold)",
+  "corrected_fixed_scale_count": "238 * Mean_cell {sum_day w*I(observed)*I(FRR>threshold) / sum_day w*I(observed)}",
+  "preferred_interval": "Report exceedance proportions with percentile intervals; if retaining days, explicitly call equivalent days on fixed238-day scale, derived per draw before percentiles. No clipping.",
+  "invariants": [
+    "Original observed counts and all point estimates unchanged",
+    "MAE/RMSE/p90/fractions and their paired intervals unchanged",
+    "Missing dates excluded from observed denominators, never treated as zero FRR",
+    "Static3/dynamic9fixedcells share calendar weights, not independent networks"
+  ],
+  "verification": [
+    "Reproduce old192summary and160paired contrast values and intervals before changing presentation",
+    "IndependentCSV-based arithmetic and separately constructed calendar draws",
+    "Recompute main/class/primary intervals from saved prediction counts; reproduce core tables and figures without training",
+    "Check original1417414flows,238dates and both role lists"
+  ]
+}

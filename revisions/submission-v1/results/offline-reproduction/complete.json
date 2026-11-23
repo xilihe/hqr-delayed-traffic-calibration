@@ -1,0 +1,15 @@
+{
+  "status": "PASS_ACTUAL_SAVED_DECISION_RECOMPUTATION",
+  "unique_flow_count": 1417414,
+  "observed_dates": 238,
+  "calendar_positions": 243,
+  "method_partition_points": 12,
+  "headline_point_reference_checks": 72,
+  "primary_paired_intervals_7_28_56": 24,
+  "max_primary_difference": 3.3046482217358175e-16,
+  "oracle_28day_interval_checks": 45,
+  "both_service_selections_reconstructed_from_source_support": true,
+  "known_per_partition": 30,
+  "class_list_rows": 106,
+  "scope": "Numerators/denominators and temporal bootstrap regenerated; no training, scoreinference or labelpolicy rerun."
+}

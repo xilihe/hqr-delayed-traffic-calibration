@@ -1,0 +1,20 @@
+{
+  "verified_on": "2026-11-23",
+  "dataset": "CESNET-QUICEXT-25: A year-long QUIC traffic dataset with EXTended attributes",
+  "variant": "CESNET-QUICEXT-25-XS",
+  "doi": "10.5281/zenodo.17249078",
+  "doi_scope": "Dataset collection record; not a separate invented XS DOI.",
+  "record_url": "https://zenodo.org/records/17249078",
+  "record_license": "CC BY4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "page_sha256": "1dc12fa170715063110e887402e278d27b0876b64fc84b62dd2fc04746deb378",
+  "official_variant_metadata": "https://cesnet.github.io/cesnet-datazoo/dataset_metadata/",
+  "official_xs_download": "https://liberouter.org/datazoo/download?bucket=cesnet-quicext-25&file=CESNET-QUICEXT-25-XS.h5",
+  "raw_data_owner": "Third-party CESNET creators, not this author.",
+  "xs_head_error": "HTTP Error 403: Forbidden",
+  "xs_get_status": 206,
+  "xs_get_content_range": "bytes 0-7/3544625537",
+  "xs_get_content_length": "8",
+  "xs_hdf5_header_valid": true,
+  "xs_probe_bytes_read": 8
+}

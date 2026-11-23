@@ -1,5 +1,14 @@
 # Historical quantile recentering under delayed audits
 
+The submission correction is in [`revisions/submission-v1`](revisions/submission-v1/README.md). Use its offline-audit driver and corrected S23-S31 tables. Earlier final-v1 exceedance-count intervals used variable-length calendar-weighted counts; the corrected equivalent-day intervals use each resampled proportion times 238. All points and non-count intervals are unchanged. Historical releases remain for audit.
+
+For a minimal CPU reproduction with no raw-data download or training:
+
+```bash
+python -m pip install -r requirements-offline.txt
+python revisions/submission-v1/scripts/run_offline_audit.py --work-dir /absolute/path/to/new-audit
+```
+
 The final targeted diagnostics are in [`revisions/final-v1`](revisions/final-v1/README.md): both service partitions and both risk-selection regimes, daily risk tracking, Fixed-classwise matched-risk contrasts, complete second-partition service roles and class attribution. These are post-confirmation exploratory analyses. They retain the absence of a clear daily-variability advantage over Rolling global and the adverse second-partition outcomes. The original study and major revision remain in the commit history; earlier release manifests describe their own snapshots.
 
 The post-confirmation supplementary revision is in [`revisions/major-v1`](revisions/major-v1/README.md). It adds zero-query Static HQR, risk curves, class/temporal analyses, a fixed sensitivity grid and a second service partition. All outcomes are retained, including the smaller second-partition gain with an interval crossing zero. These additions do not extend the original internal freeze retroactively.

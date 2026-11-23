@@ -1,0 +1,20 @@
+\begingroup\small\setlength{\tabcolsep}{3pt}
+\begin{longtable}{lrrrr}
+\caption{Daily exceedance diagnostics: partition 20261122, nominal $\alpha=0.05$. Proportions are reported directly. Point counts average fixed-cell counts over 238 observed dates. Day intervals use 238 times each bootstrap exceedance proportion, a fixed 238-day equivalent scale; no clipping. Strict exceedance; paired 28-calendar-day resampling.}\label{tab:final-risk-1-0-exceed}\\
+\toprule
+Method & \% days$>5.5\%$ & Equiv. days & \% days$>6\%$ & Equiv. days\\
+\midrule
+\endfirsthead
+\toprule
+Method & \% days$>5.5\%$ & Equiv. days & \% days$>6\%$ & Equiv. days\\
+\midrule
+\endhead
+Fixed global & 76.05 [65.38, 81.79] & 181.00 [155.61, 194.67] & 62.46 [47.33, 71.61] & 148.67 [112.65, 170.43]\\
+Fixed classwise & 97.06 [94.49, 99.18] & 231.00 [224.89, 236.04] & 92.58 [85.63, 98.08] & 220.33 [203.80, 233.44]\\
+Static HQR & 96.92 [93.25, 99.45] & 230.67 [221.93, 236.70] & 91.46 [83.26, 97.38] & 217.67 [198.17, 231.77]\\
+Rolling global & 36.04 [27.20, 42.34] & 85.78 [64.74, 100.77] & 26.33 [18.01, 31.81] & 62.67 [42.86, 75.71]\\
+Dynamic HQR & 37.96 [28.19, 47.61] & 90.33 [67.09, 113.30] & 29.18 [20.53, 37.82] & 69.44 [48.86, 90.00]\\
+Multi-anchor & 37.58 [28.32, 46.42] & 89.44 [67.39, 110.48] & 29.55 [20.73, 38.25] & 70.33 [49.33, 91.03]\\
+\bottomrule
+\end{longtable}
+\endgroup

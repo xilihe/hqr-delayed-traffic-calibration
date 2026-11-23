@@ -1,0 +1,22 @@
+{
+  "status": "PASS_CORE_TABLE_GENERATORS_ACTUALLY_EXECUTED",
+  "root_primary_table_generated": true,
+  "final_main_tables_1_3_4": [
+    {
+      "table": "revision-primary.tex",
+      "byte_identical": true,
+      "sha256": "82b419895116ebc4a153c9659b9ab2050a2a9028ae5f18a1b9af7c4ac733f51b"
+    },
+    {
+      "table": "revision-aggregates.tex",
+      "byte_identical": true,
+      "sha256": "a016dc1f47095418aedeb95924bf81e5ab0a28859539ebc9641eaef2ed6f6a50"
+    },
+    {
+      "table": "revision-new-partition.tex",
+      "byte_identical": true,
+      "sha256": "bb3ce8384db9864c757458931d87f8c247050a6bcf340169207f9b7b4f7f7961"
+    }
+  ],
+  "corrected_S23_S31_generator": "scripts/build_submission_tables.py"
+}

@@ -1,0 +1,30 @@
+{
+  "status": "CORRECTED_FIXED238_DAY_SCALE_NO_CLIPPING",
+  "classification": "Exceedance count interval estimand/presentation mismatch; calendar block algorithm and probability summaries were valid.",
+  "original_summary_rows_reproduced": 192,
+  "original_paired_rows_reproduced": 160,
+  "old_summary_max_absolute_error": 0.0,
+  "old_pair_max_absolute_error": 0.0,
+  "calendar_days": 243,
+  "observed_days": 238,
+  "missing_dates": [
+    "20241031",
+    "20241211",
+    "20241212",
+    "20241213",
+    "20241214"
+  ],
+  "observed_weight_min": 220.0,
+  "observed_weight_max": 243.0,
+  "fixed_scale_day_count_rows": 48,
+  "all_point_estimates_unchanged": true,
+  "all_noncount_draws_and_intervals_bitwise_unchanged": true,
+  "changed_summary_intervals": 48,
+  "bootstrap_seed": 20261122,
+  "replicates": 2000,
+  "block_calendar_days": 28,
+  "source_daily_counts_csv_sha256": "05f779683a928d594c33011f9954181d889a0beb8c791d53e87cfedf98f88345",
+  "saved_npz_used": false,
+  "raw_weighted_counts_retained_for_audit": true,
+  "no_training_or_policy_replay": true
+}

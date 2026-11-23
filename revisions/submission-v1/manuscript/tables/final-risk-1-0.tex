@@ -1,0 +1,20 @@
+\begingroup\small\setlength{\tabcolsep}{3pt}
+\begin{longtable}{lrrrrr}
+\caption{Daily risk diagnostics: partition 20261122, nominal $\alpha=0.05$. Mean FRR and p90 are percentages; MAE and RMSE are pp from 5\%. Brackets are conditional 28-calendar-day 95\% intervals.}\label{tab:final-risk-1-0}\\
+\toprule
+Method & $\alpha$ & Mean FRR & MAE & RMSE & p90\\
+\midrule
+\endfirsthead
+\toprule
+Method & $\alpha$ & Mean FRR & MAE & RMSE & p90\\
+\midrule
+\endhead
+Fixed global & 0.05 & 6.76 [6.05, 7.22] & 1.96 [1.31, 2.41] & 2.48 [1.63, 2.98] & 9.30 [7.40, 10.11]\\
+Fixed classwise & 0.05 & 9.00 [7.92, 9.81] & 4.00 [2.92, 4.81] & 4.56 [3.50, 5.28] & 11.44 [10.52, 12.11]\\
+Static HQR & 0.05 & 8.95 [7.87, 9.76] & 3.96 [2.88, 4.76] & 4.51 [3.46, 5.16] & 11.42 [10.56, 12.15]\\
+Rolling global & 0.05 & 4.93 [4.58, 5.17] & 1.44 [1.24, 1.56] & 1.78 [1.52, 1.90] & 7.25 [6.52, 7.53]\\
+Dynamic HQR & 0.05 & 5.13 [4.67, 5.57] & 1.48 [1.30, 1.65] & 1.85 [1.61, 2.07] & 7.61 [6.90, 8.01]\\
+Multi-anchor & 0.05 & 5.08 [4.64, 5.48] & 1.46 [1.34, 1.56] & 1.79 [1.62, 1.91] & 7.52 [6.87, 7.82]\\
+\bottomrule
+\end{longtable}
+\endgroup
