@@ -9,6 +9,24 @@ python -m pip install -r requirements-offline.txt
 python revisions/submission-v1/scripts/run_offline_audit.py --work-dir /absolute/path/to/new-audit
 ```
 
+## Repository layout
+
+```text
+src/                         fixed classifier, preprocessing and calibration policies
+scripts/                     original fitting, inference, replay, table and plot drivers
+configs/                     original model/calibration/audit settings
+research/frozen/             original internal protocol and hash seal
+outputs/                     released reference checkpoints and original derived results
+revisions/major-v1/          static/risk/class/partition supplementary analyses
+revisions/final-v1/          historical targeted diagnostics (count intervals superseded)
+revisions/submission-v1/     correction scripts, sufficient counts, outputs and table snippets
+docs/                        correction and licensing notes
+requirements.txt             full training reference dependencies
+requirements-offline.txt     verified lightweight audit dependencies
+```
+
+The submission-v1 README describes which retained inputs each offline command reads and which result directories it creates.
+
 The final targeted diagnostics are in [`revisions/final-v1`](revisions/final-v1/README.md): both service partitions and both risk-selection regimes, daily risk tracking, Fixed-classwise matched-risk contrasts, complete second-partition service roles and class attribution. These are post-confirmation exploratory analyses. They retain the absence of a clear daily-variability advantage over Rolling global and the adverse second-partition outcomes. The original study and major revision remain in the commit history; earlier release manifests describe their own snapshots.
 
 The post-confirmation supplementary revision is in [`revisions/major-v1`](revisions/major-v1/README.md). It adds zero-query Static HQR, risk curves, class/temporal analyses, a fixed sensitivity grid and a second service partition. All outcomes are retained, including the smaller second-partition gain with an interval crossing zero. These additions do not extend the original internal freeze retroactively.
